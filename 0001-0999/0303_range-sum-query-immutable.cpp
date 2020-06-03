@@ -1,0 +1,77 @@
+//Link: https://leetcode.com/problems/range-sum-query-immutable/ 
+class STree{
+public:
+    int start,end,sum;
+    STree *left, *right;
+
+    STree(){
+        start = 0;
+        end = 0;
+        sum = 0;
+        left = nullptr;
+        right = nullptr;
+    }
+
+    static STree* buildTree(vector<int>& nums, int start, int end){
+        if( start > end) return nullptr;
+        STree* tree = new STree();
+        
+        tree->start = start;
+        tree->end = end;
+        
+        if( start == end){
+            tree->sum = nums[start];
+            return tree;
+        } 
+        
+        int mid = (start+end)/2;
+        tree->left = STree::buildTree(nums, start, mid);
+        tree->right = STree::buildTree(nums, mid+1, end);
+        if( tree->left )
+            tree->sum += tree->left->sum;
+        if(tree->right)
+            tree->sum += tree->right->sum;
+        return tree;
+    }
+    int range(int i, int j){
+        int sum = 0;
+        if( this->start==i && this->end == j )
+            return this->sum;
+        if( this->left && this->left->end >=i )
+            sum += this->left->range(i, this->left->end <=j?this->left->end:j );
+        if( this->right && this->right->start <= j )
+            sum += this->right->range(this->right->start>=i?this->right->start:i, j);
+        return sum;
+    }
+    void update(int i, int origin, int val){
+        
+        if( this->start <=i && this->end >=i ){
+            this->sum += (val - origin);
+            if( this->left){
+                this->left->update(i, origin, val);
+            }
+            if( this->right){
+                this->right->update(i, origin, val);
+            }
+        }
+        return;
+    }
+};
+
+class NumArray {
+public:
+    STree* tree;
+    NumArray(vector<int> nums) {
+        tree = STree::buildTree(nums, 0, nums.size()-1);
+    }
+    
+    int sumRange(int i, int j) {
+        return tree->range(i,j);
+    }
+};
+
+/**
+ * Your NumArray object will be instantiated and called as such:
+ * NumArray obj = new NumArray(nums);
+ * int param_1 = obj.sumRange(i,j);
+ */

@@ -1,0 +1,50 @@
+//Link: https://leetcode.com/problems/design-phone-directory/ 
+class PhoneDirectory {
+public:
+    /** Initialize your data structure here
+        @param maxNumbers - The maximum numbers that can be stored in the phone directory. */
+    
+    int mx;
+    set<int> v;
+    list<int> l;
+    int start = 0;
+    PhoneDirectory(int maxNumbers) {
+        mx = maxNumbers;
+    }
+    
+    /** Provide a number which is not assigned to anyone.
+        @return - Return an available number. Return -1 if none is available. */
+    int get() {
+        if(l.size() == 0) {
+            if(start == mx) return -1;
+            v.insert(start);
+            return start++;
+        }
+        auto it = l.begin();
+        int res = *it;
+        v.insert(res);
+        l.erase(it);
+        return res;
+    }
+    
+    /** Check if a number is available or not. */
+    bool check(int number) {
+        return v.count(number) == 0;
+    }
+    
+    /** Recycle or release a number. */
+    void release(int number) {
+        if(v.count(number)) {
+            v.erase(number);
+            l.push_back(number);
+        }
+    }
+};
+
+/**
+ * Your PhoneDirectory object will be instantiated and called as such:
+ * PhoneDirectory* obj = new PhoneDirectory(maxNumbers);
+ * int param_1 = obj->get();
+ * bool param_2 = obj->check(number);
+ * obj->release(number);
+ */
