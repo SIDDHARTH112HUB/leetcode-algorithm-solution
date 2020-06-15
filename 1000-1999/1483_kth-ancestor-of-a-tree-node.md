@@ -10,19 +10,33 @@ The _k-th_ _ancestor_ of a tree node is the `k`\-th node in the path from th
 
 **![](https://assets.leetcode.com/uploads/2019/08/28/1528_ex1.png)**
 
+  
 **Input:**
+  
 \["TreeAncestor","getKthAncestor","getKthAncestor","getKthAncestor"\]
+  
 \[\[7,\[-1,0,0,1,1,2,2\]\],\[3,1\],\[5,2\],\[6,3\]\]
+  
 
+  
 **Output:**
+  
 \[null,1,0,-1\]
+  
 
+  
 **Explanation:**
+  
 TreeAncestor treeAncestor = new TreeAncestor(7, \[-1, 0, 0, 1, 1, 2, 2\]);
+  
 
+  
 treeAncestor.getKthAncestor(3, 1);  // returns 1 which is the parent of 3
+  
 treeAncestor.getKthAncestor(5, 2);  // returns 0 which is the grandparent of 5
+  
 treeAncestor.getKthAncestor(6, 3);  // returns -1 because there is no such ancestor
+  
 
 **Constraints:**
 
