@@ -1,6 +1,6 @@
 [1473.paint-house-iii](https://leetcode.com/problems/paint-house-iii/)  
 
-      There is a row of `m` houses in a small city, each house must be painted with one of the `n` colors (labeled from 1 to `n`), some houses that has been painted last summer should not be painted again.
+There is a row of `m` houses in a small city, each house must be painted with one of the `n` colors (labeled from 1 to `n`), some houses that has been painted last summer should not be painted again.
 
 A neighborhood is a maximal group of continuous houses that are painted with the same color. (For example: houses = \[1,2,2,3,3,2,1,1\] contains 5 neighborhoods  \[{1}, {2,2}, {3,3}, {2}, {1,1}\]).
 

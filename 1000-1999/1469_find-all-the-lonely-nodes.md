@@ -1,6 +1,6 @@
 [1469.find-all-the-lonely-nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)  
 
-      In a binary tree, a **lonely** node is a node that is the only child of its parent node. The root of the tree is not lonely because it does not have a parent node.
+In a binary tree, a **lonely** node is a node that is the only child of its parent node. The root of the tree is not lonely because it does not have a parent node.
 
 Given the `root` of a binary tree, return _an array containing the values of all lonely nodes_ in the tree. Return the list **in any order**.
 

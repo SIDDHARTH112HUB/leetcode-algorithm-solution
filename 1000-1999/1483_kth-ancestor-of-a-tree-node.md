@@ -1,6 +1,6 @@
 [1483.kth-ancestor-of-a-tree-node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)  
 
-      You are given a tree with `n` nodes numbered from `0` to `n-1` in the form of a parent array where `parent[i]` is the parent of node `i`. The root of the tree is node `0`.
+You are given a tree with `n` nodes numbered from `0` to `n-1` in the form of a parent array where `parent[i]` is the parent of node `i`. The root of the tree is node `0`.
 
 Implement the function `getKthAncestor``(int node, int k)` to return the `k`\-th ancestor of the given `node`. If there is no such ancestor, return `-1`.
 

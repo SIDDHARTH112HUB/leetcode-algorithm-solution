@@ -1,6 +1,6 @@
 [1482.minimum-number-of-days-to-make-m-bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)  
 
-      Given an integer array `bloomDay`, an integer `m` and an integer `k`.
+Given an integer array `bloomDay`, an integer `m` and an integer `k`.
 
 We need to make `m` bouquets. To make a bouquet, you need to use `k` **adjacent flowers** from the garden.
 

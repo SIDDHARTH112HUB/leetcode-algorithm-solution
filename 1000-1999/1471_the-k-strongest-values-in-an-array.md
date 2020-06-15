@@ -1,6 +1,6 @@
 [1471.the-k-strongest-values-in-an-array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)  
 
-      Given an array of integers `arr` and an integer `k`.
+Given an array of integers `arr` and an integer `k`.
 
 A value `arr[i]` is said to be stronger than a value `arr[j]` if `|arr[i] - m| > |arr[j] - m|` where `m` is the **median** of the array.  
 If `|arr[i] - m| == |arr[j] - m|`, then `arr[i]` is said to be stronger than `arr[j]` if `arr[i] > arr[j]`.

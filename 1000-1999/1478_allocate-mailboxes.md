@@ -1,6 +1,6 @@
 [1478.allocate-mailboxes](https://leetcode.com/problems/allocate-mailboxes/)  
 
-      Given the array `houses` and an integer `k`. where `houses[i]` is the location of the ith house along a street, your task is to allocate `k` mailboxes in the street.
+Given the array `houses` and an integer `k`. where `houses[i]` is the location of the ith house along a street, your task is to allocate `k` mailboxes in the street.
 
 Return the **minimum** total distance between each house and its nearest mailbox.
 
