@@ -16,21 +16,32 @@ How many total friend requests are made?
 
 **Example 1:**
 
+  
 **Input:** \[16,16\]
+  
 **Output:** 2
+  
 **Explanation:** 2 people friend request each other.
+  
 
 **Example 2:**
 
+  
 **Input:** \[16,17,18\]
+  
 **Output:** 2
+  
 **Explanation:** Friend requests are made 17 -> 16, 18 -> 17.
 
 **Example 3:**
 
+  
 **Input:** \[20,30,100,110,120\]
+  
 **Output:** 
+  
 **Explanation:** Friend requests are made 110 -> 100, 120 -> 110, 120 -> 100.
+  
 
 Notes:
 

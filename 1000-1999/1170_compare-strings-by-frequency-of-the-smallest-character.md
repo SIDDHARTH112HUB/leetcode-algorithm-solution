@@ -6,15 +6,17 @@ Now, given string arrays `queries` and `words`, return an integer array `answer
 
 **Example 1:**
 
-**Input:** queries = \["cbd"\], words = \["zaaaz"\]
-**Output:** \[1\]
-**Explanation:** On the first query we have f("cbd") = 1, f("zaaaz") = 3 so f("cbd") < f("zaaaz").
+  
+**Input:** queries = \["cbd"\], words = \["zaaaz"\]  
+**Output:** \[1\]  
+**Explanation:** On the first query we have f("cbd") = 1, f("zaaaz") = 3 so f("cbd") < f("zaaaz").  
 
 **Example 2:**
 
-**Input:** queries = \["bbb","cc"\], words = \["a","aa","aaa","aaaa"\]
-**Output:** \[1,2\]
-**Explanation:** On the first query only f("bbb") < f("aaaa"). On the second query both f("aaa") and f("aaaa") are both > f("cc").
+  
+**Input:** queries = \["bbb","cc"\], words = \["a","aa","aaa","aaaa"\]  
+**Output:** \[1,2\]  
+**Explanation:** On the first query only f("bbb") < f("aaaa"). On the second query both f("aaa") and f("aaaa") are both > f("cc").  
 
 **Constraints:**
 

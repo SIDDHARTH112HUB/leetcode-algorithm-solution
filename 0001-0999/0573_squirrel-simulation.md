@@ -4,15 +4,25 @@ There's a tree, a squirrel, and several nuts. Positions are represented by the c
 
 **Example 1:**
 
+  
 **Input:** 
+  
 Height : 5
+  
 Width : 7
+  
 Tree position : \[2,2\]
+  
 Squirrel : \[4,4\]
+  
 Nuts : \[\[3,0\], \[2,5\]\]
+  
 **Output:** 12
+  
 **Explanation:**
+  
 ![](https://assets.leetcode.com/uploads/2018/10/22/squirrel_simulation.png)​​​​​
+  
 
 **Note:**
 

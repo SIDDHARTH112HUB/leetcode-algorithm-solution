@@ -8,15 +8,16 @@ Given the `root` of a binary tree, find the maximum value `V` for which there ex
 
 ![](https://assets.leetcode.com/uploads/2019/09/09/2whqcep.jpg)
 
-**Input:** \[8,3,10,1,6,null,14,null,null,4,7,13\]
-**Output:** 7
-**Explanation:** 
-We have various ancestor-node differences, some of which are given below :
-|8 - 3| = 5
-|3 - 7| = 4
-|8 - 1| = 7
-|10 - 13| = 3
-Among all possible differences, the maximum value of 7 is obtained by |8 - 1| = 7.
+  
+**Input:** \[8,3,10,1,6,null,14,null,null,4,7,13\]  
+**Output:** 7  
+**Explanation: **  
+We have various ancestor-node differences, some of which are given below :  
+|8 - 3| = 5  
+|3 - 7| = 4  
+|8 - 1| = 7  
+|10 - 13| = 3  
+Among all possible differences, the maximum value of 7 is obtained by |8 - 1| = 7.  
 
 **Note:**
 

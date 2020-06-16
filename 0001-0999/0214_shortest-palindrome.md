@@ -4,12 +4,17 @@ Given a string _**s**_, you are allowed to convert it to a palindrome by adding 
 
 **Example 1:**
 
+  
 **Input:** `"aacecaaa"`
+  
 **Output:** `"aaacecaaa"`
+  
 
 **Example 2:**
 
+  
 **Input:** `"abcd"`
+  
 **Output:** `"dcbabcd"`  
 
 

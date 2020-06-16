@@ -8,8 +8,11 @@ Given a List of words, return the words that can be typed using letters of **alp
 
 **Example:**
 
+  
 **Input:** \["Hello", "Alaska", "Dad", "Peace"\]
+  
 **Output:** \["Alaska", "Dad"\]
+  
 
 **Note:**
 

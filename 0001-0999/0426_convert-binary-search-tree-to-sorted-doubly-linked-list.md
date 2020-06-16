@@ -10,29 +10,33 @@ We want to do the transformation **in place**. After the transformation, the lef
 
 ![](https://assets.leetcode.com/uploads/2018/10/12/bstdlloriginalbst.png)
 
-**Input:** root = \[4,2,5,1,3\]
-
-![](https://assets.leetcode.com/uploads/2018/10/12/bstdllreturndll.png)
-**Output:** \[1,2,3,4,5\]
-
-**Explanation:** The figure below shows the transformed BST. The solid line indicates the successor relationship, while the dashed line means the predecessor relationship.
-![](https://assets.leetcode.com/uploads/2018/10/12/bstdllreturnbst.png)
+  
+**Input:** root = \[4,2,5,1,3\]  
+  
+![](https://assets.leetcode.com/uploads/2018/10/12/bstdllreturndll.png)  
+**Output:** \[1,2,3,4,5\]  
+  
+**Explanation:** The figure below shows the transformed BST. The solid line indicates the successor relationship, while the dashed line means the predecessor relationship.  
+![](https://assets.leetcode.com/uploads/2018/10/12/bstdllreturnbst.png)  
 
 **Example 2:**
 
-**Input:** root = \[2,1,3\]
-**Output:** \[1,2,3\]
+  
+**Input:** root = \[2,1,3\]  
+**Output:** \[1,2,3\]  
 
 **Example 3:**
 
-**Input:** root = \[\]
-**Output:** \[\]
-**Explanation:** Input is an empty tree. Output is also an empty Linked List.
+  
+**Input:** root = \[\]  
+**Output:** \[\]  
+**Explanation:** Input is an empty tree. Output is also an empty Linked List.  
 
 **Example 4:**
 
-**Input:** root = \[1\]
-**Output:** \[1\]
+  
+**Input:** root = \[1\]  
+**Output:** \[1\]  
 
 **Constraints:**
 

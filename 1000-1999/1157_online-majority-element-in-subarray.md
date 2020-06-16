@@ -11,10 +11,15 @@ Each `query(...)` returns the element in `arr[left], arr[left+1], ..., arr[righ
 
 **Example:**
 
+  
 MajorityChecker majorityChecker = new MajorityChecker(\[1,1,2,2,1,1\]);
+  
 majorityChecker.query(0,5,4); // returns 1
+  
 majorityChecker.query(0,3,3); // returns -1
+  
 majorityChecker.query(2,3,2); // returns 2
+  
 
 **Constraints:**
 

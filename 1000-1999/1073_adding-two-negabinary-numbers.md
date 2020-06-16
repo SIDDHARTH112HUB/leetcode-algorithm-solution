@@ -8,8 +8,9 @@ Return the result of adding `arr1` and `arr2` in the same format: as an array of
 
 **Example 1:**
 
-**Input:** arr1 = \[1,1,1,1,1\], arr2 = \[1,0,1\]
-**Output:** \[1,0,0,0,0\] **Explanation:** arr1 represents 11, arr2 represents 5, the output represents 16.
+  
+**Input:** arr1 = \[1,1,1,1,1\], arr2 = \[1,0,1\]  
+**Output:** \[1,0,0,0,0\] **Explanation:** arr1 represents 11, arr2 represents 5, the output represents 16.  
 
 **Note:**
 

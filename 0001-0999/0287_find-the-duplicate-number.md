@@ -4,12 +4,17 @@ Given an array _nums_ containing _n_ + 1 integers where each integer is between 
 
 **Example 1:**
 
+  
 **Input:** `[1,3,4,2,2]`
+  
 **Output:** 2
+  
 
 **Example 2:**
 
+  
 **Input:** \[3,1,3,4,2\]
+  
 **Output:** 3
 
 **Note:**

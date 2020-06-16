@@ -11,19 +11,22 @@ Given a list of `transactions`, return a list of transactions that are possibly
 
 **Example 1:**
 
-**Input:** transactions = \["alice,20,800,mtv","alice,50,100,beijing"\]
-**Output:** \["alice,20,800,mtv","alice,50,100,beijing"\]
+  
+**Input:** transactions = \["alice,20,800,mtv","alice,50,100,beijing"\]  
+**Output:** \["alice,20,800,mtv","alice,50,100,beijing"\]  
 **Explanation:** The first transaction is invalid because the second transaction occurs within a difference of 60 minutes, have the same name and is in a different city. Similarly the second one is invalid too.
 
 **Example 2:**
 
-**Input:** transactions = \["alice,20,800,mtv","alice,50,1200,mtv"\]
-**Output:** \["alice,50,1200,mtv"\]
+  
+**Input:** transactions = \["alice,20,800,mtv","alice,50,1200,mtv"\]  
+**Output:** \["alice,50,1200,mtv"\]  
 
 **Example 3:**
 
-**Input:** transactions = \["alice,20,800,mtv","bob,50,1200,mtv"\]
-**Output:** \["bob,50,1200,mtv"\]
+  
+**Input:** transactions = \["alice,20,800,mtv","bob,50,1200,mtv"\]  
+**Output:** \["bob,50,1200,mtv"\]  
 
 **Constraints:**
 

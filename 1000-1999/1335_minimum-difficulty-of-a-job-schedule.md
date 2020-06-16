@@ -12,33 +12,53 @@ Return _the minimum difficulty_ of a job schedule. If you cannot find a schedule
 
 ![](https://assets.leetcode.com/uploads/2020/01/16/untitled.png)
 
+  
 **Input:** jobDifficulty = \[6,5,4,3,2,1\], d = 2
+  
 **Output:** 7
+  
 **Explanation:** First day you can finish the first 5 jobs, total difficulty = 6.
+  
 Second day you can finish the last job, total difficulty = 1.
+  
 The difficulty of the schedule = 6 + 1 = 7 
+  
 
 **Example 2:**
 
+  
 **Input:** jobDifficulty = \[9,9,9\], d = 4
+  
 **Output:** -1
+  
 **Explanation:** If you finish a job per day you will still have a free day. you cannot find a schedule for the given jobs.
+  
 
 **Example 3:**
 
+  
 **Input:** jobDifficulty = \[1,1,1\], d = 3
+  
 **Output:** 3
+  
 **Explanation:** The schedule is one job per day. total difficulty will be 3.
+  
 
 **Example 4:**
 
+  
 **Input:** jobDifficulty = \[7,1,7,1,7,1\], d = 3
+  
 **Output:** 15
+  
 
 **Example 5:**
 
+  
 **Input:** jobDifficulty = \[11,111,22,222,33,333,44,444\], d = 6
+  
 **Output:** 843
+  
 
 **Constraints:**
 

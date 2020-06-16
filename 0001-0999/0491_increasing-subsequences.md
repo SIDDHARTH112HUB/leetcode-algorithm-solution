@@ -4,8 +4,9 @@ Given an integer array, your task is to find all the different possible increasi
 
 **Example:**
 
-**Input:** \[4, 6, 7, 7\]
-**Output:** \[\[4, 6\], \[4, 7\], \[4, 6, 7\], \[4, 6, 7, 7\], \[6, 7\], \[6, 7, 7\], \[7,7\], \[4,7,7\]\]
+  
+**Input:** \[4, 6, 7, 7\]  
+**Output:** \[\[4, 6\], \[4, 7\], \[4, 6, 7\], \[4, 6, 7, 7\], \[6, 7\], \[6, 7, 7\], \[7,7\], \[4,7,7\]\]  
 
 **Constraints:**
 

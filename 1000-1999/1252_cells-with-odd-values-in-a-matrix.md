@@ -8,19 +8,21 @@ Return _the number of cells with odd values_ in the matrix after applying the in
 
 ![](https://assets.leetcode.com/uploads/2019/10/30/e1.png)
 
-**Input:** n = 2, m = 3, indices = \[\[0,1\],\[1,1\]\]
-**Output:** 6
-**Explanation:** Initial matrix = \[\[0,0,0\],\[0,0,0\]\].
-After applying first increment it becomes \[\[1,2,1\],\[0,1,0\]\].
-The final matrix will be \[\[1,3,1\],\[1,3,1\]\] which contains 6 odd numbers.
+  
+**Input:** n = 2, m = 3, indices = \[\[0,1\],\[1,1\]\]  
+**Output:** 6  
+**Explanation:** Initial matrix = \[\[0,0,0\],\[0,0,0\]\].  
+After applying first increment it becomes \[\[1,2,1\],\[0,1,0\]\].  
+The final matrix will be \[\[1,3,1\],\[1,3,1\]\] which contains 6 odd numbers.  
 
 **Example 2:**
 
 ![](https://assets.leetcode.com/uploads/2019/10/30/e2.png)
 
-**Input:** n = 2, m = 2, indices = \[\[1,1\],\[0,0\]\]
-**Output:** 0
-**Explanation:** Final matrix = \[\[2,2\],\[2,2\]\]. There is no odd number in the final matrix.
+  
+**Input:** n = 2, m = 2, indices = \[\[1,1\],\[0,0\]\]  
+**Output:** 0  
+**Explanation:** Final matrix = \[\[2,2\],\[2,2\]\]. There is no odd number in the final matrix.  
 
 **Constraints:**
 

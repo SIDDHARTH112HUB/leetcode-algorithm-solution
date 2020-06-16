@@ -13,14 +13,15 @@ Given an array _nums_, there is a sliding window of size _k_ which is moving fro
 For example,  
 Given _nums_ = `[1,3,-1,-3,5,3,6,7]`, and _k_ = 3.
 
-Window position                Median
----------------               -----
-\[1  3  -1\] -3  5  3  6  7       1
- 1 \[3  -1  -3\] 5  3  6  7       -1
- 1  3 \[-1  -3  5\] 3  6  7       -1
- 1  3  -1 \[-3  5  3\] 6  7       3
- 1  3  -1  -3 \[5  3  6\] 7       5
- 1  3  -1  -3  5 \[3  6  7\]      6
+  
+Window position                Median  
+---------------               -----  
+\[1  3  -1\] -3  5  3  6  7       1  
+ 1 \[3  -1  -3\] 5  3  6  7       -1  
+ 1  3 \[-1  -3  5\] 3  6  7       -1  
+ 1  3  -1 \[-3  5  3\] 6  7       3  
+ 1  3  -1  -3 \[5  3  6\] 7       5  
+ 1  3  -1  -3  5 \[3  6  7\]      6  
 
 Therefore, return the median sliding window as `[1,-1,-1,3,5,6]`.
 

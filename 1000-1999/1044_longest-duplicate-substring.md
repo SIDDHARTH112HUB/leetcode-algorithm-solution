@@ -6,13 +6,19 @@ Return **any** duplicated substring that has the longest possible length.  (If
 
 **Example 1:**
 
+  
 **Input:** "banana"
+  
 **Output:** "ana"
+  
 
 **Example 2:**
 
+  
 **Input:** "abcd"
+  
 **Output:** ""
+  
 
 **Note:**
 

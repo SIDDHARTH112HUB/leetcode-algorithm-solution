@@ -4,23 +4,35 @@ Given a string representing an expression of fraction addition and subtraction, 
 
 **Example 1:**  
 
+  
 **Input:**"-1/2+1/2"
+  
 **Output:** "0/1"
+  
 
 **Example 2:**  
 
+  
 **Input:**"-1/2+1/2+1/3"
+  
 **Output:** "1/3"
+  
 
 **Example 3:**  
 
+  
 **Input:**"1/3-1/2"
+  
 **Output:** "-1/6"
+  
 
 **Example 4:**  
 
+  
 **Input:**"5/3+1/3"
+  
 **Output:** "2/1"
+  
 
 **Note:**  
 

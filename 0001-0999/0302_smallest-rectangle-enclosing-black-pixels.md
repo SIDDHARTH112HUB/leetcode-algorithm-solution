@@ -4,14 +4,23 @@ An image is represented by a binary matrix with `0` as a white pixel and `1` as 
 
 **Example:**
 
+  
 **Input:**
+  
 \[
+  
   "0010",
+  
   "0110",
+  
   "0100"
+  
 \]
+  
 and `x = 0,` `y = 2`
+  
 
+  
 **Output:** 6  
 
 

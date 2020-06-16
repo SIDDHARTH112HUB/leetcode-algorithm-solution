@@ -10,9 +10,13 @@ If there is more than one answer, return any of them.
 
 **![](https://assets.leetcode.com/uploads/2019/08/22/1515_ex1.png)![](https://assets.leetcode.com/uploads/2019/08/22/1515_ex1_out.png)**
 
+  
 **Input:** root = \[1,null,2,null,3,null,4,null,null\]
+  
 **Output:** \[2,1,3,null,null,null,4\]
+  
 **Explanation:** This is not the only correct answer, \[3,1,4,null,2,null,null\] is also correct.
+  
 
 **Constraints:**
 

@@ -12,7 +12,9 @@ It is guaranteed that every call to `ping` uses a strictly larger value of `t` 
 
 **Example 1:**
 
+  
 **Input:** inputs = \["RecentCounter","ping","ping","ping","ping"\], inputs = \[\[\],\[1\],\[100\],\[3001\],\[3002\]\]
+  
 **Output:** \[null,1,2,3,3\]
 
 **Note:**

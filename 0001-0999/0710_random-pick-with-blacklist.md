@@ -12,23 +12,35 @@ Optimize it such that it minimizes the call to system’s `Math.random()`.
 
 **Example 1:**
 
+  
 **Input:** \["Solution","pick","pick","pick"\] \[\[1,\[\]\],\[\],\[\],\[\]\]
+  
 **Output:** \[null,0,0,0\]
+  
 
 **Example 2:**
 
+  
 **Input:** \["Solution","pick","pick","pick"\] \[\[2,\[\]\],\[\],\[\],\[\]\]
+  
 **Output:** \[null,1,1,1\]
+  
 
 **Example 3:**
 
+  
 **Input:** \["Solution","pick","pick","pick"\] \[\[3,\[1\]\],\[\],\[\],\[\]\]
+  
 **Output:** \[null,0,0,2\]
+  
 
 **Example 4:**
 
+  
 **Input:** \["Solution","pick","pick","pick"\] \[\[4,\[2\]\],\[\],\[\],\[\]\]
+  
 **Output:** \[null,1,3,1\]
+  
 
 **Explanation of Input Syntax:**
 

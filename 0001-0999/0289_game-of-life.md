@@ -13,18 +13,31 @@ Write a function to compute the next state (after one update) of the board given
 
 **Example:**
 
+  
 **Input:** \[
+  
   \[0,1,0\],
+  
   \[0,0,1\],
+  
   \[1,1,1\],
+  
   \[0,0,0\]
+  
 \]
+  
 **Output:** \[
+  
   \[0,0,0\],
+  
   \[1,0,1\],
+  
   \[0,1,1\],
+  
   \[0,1,0\]
+  
 \]
+  
 
 **Follow up**:
 

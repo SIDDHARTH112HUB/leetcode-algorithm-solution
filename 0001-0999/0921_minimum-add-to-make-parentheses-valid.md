@@ -12,22 +12,33 @@ Given a parentheses string, return the minimum number of parentheses we must add
 
 **Example 1:**
 
+  
 **Input:** "())"
+  
 **Output:** 1
+  
 
 **Example 2:**
 
+  
 **Input:** "((("
+  
 **Output:** 3
+  
 
 **Example 3:**
 
+  
 **Input:** "()"
+  
 **Output:** 0
+  
 
 **Example 4:**
 
+  
 **Input:** "()))(("
+  
 **Output:** 4
 
 **Note:**

@@ -9,17 +9,25 @@ Return **any** permutation `A` of `[0, 1, ..., N]` such that for all `i = 0, ..
 
 **Example 1:**
 
+  
 **Input:** "IDID"
+  
 **Output:** \[0,4,1,3,2\]
+  
 
 **Example 2:**
 
+  
 **Input:** "III"
+  
 **Output:** \[0,1,2,3\]
+  
 
 **Example 3:**
 
+  
 **Input:** "DDI"
+  
 **Output:** \[3,2,0,1\]
 
 **Note:**

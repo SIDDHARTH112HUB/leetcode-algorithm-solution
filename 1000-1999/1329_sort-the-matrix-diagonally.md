@@ -6,8 +6,11 @@ Given a `m * n` matrix `mat` of integers, sort it diagonally in ascending order
 
 ![](https://assets.leetcode.com/uploads/2020/01/21/1482_example_1_2.png)
 
+  
 **Input:** mat = \[\[3,3,1,1\],\[2,2,1,2\],\[1,1,1,2\]\]
+  
 **Output:** \[\[1,1,1,1\],\[1,2,2,2\],\[1,2,3,3\]\]
+  
 
 **Constraints:**
 

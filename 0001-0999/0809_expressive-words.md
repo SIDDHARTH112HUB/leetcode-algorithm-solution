@@ -8,14 +8,23 @@ For example, starting with "hello", we could do an extension on the group "o" to
 
 Given a list of query words, return the number of words that are stretchy. 
 
+  
 **Example:**
+  
 **Input:** 
+  
 S = "heeellooo"
+  
 words = \["hello", "hi", "helo"\]
+  
 **Output:** 1
+  
 **Explanation:** 
+  
 We can extend "e" and "o" in the word "hello" to get "heeellooo".
+  
 We can't extend "helo" to get "heeellooo" because the group "ll" is not size 3 or more.
+  
 
 **Notes:**
 

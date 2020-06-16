@@ -10,28 +10,32 @@ In other words, check if there are **any** point (xi, yi) such that belongs to 
 
 ![](https://assets.leetcode.com/uploads/2020/02/20/sample_4_1728.png)
 
-**Input:** radius = 1, x\_center = 0, y\_center = 0, x1 = 1, y1 = -1, x2 = 3, y2 = 1
-**Output:** true
-**Explanation:** Circle and rectangle share the point (1,0) 
+  
+**Input:** radius = 1, x\_center = 0, y\_center = 0, x1 = 1, y1 = -1, x2 = 3, y2 = 1  
+**Output:** true  
+**Explanation:** Circle and rectangle share the point (1,0)   
 
 **Example 2:**
 
 **![](https://assets.leetcode.com/uploads/2020/02/20/sample_2_1728.png)**
 
-**Input:** radius = 1, x\_center = 0, y\_center = 0, x1 = -1, y1 = 0, x2 = 0, y2 = 1
-**Output:** true
+  
+**Input:** radius = 1, x\_center = 0, y\_center = 0, x1 = -1, y1 = 0, x2 = 0, y2 = 1  
+**Output:** true  
 
 **Example 3:**
 
 **![](https://assets.leetcode.com/uploads/2020/03/03/sample_6_1728.png)**
 
-**Input:** radius = 1, x\_center = 1, y\_center = 1, x1 = -3, y1 = -3, x2 = 3, y2 = 3
-**Output:** true
+  
+**Input:** radius = 1, x\_center = 1, y\_center = 1, x1 = -3, y1 = -3, x2 = 3, y2 = 3  
+**Output:** true  
 
 **Example 4:**
 
-**Input:** radius = 1, x\_center = 1, y\_center = 1, x1 = 1, y1 = -3, x2 = 2, y2 = -1
-**Output:** false
+  
+**Input:** radius = 1, x\_center = 1, y\_center = 1, x1 = 1, y1 = -3, x2 = 2, y2 = -1  
+**Output:** false  
 
 **Constraints:**
 

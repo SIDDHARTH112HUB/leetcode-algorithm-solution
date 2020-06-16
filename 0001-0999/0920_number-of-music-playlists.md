@@ -9,20 +9,31 @@ Return the number of possible playlists.  **As the answer can be very large, re
 
 **Example 1:**
 
+  
 **Input:** N = 3, L = 3, K = 1
+  
 **Output:** 6
+  
 **Explanation**: There are 6 possible playlists. \[1, 2, 3\], \[1, 3, 2\], \[2, 1, 3\], \[2, 3, 1\], \[3, 1, 2\], \[3, 2, 1\].
+  
 
 **Example 2:**
 
+  
 **Input:** N = 2, L = 3, K = 0
+  
 **Output:** 6 **Explanation**: There are 6 possible playlists. \[1, 1, 2\], \[1, 2, 1\], \[2, 1, 1\], \[2, 2, 1\], \[2, 1, 2\], \[1, 2, 2\]
+  
 
 **Example 3:**
 
+  
 **Input:** N = 2, L = 3, K = 1
+  
 **Output:** 2
+  
 **Explanation**: There are 2 possible playlists. \[1, 2, 1\], \[2, 1, 2\]
+  
 
 **Note:**
 

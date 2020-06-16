@@ -6,31 +6,53 @@ Note that there may exist multiple valid ways for the insertion, as long as th
 
 For example, 
 
+  
 Given the tree:
+  
         4
+  
        / \\
+  
       2   7
+  
      / \\
+  
     1   3
+  
 And the value to insert: 5
+  
 
 You can return this binary search tree:
 
+  
          4
+  
        /   \\
+  
       2     7
+  
      / \\   /
+  
     1   3 5
+  
 
 This tree is also valid:
 
+  
          5
+  
        /   \\
+  
       2     7
+  
      / \\   
+  
     1   3
+  
          \\
+  
           4
+  
 
 **Constraints:**
 

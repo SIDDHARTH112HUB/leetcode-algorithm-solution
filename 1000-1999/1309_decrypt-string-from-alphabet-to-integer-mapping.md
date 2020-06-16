@@ -11,24 +11,37 @@ It's guaranteed that a unique mapping will always exist.
 
 **Example 1:**
 
+  
 **Input:** s = "10#11#12"
+  
 **Output:** "jkab"
+  
 **Explanation:** "j" -> "10#" , "k" -> "11#" , "a" -> "1" , "b" -> "2".
+  
 
 **Example 2:**
 
+  
 **Input:** s = "1326#"
+  
 **Output:** "acz"
+  
 
 **Example 3:**
 
+  
 **Input:** s = "25#"
+  
 **Output:** "y"
+  
 
 **Example 4:**
 
+  
 **Input:** s = "12345678910#11#12#13#14#15#16#17#18#19#20#21#22#23#24#25#26#"
+  
 **Output:** "abcdefghijklmnopqrstuvwxyz"
+  
 
 **Constraints:**
 

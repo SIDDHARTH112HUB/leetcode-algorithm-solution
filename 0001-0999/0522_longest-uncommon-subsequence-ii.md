@@ -8,8 +8,11 @@ The input will be a list of strings, and the output needs to be the length of th
 
 **Example 1:**  
 
+  
 **Input:** "aba", "cdc", "eae"
+  
 **Output:** 3
+  
 
 **Note:**
 

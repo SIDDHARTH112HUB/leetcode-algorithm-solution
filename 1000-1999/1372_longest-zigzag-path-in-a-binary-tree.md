@@ -15,22 +15,33 @@ Return the longest **ZigZag** path contained in that tree.
 
 **![](https://assets.leetcode.com/uploads/2020/01/22/sample_1_1702.png)**
 
+  
 **Input:** root = \[1,null,1,1,1,null,null,1,1,null,1,null,null,null,1,null,1\]
+  
 **Output:** 3
+  
 **Explanation:** Longest ZigZag path in blue nodes (right -> left -> right).
+  
 
 **Example 2:**
 
 **![](https://assets.leetcode.com/uploads/2020/01/22/sample_2_1702.png)**
 
+  
 **Input:** root = \[1,1,1,null,1,null,null,1,1,null,1\]
+  
 **Output:** 4
+  
 **Explanation:** Longest ZigZag path in blue nodes (left -> right -> left -> right).
+  
 
 **Example 3:**
 
+  
 **Input:** root = \[1\]
+  
 **Output:** 0
+  
 
 **Constraints:**
 

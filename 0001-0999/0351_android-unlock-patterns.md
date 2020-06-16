@@ -9,12 +9,16 @@ Given an Android **3x3** key lock screen and two integers **m** and **n**, where
 3.  If the line connecting two consecutive keys in the pattern passes through any other keys, the other keys must have previously selected in the pattern. No jumps through non selected key is allowed.
 4.  The order of keys used matters.
 
+  
 ![](https://assets.leetcode.com/uploads/2018/10/12/android-unlock.png)
 
 **Explanation:**
 
+  
 | 1 | 2 | 3 |
+  
 | 4 | 5 | 6 |
+  
 | 7 | 8 | 9 |
 
 **Invalid move:** `4 - 1 - 3 - 6`  
@@ -31,7 +35,9 @@ Line 1 - 9 is valid because it passes through key 5, which had been selected in 
 
 **Example:**
 
+  
 **Input:** m = 1, n = 1
+  
 **Output:** 9  
 
 

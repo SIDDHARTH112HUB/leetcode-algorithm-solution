@@ -13,15 +13,23 @@ Return `0` if there is no mountain.
 
 **Example 1:**
 
+  
 **Input:** \[2,1,4,7,3,2,5\]
+  
 **Output:** 5
+  
 **Explanation:** The largest mountain is \[1,4,7,3,2\] which has length 5.
+  
 
 **Example 2:**
 
+  
 **Input:** \[2,2,2\]
+  
 **Output:** 0
+  
 **Explanation:** There is no mountain.
+  
 
 **Note:**
 

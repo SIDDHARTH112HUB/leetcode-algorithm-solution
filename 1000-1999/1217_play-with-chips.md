@@ -13,15 +13,17 @@ Return the minimum cost needed to move all the chips to the same position (any 
 
 **Example 1:**
 
-**Input:** chips = \[1,2,3\]
-**Output:** 1
-**Explanation:** Second chip will be moved to positon 3 with cost 1. First chip will be moved to position 3 with cost 0. Total cost is 1.
+  
+**Input:** chips = \[1,2,3\]  
+**Output:** 1  
+**Explanation:** Second chip will be moved to positon 3 with cost 1. First chip will be moved to position 3 with cost 0. Total cost is 1.  
 
 **Example 2:**
 
-**Input:** chips = \[2,2,2,3,3\]
-**Output:** 2
-**Explanation:** Both fourth and fifth chip will be moved to position two with cost 1. Total minimum cost will be 2.
+  
+**Input:** chips = \[2,2,2,3,3\]  
+**Output:** 2  
+**Explanation:** Both fourth and fifth chip will be moved to position two with cost 1. Total minimum cost will be 2.  
 
 **Constraints:**
 

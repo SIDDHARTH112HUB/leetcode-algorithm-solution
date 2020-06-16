@@ -8,15 +8,23 @@ Find the total area covered by all `rectangles` in the plane.  Since the answer
 
 **Example 1:**
 
+  
 **Input:** \[\[0,0,2,2\],\[1,0,2,3\],\[1,0,3,1\]\]
+  
 **Output:** 6
+  
 **Explanation:** As illustrated in the picture.
+  
 
 **Example 2:**
 
+  
 **Input:** \[\[0,0,1000000000,1000000000\]\]
+  
 **Output:** 49
+  
 **Explanation:** The answer is 10^18 modulo (10^9 + 7), which is (10^9)^2 = (-7)^2 = 49.
+  
 
 **Note:**
 

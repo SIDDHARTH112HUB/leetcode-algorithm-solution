@@ -5,22 +5,26 @@ Given a string s, find the longest palindromic subsequence's length in s. You ma
 **Example 1:**  
 Input:
 
-"bbbab"
+  
+"bbbab"  
 
 Output:
 
-4
+  
+4  
 
 One possible longest palindromic subsequence is "bbbb".
 
 **Example 2:**  
 Input:
 
-"cbbd"
+  
+"cbbd"  
 
 Output:
 
-2
+  
+2  
 
 One possible longest palindromic subsequence is "bb".
 

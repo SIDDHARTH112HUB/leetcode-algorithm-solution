@@ -16,34 +16,37 @@ You are guaranteed that no two `trees` have the same height and there is at leas
 
 **Example 1:**
 
-**Input:** 
-\[
- \[1,2,3\],
- \[0,0,4\],
- \[7,6,5\]
-\]
-**Output:** 6
+  
+**Input:**   
+\[  
+ \[1,2,3\],  
+ \[0,0,4\],  
+ \[7,6,5\]  
+\]  
+**Output:** 6  
 
 **Example 2:**
 
-**Input:** 
-\[
- \[1,2,3\],
- \[0,0,0\],
- \[7,6,5\]
-\]
-**Output:** -1
+  
+**Input:**   
+\[  
+ \[1,2,3\],  
+ \[0,0,0\],  
+ \[7,6,5\]  
+\]  
+**Output:** -1  
 
 **Example 3:**
 
-**Input:** 
-\[
- \[2,3,4\],
- \[0,0,5\],
- \[8,7,6\]
-\]
-**Output:** 6
-**Explanation:** You started from the point (0,0) and you can cut off the tree in (0,0) directly without walking.
+  
+**Input:**   
+\[  
+ \[2,3,4\],  
+ \[0,0,5\],  
+ \[8,7,6\]  
+\]  
+**Output:** 6  
+**Explanation:** You started from the point (0,0) and you can cut off the tree in (0,0) directly without walking.  
 
 **Constraints:**
 

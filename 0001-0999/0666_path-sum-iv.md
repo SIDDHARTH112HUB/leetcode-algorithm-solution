@@ -14,26 +14,28 @@ It's guaranteed that the given list represents a valid connected binary tree.
 
 **Example 1:**
 
-**Input:** \[113, 215, 221\]
-**Output:** 12
-**Explanation:** 
-The tree that the list represents is:
-    3
-   / \\
-  5   1
-
-The path sum is (3 + 5) + (3 + 1) = 12.
+  
+**Input:** \[113, 215, 221\]  
+**Output:** 12  
+**Explanation:**   
+The tree that the list represents is:  
+    3  
+   / \\  
+  5   1  
+  
+The path sum is (3 + 5) + (3 + 1) = 12.  
 
 **Example 2:**
 
-**Input:** \[113, 221\]
-**Output:** 4
-**Explanation:** 
-The tree that the list represents is: 
-    3
-     \\
-      1
-
+  
+**Input:** \[113, 221\]  
+**Output:** 4  
+**Explanation:**   
+The tree that the list represents is:   
+    3  
+     \\  
+      1  
+  
 The path sum is (3 + 1) = 4.  
 
 

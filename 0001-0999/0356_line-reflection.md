@@ -11,17 +11,19 @@ Could you do better than O(_n_2) ?
 
 ![](https://assets.leetcode.com/uploads/2020/04/23/356_example_1.PNG)
 
-**Input:** points = \[\[1,1\],\[-1,1\]\]
-**Output:** true
-**Explanation:** We can choose the line x = 0.
+  
+**Input:** points = \[\[1,1\],\[-1,1\]\]  
+**Output:** true  
+**Explanation:** We can choose the line x = 0.  
 
 **Example 2:**
 
 ![](https://assets.leetcode.com/uploads/2020/04/23/356_example_2.PNG)
 
-**Input:** points = \[\[1,1\],\[-1,-1\]\]
-**Output:** false
-**Explanation:** We can't choose a line.
+  
+**Input:** points = \[\[1,1\],\[-1,-1\]\]  
+**Output:** false  
+**Explanation:** We can't choose a line.  
 
 **Constraints:**
 

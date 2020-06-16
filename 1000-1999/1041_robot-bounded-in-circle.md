@@ -12,25 +12,28 @@ Return `true` if and only if there exists a circle in the plane such that the ro
 
 **Example 1:**
 
-**Input:** "GGLLGG"
-**Output:** true
-**Explanation:** 
-The robot moves from (0,0) to (0,2), turns 180 degrees, and then returns to (0,0).
-When repeating these instructions, the robot remains in the circle of radius 2 centered at the origin.
+  
+**Input:** "GGLLGG"  
+**Output:** true  
+**Explanation: **  
+The robot moves from (0,0) to (0,2), turns 180 degrees, and then returns to (0,0).  
+When repeating these instructions, the robot remains in the circle of radius 2 centered at the origin.  
 
 **Example 2:**
 
-**Input:** "GG"
-**Output:** false
-**Explanation:** 
-The robot moves north indefinitely.
+  
+**Input:** "GG"  
+**Output:** false  
+**Explanation: **  
+The robot moves north indefinitely.  
 
 **Example 3:**
 
-**Input:** "GL"
-**Output:** true
-**Explanation:** 
-The robot moves from (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 0) -> ...
+  
+**Input:** "GL"  
+**Output:** true  
+**Explanation: **  
+The robot moves from (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 0) -> ...  
 
 **Note:**
 

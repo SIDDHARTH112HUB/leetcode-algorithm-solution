@@ -8,14 +8,21 @@ Different from the [previous question](https://leetcode.com/problems/nested-list
 
 **Example 1:**
 
+  
 **Input:** \[\[1,1\],2,\[1,1\]\]
+  
 **Output:** 8 
+  
 **Explanation:** Four 1's at depth 1, one 2 at depth 2.
+  
 
 **Example 2:**
 
+  
 **Input:** \[1,\[4,\[6\]\]\]
+  
 **Output:** 17 
+  
 **Explanation:** One 1 at depth 3, one 4 at depth 2, and one 6 at depth 1; 1\*3 + 4\*2 + 6\*1 = 17.  
 
 

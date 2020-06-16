@@ -8,14 +8,23 @@ Find the letter that was added in **_t_**.
 
 **Example:**
 
+  
 Input:
+  
 s = "abcd"
+  
 t = "abcde"
+  
 
+  
 Output:
+  
 e
+  
 
+  
 Explanation:
+  
 'e' is the letter that was added.  
 
 

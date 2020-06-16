@@ -6,8 +6,11 @@ Given an array `nums` representing the data status of this set after the error. 
 
 **Example 1:**  
 
+  
 **Input:** nums = \[1,2,2,4\]
+  
 **Output:** \[2,3\]
+  
 
 **Note:**  
 

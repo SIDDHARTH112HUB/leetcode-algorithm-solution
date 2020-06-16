@@ -2,7 +2,9 @@
 
 On an N x N `board`, the numbers from `1` to `N*N` are written _boustrophedonically_ **starting from the bottom left of the board**, and alternating direction each row.  For example, for a 6 x 6 board, the numbers are written as follows:
 
+  
 ![](https://assets.leetcode.com/uploads/2018/09/23/snakes.png)
+  
 
 You start on square `1` of the board (which is always in the last row and first column).  Each move, starting from square `x`, consists of the following:
 
@@ -18,21 +20,37 @@ Return the least number of moves required to reach square N\*N.  If it is not p
 
 **Example 1:**
 
+  
 **Input:** \[
+  
 \[-1,-1,-1,-1,-1,-1\],
+  
 \[-1,-1,-1,-1,-1,-1\],
+  
 \[-1,-1,-1,-1,-1,-1\],
+  
 \[-1,35,-1,-1,13,-1\],
+  
 \[-1,-1,-1,-1,-1,-1\],
+  
 \[-1,15,-1,-1,-1,-1\]\]
+  
 **Output:** 4
+  
 **Explanation:** 
+  
 At the beginning, you start at square 1 \[at row 5, column 0\].
+  
 You decide to move to square 2, and must take the ladder to square 15.
+  
 You then decide to move to square 17 (row 3, column 5), and must take the snake to square 13.
+  
 You then decide to move to square 14, and must take the ladder to square 35.
+  
 You then decide to move to square 36, ending the game.
+  
 It can be shown that you need at least 4 moves to reach the N\*N-th square, so the answer is 4.
+  
 
 **Note:**
 

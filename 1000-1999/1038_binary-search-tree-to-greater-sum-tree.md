@@ -12,8 +12,9 @@ As a reminder, a _binary search tree_ is a tree that satisfies these constraint
 
 **![](https://assets.leetcode.com/uploads/2019/05/02/tree.png)**
 
-**Input:** \[4,1,6,0,2,5,7,null,null,null,3,null,null,null,8\]
-**Output:** \[30,36,21,36,35,26,15,null,null,null,33,null,null,null,8\]
+  
+**Input:** \[4,1,6,0,2,5,7,null,null,null,3,null,null,null,8\]  
+**Output:** \[30,36,21,36,35,26,15,null,null,null,33,null,null,null,8\]  
 
 **Constraints:**
 

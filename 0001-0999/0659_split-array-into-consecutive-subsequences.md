@@ -4,26 +4,31 @@ Given an array `nums` sorted in ascending order, return `true` if and only if y
 
 **Example 1:**
 
-**Input:** \[1,2,3,3,4,5\]
-**Output:** True
-**Explanation:**
-You can split them into two consecutive subsequences : 
-1, 2, 3
-3, 4, 5
+  
+**Input:** \[1,2,3,3,4,5\]  
+**Output:** True  
+**Explanation:**  
+You can split them into two consecutive subsequences :   
+1, 2, 3  
+3, 4, 5  
+  
 
 **Example 2:**
 
-**Input:** \[1,2,3,3,4,4,5,5\]
-**Output:** True
-**Explanation:**
-You can split them into two consecutive subsequences : 
-1, 2, 3, 4, 5
-3, 4, 5
+  
+**Input:** \[1,2,3,3,4,4,5,5\]  
+**Output:** True  
+**Explanation:**  
+You can split them into two consecutive subsequences :   
+1, 2, 3, 4, 5  
+3, 4, 5  
+  
 
 **Example 3:**
 
-**Input:** \[1,2,3,4,4,5\]
-**Output:** False
+  
+**Input:** \[1,2,3,4,4,5\]  
+**Output:** False  
 
 **Constraints:**
 

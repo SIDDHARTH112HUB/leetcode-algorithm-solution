@@ -22,41 +22,75 @@ After removing the comments from the source code, return the source code in the 
 
 **Example 1:**  
 
+  
 **Input:** 
+  
 source = \["/\*Test program \*/", "int main()", "{ ", "  // variable declaration ", "int a, b, c;", "/\* This is a test", "   multiline  ", "   comment for ", "   testing \*/", "a = b + c;", "}"\]
+  
 
+  
 The line by line code is visualized as below:
+  
 /\*Test program \*/
+  
 int main()
-{ 
-  // variable declaration 
-int a, b, c;
-/\* This is a test
-   multiline  
-   comment for 
-   testing \*/
-a = b + c;
-}
-
-**Output:** \["int main()","{ ","  ","int a, b, c;","a = b + c;","}"\]
-
-The line by line code is visualized as below:
-int main()
+  
 { 
   
+  // variable declaration 
+  
 int a, b, c;
+  
+/\* This is a test
+  
+   multiline  
+  
+   comment for 
+  
+   testing \*/
+  
 a = b + c;
+  
 }
+  
 
+  
+**Output:** \["int main()","{ ","  ","int a, b, c;","a = b + c;","}"\]
+  
+
+  
+The line by line code is visualized as below:
+  
+int main()
+  
+{ 
+  
+  
+  
+int a, b, c;
+  
+a = b + c;
+  
+}
+  
+
+  
 **Explanation:** 
+  
 The string `/*` denotes a block comment, including line 1 and lines 6-9. The string `//` denotes line 4 as comments.
+  
 
 **Example 2:**  
 
+  
 **Input:** 
+  
 source = \["a/\*comment", "line", "more\_comment\*/b"\]
+  
 **Output:** \["ab"\]
+  
 **Explanation:** The original source string is "a/\*comment**\\n**line**\\n**more\_comment\*/b", where we have bolded the newline characters.  After deletion, the _implicit_ newline characters are deleted, leaving the string "ab", which when delimited by newline characters becomes \["ab"\].
+  
 
 **Note:**
 

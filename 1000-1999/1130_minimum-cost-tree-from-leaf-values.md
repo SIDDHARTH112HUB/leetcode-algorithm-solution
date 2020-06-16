@@ -10,16 +10,27 @@ Among all possible binary trees considered, return the smallest possible sum of
 
 **Example 1:**
 
+  
 **Input:** arr = \[6,2,4\]
+  
 **Output:** 32
+  
 **Explanation:**
+  
 There are two possible trees.  The first has non-leaf node sum 36, and the second has non-leaf node sum 32.
+  
 
+  
     24            24
+  
    /  \\          /  \\
+  
   12   4        6    8
+  
  /  \\               / \\
+  
 6    2             2   4
+  
 
 **Constraints:**
 

@@ -8,9 +8,13 @@ For the method `sum`, you'll be given a string representing the prefix, and you 
 
 **Example 1:**  
 
+  
 Input: insert("apple", 3), Output: Null
+  
 Input: sum("ap"), Output: 3
+  
 Input: insert("app", 2), Output: Null
+  
 Input: sum("ap"), Output: 5  
 
 

@@ -11,11 +11,17 @@ At the end of any number of moves, what is the lexicographically largest resulti
 
 **Example 1:**  
 
+  
 **Input:** S = "11011000"
+  
 **Output:** "11100100"
+  
 **Explanation:**
+  
 The strings "10" \[occuring at S\[1\]\] and "1100" \[at S\[3\]\] are swapped.
+  
 This is the lexicographically largest string possible after some number of swaps.
+  
 
 **Note:**
 

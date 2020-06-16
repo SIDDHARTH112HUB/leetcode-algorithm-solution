@@ -8,16 +8,27 @@ The island doesn't have "lakes" (water inside that isn't connected to the water 
 
 **Example:**
 
+  
 **Input:**
+  
 \[\[0,1,0,0\],
+  
  \[1,1,1,0\],
+  
  \[0,1,0,0\],
+  
  \[1,1,0,0\]\]
+  
 
+  
 **Output:** 16
+  
 
+  
 **Explanation:** The perimeter is the 16 yellow stripes in the image below:
+  
 
+  
 ![](https://assets.leetcode.com/uploads/2018/10/12/island.png)  
 
 

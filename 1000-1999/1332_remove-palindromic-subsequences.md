@@ -10,28 +10,45 @@ A string is called palindrome if is one that reads the same backward as well as 
 
 **Example 1:**
 
+  
 **Input:** s = "ababa"
+  
 **Output:** 1
+  
 **Explanation:** String is already palindrome
+  
 
 **Example 2:**
 
+  
 **Input:** s = "abb"
+  
 **Output:** 2
+  
 **Explanation:** "**a**bb" -> "**bb**" -> "". 
+  
 Remove palindromic subsequence "a" then "bb".
+  
 
 **Example 3:**
 
+  
 **Input:** s = "baabb"
+  
 **Output:** 2
+  
 **Explanation:** "**baa**b**b**" -> "b" -> "". 
+  
 Remove palindromic subsequence "baab" then "b".
+  
 
 **Example 4:**
 
+  
 **Input:** s = ""
+  
 **Output:** 0
+  
 
 **Constraints:**
 

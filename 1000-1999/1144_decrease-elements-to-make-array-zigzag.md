@@ -11,14 +11,16 @@ Return the minimum number of moves to transform the given array `nums` into a zi
 
 **Example 1:**
 
-**Input:** nums = \[1,2,3\]
-**Output:** 2
-**Explanation:** We can decrease 2 to 0 or 3 to 1.
+  
+**Input:** nums = \[1,2,3\]  
+**Output:** 2  
+**Explanation:** We can decrease 2 to 0 or 3 to 1.  
 
 **Example 2:**
 
-**Input:** nums = \[9,6,1,6,2\]
-**Output:** 4
+  
+**Input:** nums = \[9,6,1,6,2\]  
+**Output:** 4  
 
 **Constraints:**
 

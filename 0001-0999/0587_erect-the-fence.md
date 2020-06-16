@@ -4,18 +4,29 @@ There are some trees, where each tree is represented by (x,y) coordinate in a tw
 
 **Example 1:**
 
+  
 **Input:** \[\[1,1\],\[2,2\],\[2,0\],\[2,4\],\[3,3\],\[4,2\]\]
+  
 **Output:** \[\[1,1\],\[2,0\],\[4,2\],\[3,3\],\[2,4\]\]
+  
 **Explanation:**
+  
 ![](https://assets.leetcode.com/uploads/2018/10/12/erect_the_fence_1.png)
+  
 
 **Example 2:**
 
+  
 **Input:** \[\[1,2\],\[2,2\],\[4,2\]\]
+  
 **Output:** \[\[1,2\],\[2,2\],\[4,2\]\]
+  
 **Explanation:**
+  
 ![](https://assets.leetcode.com/uploads/2018/10/12/erect_the_fence_2.png)
+  
 Even you only have trees in a line, you need to use rope to enclose them. 
+  
 
 **Note:**
 

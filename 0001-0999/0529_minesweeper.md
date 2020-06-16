@@ -13,45 +13,83 @@ Now given the next click position (row and column indices) among all the **unrev
 
 **Example 1:**
 
+  
 **Input:** 
+  
 
+  
 \[\['E', 'E', 'E', 'E', 'E'\],
+  
  \['E', 'E', 'M', 'E', 'E'\],
+  
  \['E', 'E', 'E', 'E', 'E'\],
+  
  \['E', 'E', 'E', 'E', 'E'\]\]
+  
 
+  
 Click : \[3,0\]
+  
 
+  
 **Output:** 
+  
 
+  
 \[\['B', '1', 'E', '1', 'B'\],
+  
  \['B', '1', 'M', '1', 'B'\],
+  
  \['B', '1', '1', '1', 'B'\],
+  
  \['B', 'B', 'B', 'B', 'B'\]\]
+  
 
+  
 **Explanation:**
+  
 ![](https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_1.png)
+  
 
 **Example 2:**
 
+  
 **Input:** 
+  
 
+  
 \[\['B', '1', 'E', '1', 'B'\],
+  
  \['B', '1', 'M', '1', 'B'\],
+  
  \['B', '1', '1', '1', 'B'\],
+  
  \['B', 'B', 'B', 'B', 'B'\]\]
+  
 
+  
 Click : \[1,2\]
+  
 
+  
 **Output:** 
+  
 
+  
 \[\['B', '1', 'E', '1', 'B'\],
+  
  \['B', '1', 'X', '1', 'B'\],
+  
  \['B', '1', '1', '1', 'B'\],
+  
  \['B', 'B', 'B', 'B', 'B'\]\]
+  
 
+  
 **Explanation:**
+  
 ![](https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_2.png)
+  
 
 **Note:**
 

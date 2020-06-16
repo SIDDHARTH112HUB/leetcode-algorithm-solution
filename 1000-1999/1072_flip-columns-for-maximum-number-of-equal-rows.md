@@ -6,21 +6,33 @@ Return the maximum number of rows that have all values equal after some number o
 
 **Example 1:**
 
+  
 **Input:** \[\[0,1\],\[1,1\]\]
+  
 **Output:** 1
+  
 **Explanation:** After flipping no values, 1 row has all values equal.
+  
 
 **Example 2:**
 
+  
 **Input:** \[\[0,1\],\[1,0\]\]
+  
 **Output:** 2
+  
 **Explanation:** After flipping values in the first column, both rows have equal values.
+  
 
 **Example 3:**
 
+  
 **Input:** \[\[0,0,0\],\[0,0,1\],\[1,1,0\]\]
+  
 **Output:** 2
+  
 **Explanation:** After flipping values in the first two columns, the last two rows have equal values.
+  
 
 **Note:**
 

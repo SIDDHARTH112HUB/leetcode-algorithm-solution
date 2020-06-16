@@ -8,10 +8,15 @@ Could you do it without extra space and in O(_n_) runtime? You may assume the re
 
 **Example:**
 
+  
 **Input:**
+  
 \[4,3,2,7,8,2,3,1\]
+  
 
+  
 **Output:**
+  
 \[5,6\]  
 
 

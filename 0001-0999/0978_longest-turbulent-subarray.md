@@ -11,19 +11,29 @@ Return the **length** of a maximum size turbulent subarray of A.
 
 **Example 1:**
 
+  
 **Input:** \[9,4,2,10,7,8,8,1,9\]
+  
 **Output:** 5
+  
 **Explanation:** (A\[1\] > A\[2\] < A\[3\] > A\[4\] < A\[5\])
+  
 
 **Example 2:**
 
+  
 **Input:** \[4,8,12,16\]
+  
 **Output:** 2
+  
 
 **Example 3:**
 
+  
 **Input:** \[100\]
+  
 **Output:** 1
+  
 
 **Note:**
 

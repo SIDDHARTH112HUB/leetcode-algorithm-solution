@@ -2,23 +2,24 @@
 
 An abbreviation of a word follows the form <first letter><number><last letter>. Below are some examples of word abbreviations:
 
-a) it                      --> it    (no abbreviation)
-
-     1
-     ↓
-b) d|o|g                   --> d1g
-
-              1    1  1
-     1---5----0----5--8
-     ↓   ↓    ↓    ↓  ↓    
-c) i|nternationalizatio|n  --> i18n
-
-              1
-     1---5----0
-     ↓   ↓    ↓
-d) l|ocalizatio|n          --> l10n
-
-Additionally for any string s of size less than or equal to 2 their abbreviation is the same string s.
+  
+a) it                      --> it    (no abbreviation)  
+  
+     1  
+     ↓  
+b) d|o|g                   --> d1g  
+  
+              1    1  1  
+     1---5----0----5--8  
+     ↓   ↓    ↓    ↓  ↓      
+c) i|nternationalizatio|n  --> i18n  
+  
+              1  
+     1---5----0  
+     ↓   ↓    ↓  
+d) l|ocalizatio|n          --> l10n  
+  
+Additionally for any string s of size less than or equal to 2 their abbreviation is the same string s.  
 
 Find whether its abbreviation is unique in the dictionary. A word's abbreviation is called _unique_ if any of the following conditions is met:
 
@@ -27,18 +28,19 @@ Find whether its abbreviation is unique in the dictionary. A word's abbreviation
 
 **Example 1:**
 
-**Input**
-\["ValidWordAbbr","isUnique","isUnique","isUnique","isUnique"\]
-\[\[\["deer","door","cake","card"\]\],\["dear"\],\["cart"\],\["cane"\],\["make"\]\]
-**Output**
-\[null,false,true,false,true\]
-
-**Explanation**
-ValidWordAbbr validWordAbbr = new ValidWordAbbr(\["deer", "door", "cake", "card"\]);
-validWordAbbr.isUnique("dear"); // return False
-validWordAbbr.isUnique("cart"); // return True
-validWordAbbr.isUnique("cane"); // return False
-validWordAbbr.isUnique("make"); // return True
+  
+**Input**  
+\["ValidWordAbbr","isUnique","isUnique","isUnique","isUnique"\]  
+\[\[\["deer","door","cake","card"\]\],\["dear"\],\["cart"\],\["cane"\],\["make"\]\]  
+**Output**  
+\[null,false,true,false,true\]  
+  
+**Explanation**  
+ValidWordAbbr validWordAbbr = new ValidWordAbbr(\["deer", "door", "cake", "card"\]);  
+validWordAbbr.isUnique("dear"); // return False  
+validWordAbbr.isUnique("cart"); // return True  
+validWordAbbr.isUnique("cane"); // return False  
+validWordAbbr.isUnique("make"); // return True  
 
 **Constraints:**
 

@@ -6,12 +6,13 @@ _(A string S is a subsequence of string T if deleting some number of characters 
 
 **Example 1:**
 
-**Input:** str1 = "abac", str2 = "cab"
-**Output:** "cabac"
-**Explanation:** 
-str1 = "abac" is a subsequence of "cabac" because we can delete the first "c".
-str2 = "cab" is a subsequence of "cabac" because we can delete the last "ac".
-The answer provided is the shortest such string that satisfies these properties.
+  
+**Input:** str1 = "abac", str2 = "cab"  
+**Output:** "cabac"  
+**Explanation: **  
+str1 = "abac" is a subsequence of "cabac" because we can delete the first "c".  
+str2 = "cab" is a subsequence of "cabac" because we can delete the last "ac".  
+The answer provided is the shortest such string that satisfies these properties.  
 
 **Note:**
 

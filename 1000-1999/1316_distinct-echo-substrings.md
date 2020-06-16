@@ -4,15 +4,17 @@ Return the number of **distinct** non-empty substrings of `text` that can be wr
 
 **Example 1:**
 
-**Input:** text = "abcabcabc"
-**Output:** 3
-**Explanation:** The 3 substrings are "abcabc", "bcabca" and "cabcab".
+  
+**Input:** text = "abcabcabc"  
+**Output:** 3  
+**Explanation:** The 3 substrings are "abcabc", "bcabca" and "cabcab".  
 
 **Example 2:**
 
-**Input:** text = "leetcodeleetcode"
-**Output:** 2
-**Explanation:** The 2 substrings are "ee" and "leetcodeleetcode".
+  
+**Input:** text = "leetcodeleetcode"  
+**Output:** 2  
+**Explanation:** The 2 substrings are "ee" and "leetcodeleetcode".  
 
 **Constraints:**
 

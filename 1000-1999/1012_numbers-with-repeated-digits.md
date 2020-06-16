@@ -4,20 +4,31 @@ Given a positive integer `N`, return the number of positive integers less than o
 
 **Example 1:**
 
+  
 **Input:** 20
+  
 **Output:** 1
+  
 **Explanation:** The only positive number (<= 20) with at least 1 repeated digit is 11.
+  
 
 **Example 2:**
 
+  
 **Input:** 100
+  
 **Output:** 10
+  
 **Explanation:** The positive numbers (<= 100) with atleast 1 repeated digit are 11, 22, 33, 44, 55, 66, 77, 88, 99, and 100.
+  
 
 **Example 3:**
 
+  
 **Input:** 1000
+  
 **Output:** 262
+  
 
 **Note:**
 

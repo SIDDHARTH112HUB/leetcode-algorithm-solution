@@ -8,27 +8,31 @@ Find the minimal balls you have to insert to remove all the balls on the table. 
 
 **Example 1:**
 
-**Input:** board = "WRRBBW", hand = "RB"
-**Output:** -1
-**Explanation:** WRRBBW -> WRR\[R\]BBW -> WBBW -> WBB\[B\]W -> WW
+  
+**Input:** board = "WRRBBW", hand = "RB"  
+**Output:** -1  
+**Explanation:** WRRBBW -> WRR\[R\]BBW -> WBBW -> WBB\[B\]W -> WW  
 
 **Example 2:**
 
-**Input:** board = "WWRRBBWW", hand = "WRBRW"
-**Output:** 2
-**Explanation:** WWRRBBWW -> WWRR\[R\]BBWW -> WWBBWW -> WWBB\[B\]WW -> WWWW -> empty
+  
+**Input:** board = "WWRRBBWW", hand = "WRBRW"  
+**Output:** 2  
+**Explanation:** WWRRBBWW -> WWRR\[R\]BBWW -> WWBBWW -> WWBB\[B\]WW -> WWWW -> empty  
 
 **Example 3:**
 
-**Input:** board = "G", hand = "GGGGG"
-**Output:** 2
-**Explanation:** G -> G\[G\] -> GG\[G\] -> empty 
+  
+**Input:** board = "G", hand = "GGGGG"  
+**Output:** 2  
+**Explanation:** G -> G\[G\] -> GG\[G\] -> empty   
 
 **Example 4:**
 
-**Input:** board = "RBYYBBRRB", hand = "YRBGB"
-**Output:** 3
-**Explanation:** RBYYBBRRB -> RBYY\[Y\]BBRRB -> RBBBRRB -> RRRB -> B -> B\[B\] -> BB\[B\] -> empty 
+  
+**Input:** board = "RBYYBBRRB", hand = "YRBGB"  
+**Output:** 3  
+**Explanation:** RBYYBBRRB -> RBYY\[Y\]BBRRB -> RBBBRRB -> RRRB -> B -> B\[B\] -> BB\[B\] -> empty   
 
 **Constraints:**
 

@@ -4,17 +4,27 @@ There is an **m** by **n** grid with a ball. Given the start coordinate **(i,j)*
 
 **Example 1:**
 
+  
 **Input:** m = 2, n = 2, N = 2, i = 0, j = 0
+  
 **Output:** 6
+  
 **Explanation:**
+  
 ![](https://assets.leetcode.com/uploads/2018/10/13/out_of_boundary_paths_1.png)
+  
 
 **Example 2:**
 
+  
 **Input:** m = 1, n = 3, N = 3, i = 0, j = 1
+  
 **Output:** 12
+  
 **Explanation:**
+  
 ![](https://assets.leetcode.com/uploads/2018/10/12/out_of_boundary_paths_2.png)
+  
 
 **Note:**
 

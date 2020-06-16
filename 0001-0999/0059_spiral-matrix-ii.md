@@ -4,12 +4,19 @@ Given a positive integer _n_, generate a square matrix filled with elements from
 
 **Example:**
 
+  
 **Input:** 3
+  
 **Output:**
+  
 \[
+  
  \[ 1, 2, 3 \],
+  
  \[ 8, 9, 4 \],
+  
  \[ 7, 6, 5 \]
+  
 \]  
 
 

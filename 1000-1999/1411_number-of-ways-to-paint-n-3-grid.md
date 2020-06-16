@@ -8,30 +8,47 @@ Return _the number of ways_ you can paint this `grid`. As the answer may grow la
 
 **Example 1:**
 
+  
 **Input:** n = 1
+  
 **Output:** 12
+  
 **Explanation:** There are 12 possible way to paint the grid as shown:
+  
 ![](https://assets.leetcode.com/uploads/2020/03/26/e1.png)
+  
 
 **Example 2:**
 
+  
 **Input:** n = 2
+  
 **Output:** 54
+  
 
 **Example 3:**
 
+  
 **Input:** n = 3
+  
 **Output:** 246
+  
 
 **Example 4:**
 
+  
 **Input:** n = 7
+  
 **Output:** 106494
+  
 
 **Example 5:**
 
+  
 **Input:** n = 5000
+  
 **Output:** 30228214
+  
 
 **Constraints:**
 

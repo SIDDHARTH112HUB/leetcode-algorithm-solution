@@ -10,28 +10,43 @@ Return a list of all universal words in `A`.  You can return the words in any o
 
 **Example 1:**
 
+  
 **Input:** A = \["amazon","apple","facebook","google","leetcode"\], B = \["e","o"\]
+  
 **Output:** \["facebook","google","leetcode"\]
+  
 
 **Example 2:**
 
+  
 **Input:** A = \["amazon","apple","facebook","google","leetcode"\], B = \["l","e"\]
+  
 **Output:** \["apple","google","leetcode"\]
+  
 
 **Example 3:**
 
+  
 **Input:** A = \["amazon","apple","facebook","google","leetcode"\], B = \["e","oo"\]
+  
 **Output:** \["facebook","google"\]
+  
 
 **Example 4:**
 
+  
 **Input:** A = \["amazon","apple","facebook","google","leetcode"\], B = \["lo","eo"\]
+  
 **Output:** \["google","leetcode"\]
+  
 
 **Example 5:**
 
+  
 **Input:** A = \["amazon","apple","facebook","google","leetcode"\], B = \["ec","oc","ceo"\]
+  
 **Output:** \["facebook","leetcode"\]
+  
 
 **Note:**
 

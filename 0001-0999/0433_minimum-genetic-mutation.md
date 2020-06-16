@@ -18,26 +18,43 @@ Now, given 3 things - start, end, bank, your task is to determine what is the mi
 
 **Example 1:**
 
+  
 start: "AACCGGTT"
+  
 end:   "AACCGGTA"
+  
 bank: \["AACCGGTA"\]
+  
 
+  
 return: 1
+  
 
 **Example 2:**
 
+  
 start: "AACCGGTT"
+  
 end:   "AAACGGTA"
+  
 bank: \["AACCGGTA", "AACCGCTA", "AAACGGTA"\]
+  
 
+  
 return: 2
+  
 
 **Example 3:**
 
+  
 start: "AAAAACCC"
+  
 end:   "AACCCCCC"
+  
 bank: \["AAAACCCC", "AAACCCCC", "AACCCCCC"\]
+  
 
+  
 return: 3  
 
 

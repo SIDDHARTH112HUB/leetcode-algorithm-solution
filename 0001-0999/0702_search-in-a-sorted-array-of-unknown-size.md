@@ -6,14 +6,21 @@ You may assume all integers in the array are less than `10000`, and if you acce
 
 **Example 1:**
 
+  
 **Input:** `array` = \[-1,0,3,5,9,12\], `target` = 9
+  
 **Output:** 4
+  
 **Explanation:** 9 exists in `nums` and its index is 4
+  
 
 **Example 2:**
 
+  
 **Input:** `array` = \[-1,0,3,5,9,12\], `target` = 2
+  
 **Output:** -1
+  
 **Explanation:** 2 does not exist in `nums` so return -1
 
 **Note:**

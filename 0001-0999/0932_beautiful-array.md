@@ -8,12 +8,17 @@ Given `N`, return **any** beautiful array `A`.  (It is guaranteed that one exis
 
 **Example 1:**
 
+  
 **Input:** 4
+  
 **Output:** \[2,1,4,3\]
+  
 
 **Example 2:**
 
+  
 **Input:** 5
+  
 **Output:** \[3,1,2,5,4\]
 
 **Note:**

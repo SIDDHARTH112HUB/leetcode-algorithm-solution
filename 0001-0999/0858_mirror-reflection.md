@@ -8,11 +8,17 @@ Return the number of the receptor that the ray meets first.  (It is guaranteed 
 
 **Example 1:**
 
+  
 **Input:** p = 2, q = 1
+  
 **Output:** 2
+  
 **Explanation:** The ray meets receptor 2 the first time it gets reflected back to the left wall.
+  
 
 ![](https://ibb.co/mYSFJT)![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/18/reflection.png)
+
+  
 
 **Note:**
 

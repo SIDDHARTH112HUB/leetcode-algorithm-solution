@@ -4,24 +4,37 @@ Given an array of integers `A` with even length, return `true` if and only if i
 
 **Example 1:**
 
+  
 **Input:** \[3,1,3,6\]
+  
 **Output:** false
+  
 
 **Example 2:**
 
+  
 **Input:** \[2,1,2,6\]
+  
 **Output:** false
+  
 
 **Example 3:**
 
+  
 **Input:** \[4,-2,2,-4\]
+  
 **Output:** true
+  
 **Explanation:** We can take two groups, \[-2,-4\] and \[2,4\] to form \[-2,-4,2,4\] or \[2,4,-2,-4\].
+  
 
 **Example 4:**
 
+  
 **Input:** \[1,2,4,16,8,4\]
+  
 **Output:** false
+  
 
 **Note:**
 

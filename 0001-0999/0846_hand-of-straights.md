@@ -8,15 +8,17 @@ Return `true` if and only if she can.
 
 **Example 1:**
 
-**Input:** hand = \[1,2,3,6,2,3,4,7,8\], W = 3
-**Output:** true
+  
+**Input:** hand = \[1,2,3,6,2,3,4,7,8\], W = 3  
+**Output:** true  
 **Explanation:** Alice's `hand` can be rearranged as `[1,2,3],[2,3,4],[6,7,8]`.
 
 **Example 2:**
 
-**Input:** hand = \[1,2,3,4,5\], W = 4
-**Output:** false
-**Explanation:** Alice's `hand` can't be rearranged into groups of `4`.
+  
+**Input:** hand = \[1,2,3,4,5\], W = 4  
+**Output:** false  
+**Explanation:** Alice's `hand` can't be rearranged into groups of `4`.  
 
 **Constraints:**
 

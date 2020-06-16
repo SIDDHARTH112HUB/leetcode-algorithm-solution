@@ -6,25 +6,43 @@ Given two integers `L` and `R`, find the count of numbers in the range `[L, R]` 
 
 **Example 1:**  
 
+  
 **Input:** L = 6, R = 10
+  
 **Output:** 4
+  
 **Explanation:**
+  
 6 -> 110 (2 set bits, 2 is prime)
+  
 7 -> 111 (3 set bits, 3 is prime)
+  
 9 -> 1001 (2 set bits , 2 is prime)
+  
 10->1010 (2 set bits , 2 is prime)
+  
 
 **Example 2:**  
 
+  
 **Input:** L = 10, R = 15
+  
 **Output:** 5
+  
 **Explanation:**
+  
 10 -> 1010 (2 set bits, 2 is prime)
+  
 11 -> 1011 (3 set bits, 3 is prime)
+  
 12 -> 1100 (2 set bits, 2 is prime)
+  
 13 -> 1101 (3 set bits, 3 is prime)
+  
 14 -> 1110 (3 set bits, 3 is prime)
+  
 15 -> 1111 (4 set bits, 4 is not prime)
+  
 
 **Note:**  
 

@@ -20,14 +20,21 @@ Return a string representing the final state. 
 
 **Example 1:**
 
+  
 **Input:** ".L.R...LR..L.."
+  
 **Output:** "LL.RR.LLRRLL.."
+  
 
 **Example 2:**
 
+  
 **Input:** "RR.L"
+  
 **Output:** "RR.L"
+  
 **Explanation:** The first domino expends no additional force on the second domino.
+  
 
 **Note:**
 

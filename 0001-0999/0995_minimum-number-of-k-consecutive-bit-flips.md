@@ -6,24 +6,39 @@ Return the minimum number of `K`\-bit flips required so that there is no 0 in th
 
 **Example 1:**
 
+  
 **Input:** A = \[0,1,0\], K = 1
+  
 **Output:** 2
+  
 **Explanation:** Flip A\[0\], then flip A\[2\].
+  
 
 **Example 2:**
 
+  
 **Input:** A = \[1,1,0\], K = 2
+  
 **Output:** \-1
+  
 **Explanation:** No matter how we flip subarrays of size 2, we can't make the array become \[1,1,1\].
+  
 
 **Example 3:**
 
+  
 **Input:** A = \[0,0,0,1,0,1,1,0\], K = 3
+  
 **Output:** 3
+  
 **Explanation:**
+  
 Flip A\[0\],A\[1\],A\[2\]: A becomes \[1,1,1,1,0,1,1,0\]
+  
 Flip A\[4\],A\[5\],A\[6\]: A becomes \[1,1,1,1,1,0,0,0\]
+  
 Flip A\[5\],A\[6\],A\[7\]: A becomes \[1,1,1,1,1,1,1,1\]
+  
 
 **Note:**
 

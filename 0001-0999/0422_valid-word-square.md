@@ -12,62 +12,115 @@ A sequence of words forms a valid word square if the _k_th row and column read t
 
 **Example 1:**
 
+  
 **Input:**
+  
 \[
+  
   "abcd",
+  
   "bnrt",
+  
   "crmy",
+  
   "dtye"
+  
 \]
+  
 
+  
 **Output:**
+  
 true
+  
 
+  
 **Explanation:**
+  
 The first row and first column both read "abcd".
+  
 The second row and second column both read "bnrt".
+  
 The third row and third column both read "crmy".
+  
 The fourth row and fourth column both read "dtye".
+  
 
+  
 Therefore, it is a valid word square.
+  
 
 **Example 2:**
 
+  
 **Input:**
+  
 \[
+  
   "abcd",
+  
   "bnrt",
+  
   "crm",
+  
   "dt"
+  
 \]
+  
 
+  
 **Output:**
+  
 true
+  
 
+  
 **Explanation:**
+  
 The first row and first column both read "abcd".
+  
 The second row and second column both read "bnrt".
+  
 The third row and third column both read "crm".
+  
 The fourth row and fourth column both read "dt".
+  
 
+  
 Therefore, it is a valid word square.
+  
 
 **Example 3:**
 
+  
 **Input:**
+  
 \[
+  
   "ball",
+  
   "area",
+  
   "read",
+  
   "lady"
+  
 \]
+  
 
+  
 **Output:**
+  
 false
+  
 
+  
 **Explanation:**
+  
 The third row reads "read" while the third column reads "lead".
+  
 
+  
 Therefore, it is **NOT** a valid word square.  
 
 

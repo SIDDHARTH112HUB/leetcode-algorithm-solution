@@ -4,15 +4,23 @@ Given a `text` string and `words` (a list of strings), return all index pairs `
 
 **Example 1:**
 
+  
 **Input:** text = "thestoryofleetcodeandme", words = \["story","fleet","leetcode"\]
+  
 **Output:** \[\[3,7\],\[9,13\],\[10,17\]\]
+  
 
 **Example 2:**
 
+  
 **Input:** text = "ababa", words = \["aba","ab"\]
+  
 **Output:** \[\[0,1\],\[0,2\],\[2,3\],\[2,4\]\]
+  
 **Explanation:** 
+  
 Notice that matches can overlap, see "aba" is found in \[0,2\] and \[2,4\].
+  
 
 **Note:**
 

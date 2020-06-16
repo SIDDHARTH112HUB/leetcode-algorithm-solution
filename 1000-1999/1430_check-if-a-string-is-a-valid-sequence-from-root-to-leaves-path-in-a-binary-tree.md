@@ -8,28 +8,31 @@ We get the given string from the concatenation of an array of integers `arr` and
 
 **![](https://assets.leetcode.com/uploads/2019/12/18/leetcode_testcase_1.png)**
 
-**Input:** root = \[0,1,0,0,1,0,null,null,1,0,0\], arr = \[0,1,0,1\]
-**Output:** true
-**Explanation:** The path 0 -> 1 -> 0 -> 1 is a valid sequence (green color in the figure). 
-Other valid sequences are: 
-0 -> 1 -> 1 -> 0 
-0 -> 0 -> 0
+  
+**Input:** root = \[0,1,0,0,1,0,null,null,1,0,0\], arr = \[0,1,0,1\]  
+**Output:** true  
+**Explanation:** The path 0 -> 1 -> 0 -> 1 is a valid sequence (green color in the figure).   
+Other valid sequences are:   
+0 -> 1 -> 1 -> 0   
+0 -> 0 -> 0  
 
 **Example 2:**
 
 **![](https://assets.leetcode.com/uploads/2019/12/18/leetcode_testcase_2.png)**
 
-**Input:** root = \[0,1,0,0,1,0,null,null,1,0,0\], arr = \[0,0,1\]
-**Output:** false 
-**Explanation:** The path 0 -> 0 -> 1 does not exist, therefore it is not even a sequence.
+  
+**Input:** root = \[0,1,0,0,1,0,null,null,1,0,0\], arr = \[0,0,1\]  
+**Output:** false   
+**Explanation:** The path 0 -> 0 -> 1 does not exist, therefore it is not even a sequence.  
 
 **Example 3:**
 
 **![](https://assets.leetcode.com/uploads/2019/12/18/leetcode_testcase_3.png)**
 
-**Input:** root = \[0,1,0,0,1,0,null,null,1,0,0\], arr = \[0,1,1\]
-**Output:** false
-**Explanation:** The path 0 -> 1 -> 1 is a sequence, but it is not a valid sequence.
+  
+**Input:** root = \[0,1,0,0,1,0,null,null,1,0,0\], arr = \[0,1,1\]  
+**Output:** false  
+**Explanation:** The path 0 -> 1 -> 1 is a sequence, but it is not a valid sequence.  
 
 **Constraints:**
 

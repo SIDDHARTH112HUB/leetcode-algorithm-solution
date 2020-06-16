@@ -10,13 +10,15 @@ Given the `label` of a node in this tree, return the labels in the path from the
 
 **Example 1:**
 
-**Input:** label = 14
-**Output:** \[1,3,4,14\]
+  
+**Input:** label = 14  
+**Output:** \[1,3,4,14\]  
 
 **Example 2:**
 
-**Input:** label = 26
-**Output:** \[1,2,6,10,26\]
+  
+**Input:** label = 26  
+**Output:** \[1,2,6,10,26\]  
 
 **Constraints:**
 

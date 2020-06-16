@@ -8,19 +8,21 @@ The tree is given as an array of `edges` where `edges[i] = [u, v]` is a bidir
 
 ![](https://assets.leetcode.com/uploads/2019/06/14/1397_example_1.PNG)
 
-**Input:** edges = \[\[0,1\],\[0,2\]\]
-**Output:** 2
-**Explanation:** 
-A longest path of the tree is the path 1 - 0 - 2.
+  
+**Input:** edges = \[\[0,1\],\[0,2\]\]  
+**Output:** 2  
+**Explanation: **  
+A longest path of the tree is the path 1 - 0 - 2.  
 
 **Example 2:**
 
 ![](https://assets.leetcode.com/uploads/2019/06/14/1397_example_2.PNG)
 
-**Input:** edges = \[\[0,1\],\[1,2\],\[2,3\],\[1,4\],\[4,5\]\]
-**Output:** 4
-**Explanation:** 
-A longest path of the tree is the path 3 - 2 - 1 - 4 - 5.
+  
+**Input:** edges = \[\[0,1\],\[1,2\],\[2,3\],\[1,4\],\[4,5\]\]  
+**Output:** 4  
+**Explanation: **  
+A longest path of the tree is the path 3 - 2 - 1 - 4 - 5.  
 
 **Constraints:**
 

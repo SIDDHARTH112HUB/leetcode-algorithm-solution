@@ -14,8 +14,9 @@ After doing so, return the number of nodes remaining in the tree.
 
 ![](https://assets.leetcode.com/uploads/2019/07/02/1421_sample_1.PNG)
 
-**Input:** nodes = 7, parent = \[-1,0,0,1,2,2,2\], value = \[1,-2,4,0,-2,-1,-1\]
-**Output:** 2
+  
+**Input:** nodes = 7, parent = \[-1,0,0,1,2,2,2\], value = \[1,-2,4,0,-2,-1,-1\]  
+**Output:** 2  
 
 **Constraints:**
 

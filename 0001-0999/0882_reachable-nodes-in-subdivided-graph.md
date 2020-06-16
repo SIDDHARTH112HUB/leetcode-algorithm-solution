@@ -16,15 +16,23 @@ Return how many nodes you can reach in at most `M` moves.
 
 **Example 1:**
 
+  
 **Input:** `edges` \= \[\[0,1,10\],\[0,2,1\],\[1,2,2\]\], M = 6, N = 3
+  
 **Output:** 13
+  
 **Explanation:** 
+  
 The nodes that are reachable in the final graph after M = 6 moves are indicated below.
+  
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/01/origfinal.png)
+  
 
 **Example 2:**
 
+  
 **Input:** `edges` \= \[\[0,1,4\],\[1,2,6\],\[0,2,8\],\[1,3,1\]\], M = 10, N = 4
+  
 **Output:** 23
 
 **Note:**

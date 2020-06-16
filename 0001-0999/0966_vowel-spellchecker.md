@@ -24,7 +24,9 @@ Given some `queries`, return a list of words `answer`, where `answer[i]` is t
 
 **Example 1:**
 
+  
 **Input:** wordlist = \["KiTe","kite","hare","Hare"\], queries = \["kite","Kite","KiTe","Hare","HARE","Hear","hear","keti","keet","keto"\]
+  
 **Output:** \["kite","KiTe","KiTe","Hare","hare","","","KiTe","","KiTe"\]
 
 **Note:**

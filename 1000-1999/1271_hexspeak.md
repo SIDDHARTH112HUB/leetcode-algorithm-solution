@@ -6,14 +6,16 @@ Given a string `num` representing a decimal integer `N`, return the Hexspeak re
 
 **Example 1:**
 
-**Input:** num = "257"
-**Output:** "IOI"
-**Explanation: ** 257 is 101 in hexadecimal.
+  
+**Input:** num = "257"  
+**Output:** "IOI"  
+**Explanation: ** 257 is 101 in hexadecimal.  
 
 **Example 2:**
 
-**Input:** num = "3"
-**Output:** "ERROR"
+  
+**Input:** num = "3"  
+**Output:** "ERROR"  
 
 **Constraints:**
 

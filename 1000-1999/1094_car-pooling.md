@@ -8,23 +8,27 @@ Return `true` if and only if it is possible to pick up and drop off all passeng
 
 **Example 1:**
 
-**Input:** trips = \[\[2,1,5\],\[3,3,7\]\], capacity = 4
-**Output:** false
+  
+**Input:** trips = \[\[2,1,5\],\[3,3,7\]\], capacity = 4  
+**Output:** false  
 
 **Example 2:**
 
-**Input:** trips = \[\[2,1,5\],\[3,3,7\]\], capacity = 5
-**Output:** true
+  
+**Input:** trips = \[\[2,1,5\],\[3,3,7\]\], capacity = 5  
+**Output:** true  
 
 **Example 3:**
 
-**Input:** trips = \[\[2,1,5\],\[3,5,7\]\], capacity = 3
-**Output:** true
+  
+**Input:** trips = \[\[2,1,5\],\[3,5,7\]\], capacity = 3  
+**Output:** true  
 
 **Example 4:**
 
-**Input:** trips = \[\[3,2,7\],\[3,7,9\],\[8,3,9\]\], capacity = 11
-**Output:** true
+  
+**Input:** trips = \[\[3,2,7\],\[3,7,9\],\[8,3,9\]\], capacity = 11  
+**Output:** true  
 
 **Constraints:**
 

@@ -6,13 +6,19 @@ If possible, output any possible result.  If not possible, return the empty str
 
 **Example 1:**
 
+  
 **Input:** S = "aab"
+  
 **Output:** "aba"
+  
 
 **Example 2:**
 
+  
 **Input:** S = "aaab"
+  
 **Output:** ""
+  
 
 **Note:**
 

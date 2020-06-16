@@ -12,23 +12,27 @@ An expression can either be:
 
 **Example 1:**
 
-**Input:** expression = "!(f)"
-**Output:** true
+  
+**Input:** expression = "!(f)"  
+**Output:** true  
 
 **Example 2:**
 
-**Input:** expression = "|(f,t)"
-**Output:** true
+  
+**Input:** expression = "|(f,t)"  
+**Output:** true  
 
 **Example 3:**
 
-**Input:** expression = "&(t,f)"
-**Output:** false
+  
+**Input:** expression = "&(t,f)"  
+**Output:** false  
 
 **Example 4:**
 
-**Input:** expression = "|(&(t,f,t),!(t))"
-**Output:** false
+  
+**Input:** expression = "|(&(t,f,t),!(t))"  
+**Output:** false  
 
 **Constraints:**
 

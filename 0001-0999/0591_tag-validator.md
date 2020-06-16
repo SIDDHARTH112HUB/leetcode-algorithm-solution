@@ -13,48 +13,89 @@ Given a string representing a code snippet, you need to implement a tag validato
 
 **Valid Code Examples:**  
 
+  
 **Input:** "<DIV>This is the first line <!\[CDATA\[<div>\]\]></DIV>"  
+  
 **Output:** True  
+  
 **Explanation:**   
+  
 The code is wrapped in a closed tag : <DIV> and </DIV>.   
+  
 The TAG\_NAME is valid, the TAG\_CONTENT consists of some characters and cdata.   
+  
 Although CDATA\_CONTENT has unmatched start tag with invalid TAG\_NAME, it should be considered as plain text, not parsed as tag.  
+  
 So TAG\_CONTENT is valid, and then the code is valid. Thus return true.  
+  
 
+  
 **Input:** "<DIV>>>  !\[cdata\[\]\] <!\[CDATA\[<div>\]>\]\]>\]\]>>\]</DIV>"  
+  
 **Output:** True  
+  
 **Explanation:**  
+  
 We first separate the code into : start\_tag|tag\_content|end\_tag.  
+  
 start\_tag -> **"<DIV>"**  
+  
 end\_tag -> **"</DIV>"**  
+  
 tag\_content could also be separated into : text1|cdata|text2.  
+  
 text1 -> **">>  !\[cdata\[\]\] "**  
+  
 cdata -> **"<!\[CDATA\[<div>\]>\]\]>"**, where the CDATA\_CONTENT is **"<div>\]>"**  
+  
 text2 -> **"\]\]>>\]"**  
+  
 
+  
 The reason why start\_tag is NOT **"<DIV>>>"** is because of the rule 6.
+  
 The reason why cdata is NOT **"<!\[CDATA\[<div>\]>\]\]>\]\]>"** is because of the rule 7.
+  
 
 **Invalid Code Examples:**  
 
+  
 **Input:** "<A>  <B> </A>   </B>"
+  
 **Output:** False
+  
 **Explanation:** Unbalanced. If "<A>" is closed, then "<B>" must be unmatched, and vice versa.
+  
 
+  
 **Input:** "<DIV>  div tag is not closed  <DIV>"
+  
 **Output:** False
+  
 
+  
 **Input:** "<DIV>  unmatched <  </DIV>"
+  
 **Output:** False
+  
 
+  
 **Input:** "<DIV> closed tags with invalid tag name  <b>123</b> </DIV>"
+  
 **Output:** False
+  
 
+  
 **Input:** "<DIV> unmatched tags with invalid tag name  </1234567890> and <CDATA\[\[\]\]>  </DIV>"
+  
 **Output:** False
+  
 
+  
 **Input:** "<DIV>  unmatched start tag <B>  and unmatched end tag </C>  </DIV>"
+  
 **Output:** False
+  
 
 **Note:**  
 

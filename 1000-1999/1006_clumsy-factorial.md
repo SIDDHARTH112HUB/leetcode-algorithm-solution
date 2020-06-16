@@ -12,13 +12,19 @@ Additionally, the division that we use is _floor division_ such that `10 * 9 /
 
 **Example 1:**
 
+  
 **Input:** 4
+  
 **Output:** 7
+  
 **Explanation:** 7 = 4 \* 3 / 2 + 1
+  
 
 **Example 2:**
 
+  
 **Input:** 10 **Output:** 12 **Explanation:** 12 = 10 \* 9 / 8 + 7 - 6 \* 5 / 4 + 3 - 2 \* 1
+  
 
 **Note:**
 

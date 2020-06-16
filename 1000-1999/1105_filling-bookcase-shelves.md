@@ -14,11 +14,12 @@ Return the minimum possible height that the total bookshelf can be after placing
 
 ![](https://assets.leetcode.com/uploads/2019/06/24/shelves.png)
 
-**Input:** books = \[\[1,1\],\[2,3\],\[2,3\],\[1,1\],\[1,1\],\[1,1\],\[1,2\]\], shelf\_width = 4
-**Output:** 6
-**Explanation:**
-The sum of the heights of the 3 shelves are 1 + 3 + 2 = 6.
-Notice that book number 2 does not have to be on the first shelf.
+  
+**Input:** books = \[\[1,1\],\[2,3\],\[2,3\],\[1,1\],\[1,1\],\[1,1\],\[1,2\]\], shelf\_width = 4  
+**Output:** 6  
+**Explanation:**  
+The sum of the heights of the 3 shelves are 1 + 3 + 2 = 6.  
+Notice that book number 2 does not have to be on the first shelf.  
 
 **Constraints:**
 

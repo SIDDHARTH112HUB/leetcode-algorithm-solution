@@ -8,7 +8,9 @@ The digits are stored such that the most significant digit is at the head of the
 
 **Example :**
 
+  
 **Input:** \[1,2,3\]
+  
 **Output:** \[1,2,4\]  
 
 

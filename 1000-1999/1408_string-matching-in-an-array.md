@@ -6,21 +6,33 @@ String `words[i]` is substring of `words[j]`, if can be obtained removing some
 
 **Example 1:**
 
+  
 **Input:** words = \["mass","as","hero","superhero"\]
+  
 **Output:** \["as","hero"\]
+  
 **Explanation:** "as" is substring of "mass" and "hero" is substring of "superhero".
+  
 \["hero","as"\] is also a valid answer.
+  
 
 **Example 2:**
 
+  
 **Input:** words = \["leetcode","et","code"\]
+  
 **Output:** \["et","code"\]
+  
 **Explanation:** "et", "code" are substring of "leetcode".
+  
 
 **Example 3:**
 
+  
 **Input:** words = \["blue","green","bu"\]
+  
 **Output:** \[\]
+  
 
 **Constraints:**
 

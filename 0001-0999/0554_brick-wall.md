@@ -10,17 +10,29 @@ If your line go through the edge of a brick, then the brick is not considered as
 
 **Example:**
 
+  
 **Input:** \[\[1,2,2,1\],
+  
         \[3,1,2\],
+  
         \[1,3,2\],
+  
         \[2,4\],
+  
         \[3,1,2\],
+  
         \[1,3,1,1\]\]
+  
 
+  
 **Output:** 2
+  
 
+  
 **Explanation:** 
+  
 ![](https://assets.leetcode.com/uploads/2018/10/12/brick_wall.png)
+  
 
 **Note:**
 

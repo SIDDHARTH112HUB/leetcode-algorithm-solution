@@ -10,15 +10,23 @@ Return the **length** of `left` after such a partitioning.  It is guaranteed th
 
 **Example 1:**
 
+  
 **Input:** \[5,0,3,8,6\]
+  
 **Output:** 3
+  
 **Explanation:** left = \[5,0,3\], right = \[8,6\]
+  
 
 **Example 2:**
 
+  
 **Input:** \[1,1,1,0,6,12\]
+  
 **Output:** 4
+  
 **Explanation:** left = \[1,1,1,0\], right = \[6,12\]
+  
 
 **Note:**
 

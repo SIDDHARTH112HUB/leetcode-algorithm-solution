@@ -6,19 +6,29 @@ All input strings are given in lowercase letters. If it is not possible to rearr
 
 **Example 1:**
 
+  
 **Input:** s = "aabbcc", k = 3
+  
 **Output:** "abcabc" 
+  
 **Explanation:** The same letters are at least distance 3 from each other.
+  
 
 **Example 2:**
 
+  
 **Input:** s = "aaabc", k = 3
+  
 **Output:** "" 
+  
 **Explanation:** It is not possible to rearrange the string.
+  
 
 **Example 3:**
 
+  
 **Input:** s = "aaadbbcc", k = 2
+  
 **Output:** "abacabcd" **Explanation:** The same letters are at least distance 2 from each other.  
 
 

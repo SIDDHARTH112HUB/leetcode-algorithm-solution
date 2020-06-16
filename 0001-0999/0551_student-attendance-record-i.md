@@ -12,12 +12,17 @@ You need to return whether the student could be rewarded according to his attend
 
 **Example 1:**  
 
+  
 **Input:** "PPALLP"
+  
 **Output:** True
+  
 
 **Example 2:**  
 
+  
 **Input:** "PPALLL"
+  
 **Output:** False  
 
 

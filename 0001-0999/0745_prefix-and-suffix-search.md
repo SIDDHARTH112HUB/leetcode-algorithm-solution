@@ -6,10 +6,15 @@ Design a class `WordFilter` that supports one function, `WordFilter.f(String pre
 
 **Examples:**
 
+  
 **Input:**
+  
 WordFilter(\["apple"\])
+  
 WordFilter.f("a", "e") // returns 0
+  
 WordFilter.f("b", "") // returns -1
+  
 
 **Note:**
 

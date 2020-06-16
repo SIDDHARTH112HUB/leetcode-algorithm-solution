@@ -10,19 +10,21 @@ If no land or water exists in the grid, return `-1`.
 
 **![](https://assets.leetcode.com/uploads/2019/05/03/1336_ex1.JPG)**
 
-**Input:** \[\[1,0,1\],\[0,0,0\],\[1,0,1\]\]
-**Output:** 2
-**Explanation:** 
-The cell (1, 1) is as far as possible from all the land with distance 2.
+  
+**Input:** \[\[1,0,1\],\[0,0,0\],\[1,0,1\]\]  
+**Output:** 2  
+**Explanation: **  
+The cell (1, 1) is as far as possible from all the land with distance 2.  
 
 **Example 2:**
 
 **![](https://assets.leetcode.com/uploads/2019/05/03/1336_ex2.JPG)**
 
-**Input:** \[\[1,0,0\],\[0,0,0\],\[0,0,0\]\]
-**Output:** 4
-**Explanation:** 
-The cell (2, 2) is as far as possible from all the land with distance 4.
+  
+**Input:** \[\[1,0,0\],\[0,0,0\],\[0,0,0\]\]  
+**Output:** 4  
+**Explanation: **  
+The cell (2, 2) is as far as possible from all the land with distance 4.  
 
 **Note:**
 

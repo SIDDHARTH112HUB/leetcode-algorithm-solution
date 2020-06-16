@@ -10,15 +10,25 @@ For example, after one cup of champagne is poured, the top most glass is full. 
 
 Now after pouring some non-negative integer cups of champagne, return how full the j-th glass in the i-th row is (both i and j are 0 indexed.)
 
+  
 **Example 1:**
+  
 **Input:** poured = 1, query\_glass = 1, query\_row = 1
+  
 **Output:** 0.0
+  
 **Explanation:** We poured 1 cup of champange to the top glass of the tower (which is indexed as (0, 0)). There will be no excess liquid so all the glasses under the top glass will remain empty.
+  
 
+  
 **Example 2:**
+  
 **Input:** poured = 2, query\_glass = 1, query\_row = 1
+  
 **Output:** 0.5
+  
 **Explanation:** We poured 2 cups of champange to the top glass of the tower (which is indexed as (0, 0)). There is one cup of excess liquid. The glass indexed as (1, 0) and the glass indexed as (1, 1) will share the excess liquid equally, and each will get half cup of champange.
+  
 
 **Note:**
 

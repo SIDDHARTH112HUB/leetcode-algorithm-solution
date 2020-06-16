@@ -8,10 +8,15 @@ Could you do this in O(_n_) runtime?
 
 **Example:**
 
+  
 **Input:** \[3, 10, 5, 25, 2, 8\]
+  
 
+  
 **Output:** 28
+  
 
+  
 **Explanation:** The maximum result is **5** ^ **25** = 28.  
 
 

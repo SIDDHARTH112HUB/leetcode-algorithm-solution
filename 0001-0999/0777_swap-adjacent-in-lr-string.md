@@ -4,15 +4,16 @@ In a string composed of `'L'`, `'R'`, and `'X'` characters, like `"RXXLRXRXL"`, 
 
 **Example:**
 
-**Input:** start = "RXXLRXRXL", end = "XRLXXRRLX"
-**Output:** True
-**Explanation:**
-We can transform start to end following these steps:
-RXXLRXRXL ->
-XRXLRXRXL ->
-XRLXRXRXL ->
-XRLXXRRXL ->
-XRLXXRRLX
+  
+**Input:** start = "RXXLRXRXL", end = "XRLXXRRLX"  
+**Output:** True  
+**Explanation:**  
+We can transform start to end following these steps:  
+RXXLRXRXL ->  
+XRXLRXRXL ->  
+XRLXRXRXL ->  
+XRLXXRRXL ->  
+XRLXXRRLX  
 
 **Constraints:**
 

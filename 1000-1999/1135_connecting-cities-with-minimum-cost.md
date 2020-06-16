@@ -10,19 +10,21 @@ Return the minimum cost so that for every pair of cities, there exists a path o
 
 ![](https://assets.leetcode.com/uploads/2019/04/20/1314_ex2.png)
 
-**Input:** N = 3, connections = \[\[1,2,5\],\[1,3,6\],\[2,3,1\]\]
-**Output:** 6
-**Explanation:** 
-Choosing any 2 edges will connect all cities so we choose the minimum 2.
+  
+**Input:** N = 3, connections = \[\[1,2,5\],\[1,3,6\],\[2,3,1\]\]  
+**Output:** 6  
+**Explanation: **  
+Choosing any 2 edges will connect all cities so we choose the minimum 2.  
 
 **Example 2:**
 
 ![](https://assets.leetcode.com/uploads/2019/04/20/1314_ex1.png)
 
-**Input:** N = 4, connections = \[\[1,2,3\],\[3,4,4\]\]
-**Output:** \-1
-**Explanation:** 
-There is no way to connect all cities even if all edges are used.
+  
+**Input:** N = 4, connections = \[\[1,2,3\],\[3,4,4\]\]  
+**Output:** \-1  
+**Explanation: **  
+There is no way to connect all cities even if all edges are used.  
 
 **Note:**
 

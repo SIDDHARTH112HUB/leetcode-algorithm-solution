@@ -6,13 +6,19 @@ A concatenated word is defined as a string that is comprised entirely of at leas
 
 **Example:**  
 
+  
 **Input:** \["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"\]
+  
 
+  
 **Output:** \["catsdogcats","dogcatsdog","ratcatdogcat"\]
+  
 
+  
 **Explanation:** "catsdogcats" can be concatenated by "cats", "dog" and "cats";   
  "dogcatsdog" can be concatenated by "dog", "cats" and "dog";   
 "ratcatdogcat" can be concatenated by "rat", "cat", "dog" and "cat".
+  
 
 **Note:**  
 

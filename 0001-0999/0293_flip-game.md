@@ -6,13 +6,21 @@ Write a function to compute all possible states of the string after one valid mo
 
 **Example:**
 
+  
 **Input:** `s = "++++"`
+  
 **Output:** 
+  
 \[
+  
   "--++",
+  
   "+--+",
+  
   "++--"
+  
 \]
+  
 
 **Note:** If there is no valid move, return an empty list `[]`.  
 

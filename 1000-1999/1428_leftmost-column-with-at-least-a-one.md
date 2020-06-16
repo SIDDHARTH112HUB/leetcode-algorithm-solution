@@ -19,29 +19,40 @@ For custom testing purposes you're given the binary matrix `mat` as input in t
 
 **![](https://assets.leetcode.com/uploads/2019/10/25/untitled-diagram-5.jpg)**
 
+  
 **Input:** mat = \[\[0,0\],\[1,1\]\]
+  
 **Output:** 0
+  
 
 **Example 2:**
 
 **![](https://assets.leetcode.com/uploads/2019/10/25/untitled-diagram-4.jpg)**
 
+  
 **Input:** mat = \[\[0,0\],\[0,1\]\]
+  
 **Output:** 1
+  
 
 **Example 3:**
 
 **![](https://assets.leetcode.com/uploads/2019/10/25/untitled-diagram-3.jpg)**
 
+  
 **Input:** mat = \[\[0,0\],\[0,0\]\]
+  
 **Output:** -1
 
 **Example 4:**
 
 **![](https://assets.leetcode.com/uploads/2019/10/25/untitled-diagram-6.jpg)**
 
+  
 **Input:** mat = \[\[0,0,0,1\],\[0,0,1,1\],\[0,1,1,1\]\]
+  
 **Output:** 1
+  
 
 **Constraints:**
 

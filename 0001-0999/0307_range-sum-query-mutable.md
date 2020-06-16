@@ -6,11 +6,17 @@ The _update(i, val)_ function modifies _nums_ by updating the element at index _
 
 **Example:**
 
+  
 Given nums = \[1, 3, 5\]
+  
 
+  
 sumRange(0, 2) -> 9
+  
 update(1, 2)
+  
 sumRange(0, 2) -> 8
+  
 
 **Note:**
 

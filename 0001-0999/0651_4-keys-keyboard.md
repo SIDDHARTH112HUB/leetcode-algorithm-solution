@@ -14,19 +14,31 @@ Now, you can only press the keyboard for **N** times (with the above four keys),
 
 **Example 1:**  
 
+  
 **Input:** N = 3
+  
 **Output:** 3
+  
 **Explanation:** 
+  
 We can at most get 3 A's on screen by pressing following key sequence:
+  
 A, A, A
+  
 
 **Example 2:**  
 
+  
 **Input:** N = 7
+  
 **Output:** 9
+  
 **Explanation:** 
+  
 We can at most get 9 A's on screen by pressing following key sequence:
+  
 A, A, A, Ctrl A, Ctrl C, Ctrl V, Ctrl V
+  
 
 **Note:**  
 

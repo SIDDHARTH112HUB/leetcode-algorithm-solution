@@ -12,18 +12,31 @@ You can always assume that `maxChoosableInteger` will not be larger than 20 and 
 
 **Example**
 
+  
 **Input:**
+  
 maxChoosableInteger = 10
+  
 desiredTotal = 11
+  
 
+  
 **Output:**
+  
 false
+  
 
+  
 **Explanation:**
+  
 No matter which integer the first player choose, the first player will lose.
+  
 The first player can choose an integer from 1 up to 10.
+  
 If the first player choose 1, the second player can only choose integers from 2 up to 10.
+  
 The second player will win by choosing 10 and get a total = 11, which is >= desiredTotal.
+  
 Same with other integers chosen by the first player, the second player will always win.  
 
 

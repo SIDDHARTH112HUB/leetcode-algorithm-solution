@@ -4,12 +4,17 @@ Given a positive **32-bit** integer **n**, you need to find the smallest **32-bi
 
 **Example 1:**
 
+  
 **Input:** 12
+  
 **Output:** 21
+  
 
 **Example 2:**
 
+  
 **Input:** 21
+  
 **Output:** -1  
 
 

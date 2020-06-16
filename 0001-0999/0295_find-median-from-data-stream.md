@@ -15,11 +15,17 @@ Design a data structure that supports the following two operations:
 
 **Example:**
 
+  
 addNum(1)
+  
 addNum(2)
+  
 findMedian() -> 1.5
+  
 addNum(3) 
+  
 findMedian() -> 2
+  
 
 **Follow up:**
 

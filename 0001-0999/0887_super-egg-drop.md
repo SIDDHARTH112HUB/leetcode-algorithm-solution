@@ -14,23 +14,37 @@ What is the minimum number of moves that you need to know with certainty what `
 
 **Example 1:**
 
+  
 **Input:** K = 1, N = 2
+  
 **Output:** 2
+  
 **Explanation:** 
+  
 Drop the egg from floor 1.  If it breaks, we know with certainty that F = 0.
+  
 Otherwise, drop the egg from floor 2.  If it breaks, we know with certainty that F = 1.
+  
 If it didn't break, then we know with certainty F = 2.
+  
 Hence, we needed 2 moves in the worst case to know what F is with certainty.
+  
 
 **Example 2:**
 
+  
 **Input:** K = 2, N = 6
+  
 **Output:** 3
+  
 
 **Example 3:**
 
+  
 **Input:** K = 3, N = 14
+  
 **Output:** 4
+  
 
 **Note:**
 

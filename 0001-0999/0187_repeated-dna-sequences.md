@@ -6,8 +6,11 @@ Write a function to find all the 10-letter-long sequences (substrings) that occu
 
 **Example:**
 
+  
 **Input:** s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+  
 
+  
 **Output:** \["AAAAACCCCC", "CCCCCAAAAA"\]  
 
 

@@ -11,12 +11,16 @@ And your job is to find the lexicographically biggest one among all the possible
 
 **Example:**  
 
+  
 **Input:** "abc", "xyz"
+  
 **Output:** "zyxcba"
+  
 **Explanation:** You can get the looped string "-abcxyz-", "-abczyx-", "-cbaxyz-", "-cbazyx-",   
 where '-' represents the looped status.   
 The answer string came from the fourth looped one,   
 where you could cut from the middle character 'a' and get "zyxcba".
+  
 
 **Note:**  
 

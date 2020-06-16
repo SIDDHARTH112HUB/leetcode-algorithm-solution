@@ -6,16 +6,24 @@ On the other hand, now your job is to find the lexicographically smallest permut
 
 **Example 1:**  
 
+  
 **Input:** "I"
+  
 **Output:** \[1,2\]
+  
 **Explanation:** \[1,2\] is the only legal initial spectial string can construct secret signature "I", where the number 1 and 2 construct an increasing relationship.
+  
 
 **Example 2:**  
 
+  
 **Input:** "DI"
+  
 **Output:** \[2,1,3\]
+  
 **Explanation:** Both \[2,1,3\] and \[3,1,2\] can construct the secret signature "DI",   
 but since we want to find the one with the smallest lexicographical permutation, you need to output \[2,1,3\]
+  
 
 **Note:**
 

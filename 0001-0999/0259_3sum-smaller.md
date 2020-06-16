@@ -4,11 +4,17 @@ Given an array of _n_ integers _nums_ and a _target_, find the number of index t
 
 **Example:**
 
+  
 **Input:** _nums_ = `[-2,0,1,3]`, and _target_ = 2
+  
 **Output:** 2 
+  
 **Explanation:** Because there are two triplets which sums are less than 2:
+  
              \[-2,0,1\]
+  
              \[-2,0,3\]
+  
 
 **Follow up:** Could you solve it in _O_(_n_2) runtime?  
 

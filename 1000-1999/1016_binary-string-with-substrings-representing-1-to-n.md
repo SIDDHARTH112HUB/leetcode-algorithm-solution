@@ -4,13 +4,19 @@ Given a binary string `S` (a string consisting only of '0' and '1's) and a posit
 
 **Example 1:**
 
+  
 **Input:** S = "0110", N = 3
+  
 **Output:** true
+  
 
 **Example 2:**
 
+  
 **Input:** S = "0110", N = 4
+  
 **Output:** false
+  
 
 **Note:**
 

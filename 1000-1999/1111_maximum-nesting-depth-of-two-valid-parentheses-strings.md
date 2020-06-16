@@ -22,13 +22,15 @@ Return an `answer` array (of length `seq.length`) that encodes such a choice of
 
 **Example 1:**
 
-**Input:** seq = "(()())"
-**Output:** \[0,1,1,1,1,0\]
+  
+**Input:** seq = "(()())"  
+**Output:** \[0,1,1,1,1,0\]  
 
 **Example 2:**
 
-**Input:** seq = "()(())()"
-**Output:** \[0,0,0,1,1,0,1,1\]
+  
+**Input:** seq = "()(())()"  
+**Output:** \[0,0,0,1,1,0,1,1\]  
 
 **Constraints:**
 

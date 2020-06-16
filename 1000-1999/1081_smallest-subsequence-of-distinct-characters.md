@@ -4,23 +4,27 @@ Return the lexicographically smallest subsequence of `text` that contains all th
 
 **Example 1:**
 
-**Input:** "cdadabcc"
-**Output:** "adbc"
+  
+**Input:** "cdadabcc"  
+**Output:** "adbc"  
 
 **Example 2:**
 
-**Input:** "abcd"
-**Output:** "abcd"
+  
+**Input:** "abcd"  
+**Output:** "abcd"  
 
 **Example 3:**
 
-**Input:** "ecbacba"
-**Output:** "eacb"
+  
+**Input:** "ecbacba"  
+**Output:** "eacb"  
 
 **Example 4:**
 
-**Input:** "leetcode"
-**Output:** "letcod"
+  
+**Input:** "leetcode"  
+**Output:** "letcod"  
 
 **Constraints:**
 

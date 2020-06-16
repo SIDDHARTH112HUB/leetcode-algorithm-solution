@@ -7,26 +7,41 @@ Given a string `s`, return the maximum number of ocurrences of **any** substring
 
 **Example 1:**
 
+  
 **Input:** s = "aababcaab", maxLetters = 2, minSize = 3, maxSize = 4
+  
 **Output:** 2
+  
 **Explanation:** Substring "aab" has 2 ocurrences in the original string.
+  
 It satisfies the conditions, 2 unique letters and size 3 (between minSize and maxSize).
+  
 
 **Example 2:**
 
+  
 **Input:** s = "aaaa", maxLetters = 1, minSize = 3, maxSize = 3
+  
 **Output:** 2
+  
 **Explanation:** Substring "aaa" occur 2 times in the string. It can overlap.
+  
 
 **Example 3:**
 
+  
 **Input:** s = "aabcabcab", maxLetters = 2, minSize = 2, maxSize = 3
+  
 **Output:** 3
+  
 
 **Example 4:**
 
+  
 **Input:** s = "abcde", maxLetters = 2, minSize = 3, maxSize = 3
+  
 **Output:** 0
+  
 
 **Constraints:**
 

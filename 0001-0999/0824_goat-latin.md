@@ -19,13 +19,19 @@ Return the final sentence representing the conversion from `S` to Goat Latin.
 
 **Example 1:**
 
+  
 **Input:** "I speak Goat Latin"
+  
 **Output:** "Imaa peaksmaaa oatGmaaaa atinLmaaaaa"
+  
 
 **Example 2:**
 
+  
 **Input:** "The quick brown fox jumped over the lazy dog"
+  
 **Output:** "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"
+  
 
 Notes:
 

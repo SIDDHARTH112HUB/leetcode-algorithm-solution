@@ -6,12 +6,19 @@ If there is no such window in `S` that covers all characters in `T`, return the 
 
 **Example 1:**
 
+  
 **Input:** 
+  
 S = "abcdebdde", T = "bde"
+  
 **Output:** "bcde"
+  
 **Explanation:** 
+  
 "bcde" is the answer because it occurs before "bdde" which has the same length.
+  
 "deb" is not a smaller window because the elements of T in the window must occur in order.
+  
 
 **Note:**
 

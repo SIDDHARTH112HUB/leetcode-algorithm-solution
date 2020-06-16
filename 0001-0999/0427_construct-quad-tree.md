@@ -11,13 +11,21 @@ A Quad-Tree is a tree data structure in which each internal node has exactly fou
 *   `val`: True if the node represents a grid of 1's or False if the node represents a grid of 0's. 
 *   `isLeaf`: True if the node is leaf node on the tree or False if the node has the four children.
 
+  
 class Node {
+  
     public boolean val;
+  
     public boolean isLeaf;
+  
     public Node topLeft;
+  
     public Node topRight;
+  
     public Node bottomLeft;
+  
     public Node bottomRight;
+  
 }
 
 We can construct a Quad-Tree from a two-dimensional area using the following steps:
@@ -42,38 +50,43 @@ If the value of `isLeaf` or `val` is True we represent it as **1** in the list 
 
 ![](https://assets.leetcode.com/uploads/2020/02/11/grid1.png)
 
-**Input:** grid = \[\[0,1\],\[1,0\]\]
-**Output:** \[\[0,1\],\[1,0\],\[1,1\],\[1,1\],\[1,0\]\]
-**Explanation:** The explanation of this example is shown below:
-Notice that 0 represnts False and 1 represents True in the photo representing the Quad-Tree.
-![](https://assets.leetcode.com/uploads/2020/02/12/e1tree.png)
+  
+**Input:** grid = \[\[0,1\],\[1,0\]\]  
+**Output:** \[\[0,1\],\[1,0\],\[1,1\],\[1,1\],\[1,0\]\]  
+**Explanation:** The explanation of this example is shown below:  
+Notice that 0 represnts False and 1 represents True in the photo representing the Quad-Tree.  
+![](https://assets.leetcode.com/uploads/2020/02/12/e1tree.png)  
 
 **Example 2:**
 
 ![](https://assets.leetcode.com/uploads/2020/02/12/e2mat.png)
 
-**Input:** grid = \[\[1,1,1,1,0,0,0,0\],\[1,1,1,1,0,0,0,0\],\[1,1,1,1,1,1,1,1\],\[1,1,1,1,1,1,1,1\],\[1,1,1,1,0,0,0,0\],\[1,1,1,1,0,0,0,0\],\[1,1,1,1,0,0,0,0\],\[1,1,1,1,0,0,0,0\]\]
-**Output:** \[\[0,1\],\[1,1\],\[0,1\],\[1,1\],\[1,0\],null,null,null,null,\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]
-**Explanation:** All values in the grid are not the same. We divide the grid into four sub-grids.
-The topLeft, bottomLeft and bottomRight each has the same value.
-The topRight have different values so we divide it into 4 sub-grids where each has the same value.
-Explanation is shown in the photo below:
-![](https://assets.leetcode.com/uploads/2020/02/12/e2tree.png)
+  
+**Input:** grid = \[\[1,1,1,1,0,0,0,0\],\[1,1,1,1,0,0,0,0\],\[1,1,1,1,1,1,1,1\],\[1,1,1,1,1,1,1,1\],\[1,1,1,1,0,0,0,0\],\[1,1,1,1,0,0,0,0\],\[1,1,1,1,0,0,0,0\],\[1,1,1,1,0,0,0,0\]\]  
+**Output:** \[\[0,1\],\[1,1\],\[0,1\],\[1,1\],\[1,0\],null,null,null,null,\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]  
+**Explanation:** All values in the grid are not the same. We divide the grid into four sub-grids.  
+The topLeft, bottomLeft and bottomRight each has the same value.  
+The topRight have different values so we divide it into 4 sub-grids where each has the same value.  
+Explanation is shown in the photo below:  
+![](https://assets.leetcode.com/uploads/2020/02/12/e2tree.png)  
 
 **Example 3:**
 
-**Input:** grid = \[\[1,1\],\[1,1\]\]
-**Output:** \[\[1,1\]\]
+  
+**Input:** grid = \[\[1,1\],\[1,1\]\]  
+**Output:** \[\[1,1\]\]  
 
 **Example 4:**
 
-**Input:** grid = \[\[0\]\]
-**Output:** \[\[1,0\]\]
+  
+**Input:** grid = \[\[0\]\]  
+**Output:** \[\[1,0\]\]  
 
 **Example 5:**
 
-**Input:** grid = \[\[1,1,0,0\],\[1,1,0,0\],\[0,0,1,1\],\[0,0,1,1\]\]
-**Output:** \[\[0,1\],\[1,1\],\[1,0\],\[1,0\],\[1,1\]\]
+  
+**Input:** grid = \[\[1,1,0,0\],\[1,1,0,0\],\[0,0,1,1\],\[0,0,1,1\]\]  
+**Output:** \[\[0,1\],\[1,1\],\[1,0\],\[1,0\],\[1,1\]\]  
 
 **Constraints:**
 

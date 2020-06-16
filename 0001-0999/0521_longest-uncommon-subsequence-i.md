@@ -8,22 +8,25 @@ The input will be two strings, and the output needs to be the length of the long
 
 **Example 1:**
 
-**Input:** a = "aba", b = "cdc"
-**Output:** 3
-**Explanation:** The longest uncommon subsequence is "aba", 
-because "aba" is a subsequence of "aba", 
-but not a subsequence of the other string "cdc".
-Note that "cdc" can be also a longest uncommon subsequence.
+  
+**Input:** a = "aba", b = "cdc"  
+**Output:** 3  
+**Explanation:** The longest uncommon subsequence is "aba",   
+because "aba" is a subsequence of "aba",   
+but not a subsequence of the other string "cdc".  
+Note that "cdc" can be also a longest uncommon subsequence.  
 
 **Example 2:**
 
-**Input:** a = "aaa", b = "bbb"
-**Output:** 3
+  
+**Input:** a = "aaa", b = "bbb"  
+**Output:** 3  
 
 **Example 3:**
 
-**Input:** a = "aaa", b = "aaa"
-**Output:** -1
+  
+**Input:** a = "aaa", b = "aaa"  
+**Output:** -1  
 
 **Constraints:**
 

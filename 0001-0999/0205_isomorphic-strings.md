@@ -8,17 +8,24 @@ All occurrences of a character must be replaced with another character while pre
 
 **Example 1:**
 
+  
 **Input:** **_s_** = `"egg",` **_t =_** `"add"`
+  
 **Output:** true
+  
 
 **Example 2:**
 
+  
 **Input:** **_s_** = `"foo",` **_t =_** `"bar"`
+  
 **Output:** false
 
 **Example 3:**
 
+  
 **Input:** **_s_** = `"paper",` **_t =_** `"title"`
+  
 **Output:** true
 
 **Note:**  

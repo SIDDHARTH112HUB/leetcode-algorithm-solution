@@ -10,13 +10,21 @@ What is the largest possible overlap?
 
 **Example 1:**
 
+  
 **Input:** A = \[\[1,1,0\],
+  
             \[0,1,0\],
+  
             \[0,1,0\]\]
+  
        B = \[\[0,0,0\],
+  
             \[0,1,1\],
+  
             \[0,0,1\]\]
+  
 **Output:** 3
+  
 **Explanation:** We slide A to right by 1 unit and down by 1 unit.
 
 **Notes:** 

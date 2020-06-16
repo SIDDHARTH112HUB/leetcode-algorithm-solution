@@ -8,42 +8,77 @@ The maze is represented by a binary 2D array. 1 means the wall and 0 means the e
 
 **Example 1:**
 
+  
 **Input 1:** a maze represented by a 2D array
+  
 
+  
 0 0 0 0 0
+  
 1 1 0 0 1
+  
 0 0 0 0 0
+  
 0 1 0 0 1
+  
 0 1 0 0 0
+  
 
+  
 **Input 2:** ball coordinate (rowBall, colBall) = (4, 3)
+  
 **Input 3:** hole coordinate (rowHole, colHole) = (0, 1)
+  
 
+  
 **Output:** "lul"
+  
 
+  
 **Explanation:** There are two shortest ways for the ball to drop into the hole.
+  
 The first way is left -> up -> left, represented by "lul".
+  
 The second way is up -> left, represented by 'ul'.
+  
 Both ways have shortest distance 6, but the first way is lexicographically smaller because 'l' < 'u'. So the output is "lul".
+  
 ![](https://assets.leetcode.com/uploads/2018/10/13/maze_2_example_1.png)
+  
 
 **Example 2:**
 
+  
 **Input 1:** a maze represented by a 2D array
+  
 
+  
 0 0 0 0 0
+  
 1 1 0 0 1
+  
 0 0 0 0 0
+  
 0 1 0 0 1
+  
 0 1 0 0 0
+  
 
+  
 **Input 2:** ball coordinate (rowBall, colBall) = (4, 3)
+  
 **Input 3:** hole coordinate (rowHole, colHole) = (3, 0)
+  
 
+  
 **Output:** "impossible"
+  
 
+  
 **Explanation:** The ball cannot reach the hole.
+  
 ![](https://assets.leetcode.com/uploads/2018/10/13/maze_2_example_2.png)
+  
 
 **Note:**
 

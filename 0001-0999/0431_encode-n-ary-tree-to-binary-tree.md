@@ -8,7 +8,8 @@ For example, you may encode the following `3-ary` tree to a binary tree in thi
 
 ![](https://assets.leetcode.com/uploads/2018/10/12/narytreebinarytreeexample.png)
 
-**Input:** root = \[1,null,3,2,4,null,5,6\]
+  
+**Input:** root = \[1,null,3,2,4,null,5,6\]  
 
 Note that the above is just an example which _might or might not_ work. You do not necessarily need to follow this format, so please be creative and come up with different approaches yourself.
 

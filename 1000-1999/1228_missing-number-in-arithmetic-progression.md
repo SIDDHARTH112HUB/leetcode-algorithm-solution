@@ -8,14 +8,16 @@ Return the removed value.
 
 **Example 1:**
 
-**Input:** arr = \[5,7,11,13\]
-**Output:** 9
-**Explanation:** The previous array was \[5,7,**9**,11,13\].
+  
+**Input:** arr = \[5,7,11,13\]  
+**Output:** 9  
+**Explanation:** The previous array was \[5,7,**9**,11,13\].  
 
 **Example 2:**
 
-**Input:** arr = \[15,13,12\]
-**Output:** 14
+  
+**Input:** arr = \[15,13,12\]  
+**Output:** 14  
 **Explanation:** The previous array was \[15,**14**,13,12\].
 
 **Constraints:**

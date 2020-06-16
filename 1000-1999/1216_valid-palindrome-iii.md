@@ -6,9 +6,10 @@ A string is K-Palindrome if it can be transformed into a palindrome by removin
 
 **Example 1:**
 
-**Input:** s = "abcdeca", k = 2
-**Output:** true
-**Explanation:** Remove 'b' and 'e' characters.
+  
+**Input:** s = "abcdeca", k = 2  
+**Output:** true  
+**Explanation:** Remove 'b' and 'e' characters.  
 
 **Constraints:**
 

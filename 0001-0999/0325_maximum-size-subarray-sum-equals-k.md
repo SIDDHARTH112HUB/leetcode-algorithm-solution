@@ -7,13 +7,19 @@ The sum of the entire _nums_ array is guaranteed to fit within the 32-bit signed
 
 **Example 1:**
 
+  
 **Input:** _nums_ = `[1, -1, 5, -2, 3]`, _k_ = `3`
+  
 **Output:** 4 
+  
 **Explanation:** The subarray `[1, -1, 5, -2]` sums to 3 and is the longest.
+  
 
 **Example 2:**
 
+  
 **Input:** _nums_ = `[-2, -1, 2, 1]`, _k_ = `1`
+  
 **Output:** 2 **Explanation:** The subarray `[-1, 2]` sums to 1 and is the longest.
 
 **Follow Up:**  

@@ -4,13 +4,19 @@ Given a 2D `grid` of `0`s and `1`s, return the number of elements in the larges
 
 **Example 1:**
 
+  
 **Input:** grid = \[\[1,1,1\],\[1,0,1\],\[1,1,1\]\]
+  
 **Output:** 9
+  
 
 **Example 2:**
 
+  
 **Input:** grid = \[\[1,1,0,0\]\]
+  
 **Output:** 1
+  
 
 **Constraints:**
 

@@ -13,29 +13,41 @@ You may assume the default revision number for each level of a version number to
 
 **Example 1:**
 
+  
 **Input:** `_version1_` = "0.1", `_version2_` = "1.1"
+  
 **Output:** -1
 
 **Example 2:**
 
+  
 **Input:** `_version1_` = "1.0.1", `_version2_` = "1"
+  
 **Output:** 1
 
 **Example 3:**
 
+  
 **Input:** `_version1_` = "7.5.2.4", `_version2_` = "7.5.3"
+  
 **Output:** -1
 
 **Example 4:**
 
+  
 **Input:** `_version1_` = "1.01", `_version2_` = "1.001"
+  
 **Output:** 0
+  
 **Explanation:** Ignoring leading zeroes, both “01” and “001" represent the same number “1”
 
 **Example 5:**
 
+  
 **Input:** `_version1_` = "1.0", `_version2_` = "1.0.0"
+  
 **Output:** 0
+  
 **Explanation:** The first version number does not have a third level revision number, which means its third level revision number is default to "0"
 
 **Note:**

@@ -4,17 +4,27 @@ Given a **non-decreasing** array of positive integers `nums` and an integer `K
 
 **Example 1:**
 
+  
 **Input:** nums = \[1,2,2,3,3,4,4\], K = 3
+  
 **Output:** true
+  
 **Explanation:** 
+  
 The array can be divided into the two subsequences \[1,2,3,4\] and \[2,3,4\] with lengths at least 3 each.
+  
 
 **Example 2:**
 
+  
 **Input:** nums = \[5,6,6,7,8\], K = 3
+  
 **Output:** false
+  
 **Explanation:** 
+  
 There is no way to divide the array using the conditions required.
+  
 
 **Note:**
 

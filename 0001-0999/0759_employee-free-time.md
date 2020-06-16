@@ -10,16 +10,18 @@ Return the list of finite intervals representing **common, positive-length free 
 
 **Example 1:**
 
-**Input:** schedule = \[\[\[1,2\],\[5,6\]\],\[\[1,3\]\],\[\[4,10\]\]\]
-**Output:** \[\[3,4\]\]
-**Explanation:** There are a total of three employees, and all common
-free time intervals would be \[-inf, 1\], \[3, 4\], \[10, inf\].
-We discard any intervals that contain inf as they aren't finite.
+  
+**Input:** schedule = \[\[\[1,2\],\[5,6\]\],\[\[1,3\]\],\[\[4,10\]\]\]  
+**Output:** \[\[3,4\]\]  
+**Explanation:** There are a total of three employees, and all common  
+free time intervals would be \[-inf, 1\], \[3, 4\], \[10, inf\].  
+We discard any intervals that contain inf as they aren't finite.  
 
 **Example 2:**
 
-**Input:** schedule = \[\[\[1,3\],\[6,7\]\],\[\[2,4\]\],\[\[2,5\],\[9,12\]\]\]
-**Output:** \[\[5,6\],\[7,9\]\]
+  
+**Input:** schedule = \[\[\[1,3\],\[6,7\]\],\[\[2,4\]\],\[\[2,5\],\[9,12\]\]\]  
+**Output:** \[\[5,6\],\[7,9\]\]  
 
 **Constraints:**
 

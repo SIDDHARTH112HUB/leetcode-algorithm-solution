@@ -20,13 +20,21 @@ Given a `graph`, and assuming both players play optimally, return `1` if the ga
 
 **Example 1:**
 
+  
 **Input:** \[\[2,5\],\[3\],\[0,4,5\],\[1,4,5\],\[2,3\],\[0,2,3\]\]
+  
 **Output:** 0
+  
 **Explanation:** 4---3---1
+  
 |   |
+  
 2---5
+  
  \\ /
+  
   0
+  
 
 **Note:**
 

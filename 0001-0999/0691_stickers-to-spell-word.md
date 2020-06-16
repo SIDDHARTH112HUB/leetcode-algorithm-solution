@@ -12,31 +12,45 @@ What is the minimum number of stickers that you need to spell out the `target`? 
 
 Input:
 
+  
 \["with", "example", "science"\], "thehat"
+  
 
 Output:
 
+  
 3
+  
 
 Explanation:
 
+  
 We can use 2 "with" stickers, and 1 "example" sticker.
+  
 After cutting and rearrange the letters of those stickers, we can form the target "thehat".
+  
 Also, this is the minimum number of stickers necessary to form the target string.
+  
 
 **Example 2:**
 
 Input:
 
+  
 \["notice", "possible"\], "basicbasic"
+  
 
 Output:
 
-\-1
+  
+-1
+  
 
 Explanation:
 
+  
 We can't form the target "basicbasic" from cutting letters from the given stickers.
+  
 
 **Note:**
 

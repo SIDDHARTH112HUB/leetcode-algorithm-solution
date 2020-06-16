@@ -10,23 +10,32 @@ A _path_ moves some number of times from one visited cell to any neighbouring un
 
 **![](https://assets.leetcode.com/uploads/2019/04/23/1313_ex1.JPG)**
 
+  
 **Input:** \[\[5,4,5\],\[1,2,6\],\[7,4,6\]\]
+  
 **Output:** 4
+  
 **Explanation:** 
+  
 The path with the maximum score is highlighted in yellow. 
+  
 
 **Example 2:**
 
 **![](https://assets.leetcode.com/uploads/2019/04/23/1313_ex2.JPG)**
 
+  
 **Input:** \[\[2,2,1,2,2,2\],\[1,2,2,2,1,2\]\]
+  
 **Output: 2**
 
 **Example 3:**
 
 **![](https://assets.leetcode.com/uploads/2019/04/23/1313_ex3.JPG)**
 
+  
 **Input:** \[\[3,4,6,3,4\],\[0,2,1,1,7\],\[8,8,3,2,7\],\[3,2,4,9,8\],\[4,1,2,0,0\],\[4,6,5,4,3\]\]
+  
 **Output: 3**
 
 **Note:**

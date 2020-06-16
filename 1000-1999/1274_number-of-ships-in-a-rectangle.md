@@ -14,10 +14,11 @@ Submissions making **more than 400 calls** to `hasShips` will be judged _Wrong
 
 ![](https://assets.leetcode.com/uploads/2019/07/26/1445_example_1.PNG)
 
-**Input:** 
-ships = \[\[1,1\],\[2,2\],\[3,3\],\[5,5\]\], topRight = \[4,4\], bottomLeft = \[0,0\]
-**Output:** 3
-**Explanation:** From \[0,0\] to \[4,4\] we can count 3 ships within the range.
+  
+**Input:**   
+ships = \[\[1,1\],\[2,2\],\[3,3\],\[5,5\]\], topRight = \[4,4\], bottomLeft = \[0,0\]  
+**Output:** 3  
+**Explanation:** From \[0,0\] to \[4,4\] we can count 3 ships within the range.  
 
 **Constraints:**
 

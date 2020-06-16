@@ -14,18 +14,27 @@ Since the answer may be large, **output the answer modulo `10^9 + 7`**.
 
 **Example 1:**
 
+  
 **Input:** 1
+  
 **Output:** 10
+  
 
 **Example 2:**
 
+  
 **Input:** 2
+  
 **Output:** 20
+  
 
 **Example 3:**
 
+  
 **Input:** 3
+  
 **Output:** 46
+  
 
 **Note:**
 

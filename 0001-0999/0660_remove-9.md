@@ -8,8 +8,11 @@ Given a positive integer `n`, you need to return the n-th integer after removing
 
 **Example 1:**  
 
+  
 **Input:** 9
+  
 **Output:** 10
+  
 
 **Hint**: n will not exceed `9 x 10^8`.  
 

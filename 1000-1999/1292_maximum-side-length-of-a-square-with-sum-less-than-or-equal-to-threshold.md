@@ -6,24 +6,28 @@ Given a `m x n` matrix `mat` and an integer `threshold`. Return the maximum sid
 
 ![](https://assets.leetcode.com/uploads/2019/12/05/e1.png)
 
-**Input:** mat = \[\[1,1,3,2,4,3,2\],\[1,1,3,2,4,3,2\],\[1,1,3,2,4,3,2\]\], threshold = 4
-**Output:** 2
-**Explanation:** The maximum side length of square with sum less than 4 is 2 as shown.
+  
+**Input:** mat = \[\[1,1,3,2,4,3,2\],\[1,1,3,2,4,3,2\],\[1,1,3,2,4,3,2\]\], threshold = 4  
+**Output:** 2  
+**Explanation:** The maximum side length of square with sum less than 4 is 2 as shown.  
 
 **Example 2:**
 
-**Input:** mat = \[\[2,2,2,2,2\],\[2,2,2,2,2\],\[2,2,2,2,2\],\[2,2,2,2,2\],\[2,2,2,2,2\]\], threshold = 1
-**Output:** 0
+  
+**Input:** mat = \[\[2,2,2,2,2\],\[2,2,2,2,2\],\[2,2,2,2,2\],\[2,2,2,2,2\],\[2,2,2,2,2\]\], threshold = 1  
+**Output:** 0  
 
 **Example 3:**
 
-**Input:** mat = \[\[1,1,1,1\],\[1,0,0,0\],\[1,0,0,0\],\[1,0,0,0\]\], threshold = 6
-**Output:** 3
+  
+**Input:** mat = \[\[1,1,1,1\],\[1,0,0,0\],\[1,0,0,0\],\[1,0,0,0\]\], threshold = 6  
+**Output:** 3  
 
 **Example 4:**
 
-**Input:** mat = \[\[18,70\],\[61,1\],\[25,85\],\[14,40\],\[11,96\],\[97,96\],\[63,45\]\], threshold = 40184
-**Output:** 2
+  
+**Input:** mat = \[\[18,70\],\[61,1\],\[25,85\],\[14,40\],\[11,96\],\[97,96\],\[63,45\]\], threshold = 40184  
+**Output:** 2  
 
 **Constraints:**
 

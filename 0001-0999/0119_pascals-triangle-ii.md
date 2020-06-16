@@ -9,8 +9,11 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
 
 **Example:**
 
+  
 **Input:** 3
+  
 **Output:** \[1,3,3,1\]
+  
 
 **Follow up:**
 

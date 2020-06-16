@@ -9,12 +9,17 @@ Given an array that is definitely a mountain, return any `i` such that `A[0] 
 
 **Example 1:**
 
+  
 **Input:** \[0,1,0\]
+  
 **Output:** 1
+  
 
 **Example 2:**
 
+  
 **Input:** \[0,2,1,0\]
+  
 **Output:** 1
 
 **Note:**

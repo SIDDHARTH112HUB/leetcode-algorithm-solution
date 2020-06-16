@@ -6,8 +6,11 @@ The 'closest' is defined as absolute difference minimized between two integers.
 
 **Example 1:**  
 
+  
 **Input:** "123"
+  
 **Output:** "121"
+  
 
 **Note:**  
 

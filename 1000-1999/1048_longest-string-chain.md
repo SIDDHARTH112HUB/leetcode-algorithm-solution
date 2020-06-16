@@ -10,9 +10,13 @@ Return the longest possible length of a word chain with words chosen from the gi
 
 **Example 1:**
 
+  
 **Input:** \["a","b","ba","bca","bda","bdca"\]
+  
 **Output:** 4
+  
 **Explanation**: one of the longest word chain is "a","ba","bda","bdca".
+  
 
 **Note:**
 

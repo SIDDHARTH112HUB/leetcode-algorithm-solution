@@ -5,10 +5,15 @@ Design a class which receives a list of words in the constructor, and implements
 **Example:**  
 Assume that words = `["practice", "makes", "perfect", "coding", "makes"]`.
 
+  
 **Input:** _word1_ = `“coding”`, _word2_ = `“practice”`
+  
 **Output:** 3
+  
 
+  
 **Input:** _word1_ = `"makes"`, _word2_ = `"coding"`
+  
 **Output:** 1
 
 **Note:**  

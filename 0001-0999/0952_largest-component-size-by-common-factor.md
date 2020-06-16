@@ -9,21 +9,33 @@ Return the size of the largest connected component in the graph.
 
 **Example 1:**
 
+  
 **Input:** \[4,6,15,35\]
+  
 **Output:** 4
+  
 ![](https://assets.leetcode.com/uploads/2018/12/01/ex1.png)
+  
 
 **Example 2:**
 
+  
 **Input:** \[20,50,9,63\]
+  
 **Output:** 2
+  
 ![](https://assets.leetcode.com/uploads/2018/12/01/ex2.png)
+  
 
 **Example 3:**
 
+  
 **Input:** \[2,3,6,7,4,12,21,39\]
+  
 **Output:** 8
+  
 ![](https://assets.leetcode.com/uploads/2018/12/01/ex3.png)
+  
 
 **Note:**
 

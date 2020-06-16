@@ -16,16 +16,27 @@ Your implementation should support following operations:
 
 **Example:**
 
+  
 MyCircularDeque circularDeque = new MycircularDeque(3); // set the size to be 3
+  
 circularDeque.insertLast(1);			// return true
+  
 circularDeque.insertLast(2);			// return true
+  
 circularDeque.insertFront(3);			// return true
+  
 circularDeque.insertFront(4);			// return false, the queue is full
+  
 circularDeque.getRear();  			// return 2
+  
 circularDeque.isFull();				// return true
+  
 circularDeque.deleteLast();			// return true
+  
 circularDeque.insertFront(4);			// return true
+  
 circularDeque.getFront();			// return 4
+  
 
 **Note:**
 

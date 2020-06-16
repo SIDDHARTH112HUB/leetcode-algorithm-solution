@@ -15,27 +15,41 @@ Return the maximum possible sum of slice sizes which you can have.
 
 ![](https://assets.leetcode.com/uploads/2020/02/18/sample_3_1723.png)
 
+  
 **Input:** slices = \[1,2,3,4,5,6\]
+  
 **Output:** 10
+  
 **Explanation:** Pick pizza slice of size 4, Alice and Bob will pick slices with size 3 and 5 respectively. Then Pick slices with size 6, finally Alice and Bob will pick slice of size 2 and 1 respectively. Total = 4 + 6.
+  
 
 **Example 2:**
 
 **![](https://assets.leetcode.com/uploads/2020/02/18/sample_4_1723.png)**
 
+  
 **Input:** slices = \[8,9,8,6,1,1\]
+  
 **Output:** 16
+  
 **Output:** Pick pizza slice of size 8 in each turn. If you pick slice with size 9 your partners will pick slices of size 8.
+  
 
 **Example 3:**
 
+  
 **Input:** slices = \[4,1,2,5,8,3,1,9,7\]
+  
 **Output:** 21
+  
 
 **Example 4:**
 
+  
 **Input:** slices = \[3,1,2\]
+  
 **Output:** 3
+  
 
 **Constraints:**
 

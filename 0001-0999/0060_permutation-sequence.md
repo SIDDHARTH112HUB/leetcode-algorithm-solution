@@ -20,12 +20,17 @@ Given _n_ and _k_, return the _k_th permutation sequence.
 
 **Example 1:**
 
+  
 **Input:** n = 3, k = 3
+  
 **Output:** "213"
+  
 
 **Example 2:**
 
+  
 **Input:** n = 4, k = 9
+  
 **Output:** "2314"  
 
 

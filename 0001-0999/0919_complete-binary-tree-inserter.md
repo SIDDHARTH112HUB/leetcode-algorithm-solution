@@ -10,12 +10,17 @@ Write a data structure `CBTInserter` that is initialized with a complete binar
 
 **Example 1:**
 
+  
 **Input:** inputs = \["CBTInserter","insert","get\_root"\], inputs = \[\[\[1\]\],\[2\],\[\]\]
+  
 **Output:** \[null,1,\[1,2\]\]
+  
 
 **Example 2:**
 
+  
 **Input:** inputs = \["CBTInserter","insert","insert","get\_root"\], inputs = \[\[\[1,2,3,4,5,6\]\],\[7\],\[8\],\[\]\]
+  
 **Output:** \[null,3,4,\[1,2,3,4,5,6,7,8\]\]
 
 **Note:**

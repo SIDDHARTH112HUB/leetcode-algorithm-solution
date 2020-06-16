@@ -6,18 +6,18 @@ Here **follow** means a full match, such that there is a bijection between a let
 
 **Example 1:**
 
-**Input:** pattern = "abab", str = "redblueredblue"
-**Output:** true
+**Input:** pattern = "abab", str = "redblueredblue"  
+**Output:** true  
 
 **Example 2:**
 
-**Input:** pattern = "aaaa", str = "asdasdasdasd"
-**Output:** true
+**Input:** pattern = "aaaa", str = "asdasdasdasd"  
+**Output:** true  
 
 **Example 3:**
 
-**Input:** pattern = "aabb", str = "xyzabcxzyabc"
-**Output:** false
+**Input:** pattern = "aabb", str = "xyzabcxzyabc"  
+**Output:** false  
 
 **Constraints:**
 

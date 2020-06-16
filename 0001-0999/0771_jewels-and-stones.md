@@ -6,13 +6,19 @@ The letters in `J` are guaranteed distinct, and all characters in `J` and `S` ar
 
 **Example 1:**
 
+  
 **Input:** J = "aA", S = "aAAbbbb"
+  
 **Output:** 3
+  
 
 **Example 2:**
 
+  
 **Input:** J = "z", S = "ZZ"
+  
 **Output:** 0
+  
 
 **Note:**
 

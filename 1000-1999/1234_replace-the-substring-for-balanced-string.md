@@ -10,27 +10,31 @@ Return 0 if the string is already **balanced**.
 
 **Example 1:**
 
-**Input:** s = "QWER"
-**Output:** 0
+  
+**Input:** s = "QWER"  
+**Output:** 0  
 **Explanation:** s is already balanced.
 
 **Example 2:**
 
-**Input:** s = "QQWE"
-**Output:** 1
-**Explanation:** We need to replace a 'Q' to 'R', so that "RQWE" (or "QRWE") is balanced.
+  
+**Input:** s = "QQWE"  
+**Output:** 1  
+**Explanation:** We need to replace a 'Q' to 'R', so that "RQWE" (or "QRWE") is balanced.  
 
 **Example 3:**
 
-**Input:** s = "QQQW"
-**Output:** 2
-**Explanation:** We can replace the first "QQ" to "ER". 
+  
+**Input:** s = "QQQW"  
+**Output:** 2  
+**Explanation:** We can replace the first "QQ" to "ER".   
 
 **Example 4:**
 
-**Input:** s = "QQQQ"
-**Output:** 3
-**Explanation:** We can replace the last 3 'Q' to make s = "QWER".
+  
+**Input:** s = "QQQQ"  
+**Output:** 3  
+**Explanation:** We can replace the last 3 'Q' to make s = "QWER".  
 
 **Constraints:**
 

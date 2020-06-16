@@ -9,16 +9,22 @@ Given an 2D board, count how many battleships are in it. The battleships are rep
 **Example:**  
 
 X..X
+  
 ...X
+  
 ...X
+  
 
 In the above board there are 2 battleships.
 
 **Invalid Example:**  
 
 ...X
+  
 XXXX
+  
 ...X
+  
 
 This is an invalid board that you will not receive - as battleships will always have a cell separating between them.
 

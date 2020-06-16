@@ -6,25 +6,45 @@ But for multiples of three it should output “Fizz” instead of the number and
 
 **Example:**
 
+  
 n = 15,
+  
 
+  
 Return:
+  
 \[
+  
     "1",
+  
     "2",
+  
     "Fizz",
+  
     "4",
+  
     "Buzz",
+  
     "Fizz",
+  
     "7",
+  
     "8",
+  
     "Fizz",
+  
     "Buzz",
+  
     "11",
+  
     "Fizz",
+  
     "13",
+  
     "14",
+  
     "FizzBuzz"
+  
 \]  
 
 

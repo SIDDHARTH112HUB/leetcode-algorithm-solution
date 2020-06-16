@@ -4,8 +4,11 @@ Given a string `S` and a character `C`, return an array of integers representin
 
 **Example 1:**
 
+  
 **Input:** S = "loveleetcode", C = 'e'
+  
 **Output:** \[3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0\]
+  
 
 **Note:**
 

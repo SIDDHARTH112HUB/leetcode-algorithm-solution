@@ -10,22 +10,37 @@ If there isn't such day, return `-1`.
 
 **Example 1:**
 
+  
 **Input:** 
+  
 bulbs: \[1,3,2\]
+  
 K: 1
+  
 **Output:** 2
+  
 **Explanation:**
+  
 On the first day: bulbs\[0\] = 1, first bulb is turned on: \[1,0,0\]
+  
 On the second day: bulbs\[1\] = 3, third bulb is turned on: \[1,0,1\]
+  
 On the third day: bulbs\[2\] = 2, second bulb is turned on: \[1,1,1\]
+  
 We return 2 because on the second day, there were two on bulbs with one off bulb between them.
+  
 
 **Example 2:**
 
+  
 **Input:** 
+  
 bulbs: \[1,2,3\]
+  
 K: 1
+  
 **Output:** -1
+  
 
 **Note:**
 

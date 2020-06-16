@@ -10,40 +10,67 @@ Return _a string of all teams_ **sorted** by the ranking system.
 
 **Example 1:**
 
+  
 **Input:** votes = \["ABC","ACB","ABC","ACB","ACB"\]
+  
 **Output:** "ACB"
+  
 **Explanation:** Team A was ranked first place by 5 voters. No other team was voted as first place so team A is the first team.
+  
 Team B was ranked second by 2 voters and was ranked third by 3 voters.
+  
 Team C was ranked second by 3 voters and was ranked third by 2 voters.
+  
 As most of the voters ranked C second, team C is the second team and team B is the third.
+  
 
 **Example 2:**
 
+  
 **Input:** votes = \["WXYZ","XYZW"\]
+  
 **Output:** "XWYZ"
+  
 **Explanation:** X is the winner due to tie-breaking rule. X has same votes as W for the first position but X has one vote as second position while W doesn't have any votes as second position. 
+  
 
 **Example 3:**
 
+  
 **Input:** votes = \["ZMNAGUEDSJYLBOPHRQICWFXTVK"\]
+  
 **Output:** "ZMNAGUEDSJYLBOPHRQICWFXTVK"
+  
 **Explanation:** Only one voter so his votes are used for the ranking.
+  
 
 **Example 4:**
 
+  
 **Input:** votes = \["BCA","CAB","CBA","ABC","ACB","BAC"\]
+  
 **Output:** "ABC"
+  
 **Explanation:** 
+  
 Team A was ranked first by 2 voters, second by 2 voters and third by 2 voters.
+  
 Team B was ranked first by 2 voters, second by 2 voters and third by 2 voters.
+  
 Team C was ranked first by 2 voters, second by 2 voters and third by 2 voters.
+  
 There is a tie and we rank teams ascending by their IDs.
+  
 
 **Example 5:**
 
+  
 **Input:** votes = \["M","M","M","M"\]
+  
 **Output:** "M"
+  
 **Explanation:** Only team M in the competition so it has the first rank.
+  
 
 **Constraints:**
 

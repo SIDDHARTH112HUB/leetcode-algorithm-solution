@@ -11,11 +11,17 @@ Given a list of airline tickets represented by pairs of departure and arrival ai
 
 **Example 1:**
 
-    Input: 
+  
+`**Input:**` `[["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]`  
+**Output:** `["JFK", "MUC", "LHR", "SFO", "SJC"]`  
 
 **Example 2:**
 
-    Input:  
+  
+`**Input:**` `[["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]`  
+**Output:** `["JFK","ATL","JFK","SFO","ATL","SFO"]`  
+**Explanation:** Another possible reconstruction is `["JFK","SFO","ATL","JFK","ATL","SFO"]`.  
+             But it is larger in lexical order.  
 
 
 

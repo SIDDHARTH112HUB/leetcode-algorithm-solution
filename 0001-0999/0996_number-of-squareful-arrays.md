@@ -6,15 +6,23 @@ Return the number of permutations of A that are squareful.  Two permutations `A
 
 **Example 1:**
 
+  
 **Input:** \[1,17,8\]
+  
 **Output:** 2
+  
 **Explanation:** 
+  
 \[1,8,17\] and \[17,8,1\] are the valid permutations.
+  
 
 **Example 2:**
 
+  
 **Input:** \[2,2,2\]
+  
 **Output:** 1
+  
 
 **Note:**
 

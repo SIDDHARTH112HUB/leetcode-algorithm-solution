@@ -4,14 +4,16 @@ Given two strings **s1** and **s2**, write a function to return true if **s2** c
 
 **Example 1:**
 
-**Input:** s1 = "ab" s2 = "eidbaooo"
-**Output:** True
-**Explanation:** s2 contains one permutation of s1 ("ba").
+  
+**Input:** s1 = "ab" s2 = "eidbaooo"  
+**Output:** True  
+**Explanation:** s2 contains one permutation of s1 ("ba").  
 
 **Example 2:**
 
-**Input:**s1= "ab" s2 = "eidboaoo"
-**Output:** False
+  
+**Input:**s1= "ab" s2 = "eidboaoo"  
+**Output:** False  
 
 **Constraints:**
 

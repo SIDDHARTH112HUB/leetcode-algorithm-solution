@@ -10,15 +10,17 @@ Return any password of **minimum length** that is guaranteed to open the box at 
 
 **Example 1:**
 
-**Input:** n = 1, k = 2
-**Output:** "01"
-**Note:** "10" will be accepted too.
+  
+**Input:** n = 1, k = 2  
+**Output:** "01"  
+**Note:** "10" will be accepted too.  
 
 **Example 2:**
 
-**Input:** n = 2, k = 2
-**Output:** "00110"
-**Note:** "01100", "10011", "11001" will be accepted too.
+  
+**Input:** n = 2, k = 2  
+**Output:** "00110"  
+**Note:** "01100", "10011", "11001" will be accepted too.  
 
 **Note:**
 

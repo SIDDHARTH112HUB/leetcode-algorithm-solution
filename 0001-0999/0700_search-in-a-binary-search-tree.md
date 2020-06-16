@@ -4,20 +4,33 @@ Given the root node of a binary search tree (BST) and a value. You need to find 
 
 For example, 
 
+  
 Given the tree:
+  
         4
+  
        / \\
+  
       2   7
+  
      / \\
+  
     1   3
+  
 
+  
 And the value to search: 2
+  
 
 You should return this subtree:
 
+  
       2     
+  
      / \\   
+  
     1   3
+  
 
 In the example above, if we want to search the value `5`, since there is no node with value `5`, we should return `NULL`.
 

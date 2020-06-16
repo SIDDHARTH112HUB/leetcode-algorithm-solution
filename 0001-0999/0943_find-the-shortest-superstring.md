@@ -6,13 +6,19 @@ We may assume that no string in `A` is substring of another string in `A`.
 
 **Example 1:**
 
+  
 **Input:** \["alex","loves","leetcode"\]
+  
 **Output:** "alexlovesleetcode"
+  
 **Explanation:** All permutations of "alex","loves","leetcode" would also be accepted.
+  
 
 **Example 2:**
 
+  
 **Input:** \["catg","ctaagt","gcta","ttca","atgcatc"\]
+  
 **Output:** "gctaagttcatgcatc"
 
 **Note:**

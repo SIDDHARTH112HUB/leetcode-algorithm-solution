@@ -11,8 +11,11 @@ The input is: `vector<pair<string, string>> equations, vector<double>& values, v
 
 According to the example above:
 
+  
 equations = \[ \["a", "b"\], \["b", "c"\] \],
+  
 values = \[2.0, 3.0\],
+  
 queries = \[ \["a", "c"\], \["b", "a"\], \["a", "e"\], \["a", "a"\], \["x", "x"\] \]. 
 
 The input is always valid. You may assume that evaluating the queries will result in no division by zero and there is no contradiction.  

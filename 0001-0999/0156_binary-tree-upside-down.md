@@ -4,21 +4,37 @@ Given a binary tree where all the right nodes are either leaf nodes with a sibli
 
 **Example:**
 
+  
 **Input:** \[1,2,3,4,5\]
+  
 
+  
     1
+  
    / \\
+  
   2   3
+  
  / \\
+  
 4   5
+  
 
+  
 **Output:** return the root of the binary tree \[4,5,2,#,#,3,1\]
+  
 
+  
    4
+  
   / \\
+  
  5   2
+  
     / \\
+  
    3   1  
+  
 
 **Clarification:**
 
@@ -28,13 +44,21 @@ The serialization of a binary tree follows a level order traversal, where '#' si
 
 Here's an example:
 
+  
    1
+  
   / \\
+  
  2   3
+  
     /
+  
    4
+  
     \\
+  
      5
+  
 
 The above binary tree is serialized as `[1,2,3,#,#,4,#,#,5]`.  
 

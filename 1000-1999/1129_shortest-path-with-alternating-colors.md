@@ -9,27 +9,37 @@ Return an array `answer` of length `n`, where each `answer[X]` is the lengt
 **Example 1:**
 
 **Input:** n = 3, red\_edges = \[\[0,1\],\[1,2\]\], blue\_edges = \[\]
+  
 **Output:** \[0,1,-1\]
+  
 
 **Example 2:**
 
 **Input:** n = 3, red\_edges = \[\[0,1\]\], blue\_edges = \[\[2,1\]\]
+  
 **Output:** \[0,1,-1\]
+  
 
 **Example 3:**
 
 **Input:** n = 3, red\_edges = \[\[1,0\]\], blue\_edges = \[\[2,1\]\]
+  
 **Output:** \[0,-1,-1\]
+  
 
 **Example 4:**
 
 **Input:** n = 3, red\_edges = \[\[0,1\]\], blue\_edges = \[\[1,2\]\]
+  
 **Output:** \[0,1,2\]
+  
 
 **Example 5:**
 
 **Input:** n = 3, red\_edges = \[\[0,1\],\[0,2\]\], blue\_edges = \[\[1,0\]\]
+  
 **Output:** \[0,1,1\]
+  
 
 **Constraints:**
 

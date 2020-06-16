@@ -32,30 +32,49 @@ Return the correct "mask" of the information provided.
 
 **Example 1:**
 
+  
 **Input:** "LeetCode@LeetCode.com"
+  
 **Output:** "l\*\*\*\*\*e@leetcode.com"
+  
 **Explanation:** All names are converted to lowercase, and the letters between the
+  
              first and last letter of the first name is replaced by 5 asterisks.
+  
              Therefore, "leetcode" -> "l\*\*\*\*\*e".
+  
 
 **Example 2:**
 
+  
 **Input:** "AB@qq.com"
+  
 **Output:** "a\*\*\*\*\*b@qq.com"
+  
 **Explanation:** There must be 5 asterisks between the first and last letter 
+  
              of the first name "ab". Therefore, "ab" -> "a\*\*\*\*\*b".
+  
 
 **Example 3:**
 
+  
 **Input:** "1(234)567-890"
+  
 **Output:** "\*\*\*-\*\*\*-7890"
+  
 **Explanation:** 10 digits in the phone number, which means all digits make up the local number.
+  
 
 **Example 4:**
 
+  
 **Input:** "86-(10)12345678"
+  
 **Output:** "+\*\*-\*\*\*-\*\*\*-5678"
+  
 **Explanation:** 12 digits, 2 digits for country code and 10 digits for local number. 
+  
 
 **Notes:**
 

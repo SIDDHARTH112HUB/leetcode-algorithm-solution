@@ -12,17 +12,25 @@ For example, 12321 is a palindrome.
 
 **Example 1:**
 
+  
 **Input:** 6
+  
 **Output:** 7
+  
 
 **Example 2:**
 
+  
 **Input:** 8
+  
 **Output:** 11
+  
 
 **Example 3:**
 
+  
 **Input:** 13
+  
 **Output:** 101
 
 **Note:**

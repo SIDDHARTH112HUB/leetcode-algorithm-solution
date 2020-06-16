@@ -4,19 +4,21 @@ Given a string **s** and a list of strings **dict**, you need to add a closed pa
 
 **Example 1:**
 
-**Input:** 
-s = "abcxyz123"
-dict = \["abc","123"\]
-**Output:**
-"<b>abc</b>xyz<b>123</b>"
+  
+**Input:**   
+s = "abcxyz123"  
+dict = \["abc","123"\]  
+**Output:**  
+"<b>abc</b>xyz<b>123</b>"  
 
 **Example 2:**
 
-**Input:** 
-s = "aaabbcc"
-dict = \["aaa","aab","bc"\]
-**Output:**
-"<b>aaabbc</b>c"
+  
+**Input:**   
+s = "aaabbcc"  
+dict = \["aaa","aab","bc"\]  
+**Output:**  
+"<b>aaabbc</b>c"  
 
 **Constraints:**
 

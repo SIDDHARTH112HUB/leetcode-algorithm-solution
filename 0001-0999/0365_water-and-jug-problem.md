@@ -12,12 +12,17 @@ Operations allowed:
 
 **Example 1:** (From the famous [_"Die Hard"_ example](https://www.youtube.com/watch?v=BVtQNK_ZUJg))
 
+  
 Input: x = 3, y = 5, z = 4
+  
 Output: True
+  
 
 **Example 2:**
 
+  
 Input: x = 2, y = 6, z = 5
+  
 Output: False  
 
 

@@ -9,10 +9,15 @@ All costs are positive integers.
 
 **Example:**
 
+  
 **Input:** \[\[1,5,3\],\[2,9,4\]\]
+  
 **Output:** 5
+  
 **Explanation:** Paint house 0 into color 0, paint house 1 into color 2. Minimum cost: 1 + 4 = 5; 
+  
              Or paint house 0 into color 2, paint house 1 into color 0. Minimum cost: 3 + 2 = 5. 
+  
 
 **Follow up:**  
 Could you solve it in _O_(_nk_) runtime?  

@@ -11,18 +11,29 @@ Given an integer, write an algorithm to convert it to hexadecimal. For negative 
 
 **Example 1:**
 
+  
 Input:
+  
 26
+  
 
+  
 Output:
+  
 "1a"
+  
 
 **Example 2:**
 
+  
 Input:
+  
 -1
+  
 
+  
 Output:
+  
 "ffffffff"  
 
 

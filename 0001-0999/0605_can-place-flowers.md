@@ -6,13 +6,19 @@ Given a flowerbed (represented as an array containing 0 and 1, where 0 means emp
 
 **Example 1:**  
 
+  
 **Input:** flowerbed = \[1,0,0,0,1\], n = 1
+  
 **Output:** True
+  
 
 **Example 2:**  
 
+  
 **Input:** flowerbed = \[1,0,0,0,1\], n = 2
+  
 **Output:** False
+  
 
 **Note:**  
 

@@ -11,11 +11,17 @@ Assume a BST is defined as follows:
 For example:  
 Given BST `[1,null,2,2]`,
 
+  
    1
+  
     \\
+  
      2
+  
     /
+  
    2
+  
 
 return `[2]`.
 

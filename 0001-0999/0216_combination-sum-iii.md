@@ -9,12 +9,17 @@ Find all possible combinations of _**k**_ numbers that add up to a number _**n**
 
 **Example 1:**
 
+  
 **Input:** _**k**_ = 3, _**n**_ = 7
+  
 **Output:** \[\[1,2,4\]\]
+  
 
 **Example 2:**
 
+  
 **Input:** _**k**_ = 3, _**n**_ = 9
+  
 **Output:** \[\[1,2,6\], \[1,3,5\], \[2,3,4\]\]  
 
 

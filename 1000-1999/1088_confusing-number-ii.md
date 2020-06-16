@@ -8,23 +8,39 @@ Given a positive integer `N`, return the number of confusing numbers between `1`
 
 **Example 1:**
 
+  
 **Input:** 20
+  
 **Output:** 6
+  
 **Explanation:** 
+  
 The confusing numbers are \[6,9,10,16,18,19\].
+  
 6 converts to 9.
+  
 9 converts to 6.
+  
 10 converts to 01 which is just 1.
+  
 16 converts to 91.
+  
 18 converts to 81.
+  
 19 converts to 61.
+  
 
 **Example 2:**
 
+  
 **Input:** 100
+  
 **Output:** 19
+  
 **Explanation:** 
+  
 The confusing numbers are \[6,9,10,16,18,19,60,61,66,68,80,81,86,89,90,91,98,99,100\].
+  
 
 **Note:**
 

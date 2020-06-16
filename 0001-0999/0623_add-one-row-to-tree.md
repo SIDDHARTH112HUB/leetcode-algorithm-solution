@@ -6,49 +6,93 @@ The adding rule is: given a positive integer depth `d`, for each NOT null tree n
 
 **Example 1:**  
 
+  
 **Input:** 
+  
 A binary tree as following:
+  
        4
+  
      /   \\
+  
     2     6
+  
    / \\   / 
+  
   3   1 5   
+  
 
+  
 **v = 1**
+  
 
+  
 **d = 2**
+  
 
+  
 **Output:** 
+  
        4
+  
       / \\
+  
      1   1
+  
     /     \\
+  
    2       6
+  
   / \\     / 
+  
  3   1   5   
+  
+
+  
 
 **Example 2:**  
 
+  
 **Input:** 
+  
 A binary tree as following:
+  
       4
+  
      /   
+  
     2    
+  
    / \\   
+  
   3   1    
+  
 
+  
 **v = 1**
+  
 
+  
 **d = 3**
+  
 
+  
 **Output:** 
+  
       4
+  
      /   
+  
     2
+  
    / \\    
+  
   1   1
+  
  /     \\  
+  
 3       1
+  
 
 **Note:**  
 

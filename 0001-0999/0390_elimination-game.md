@@ -10,14 +10,23 @@ Find the last number that remains starting with a list of length _n_.
 
 **Example:**
 
+  
 Input:
+  
 n = 9,
+  
 1 2 3 4 5 6 7 8 9
+  
 2 4 6 8
+  
 2 6
+  
 6
+  
 
+  
 Output:
+  
 6  
 
 

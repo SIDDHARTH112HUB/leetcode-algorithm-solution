@@ -8,18 +8,27 @@ What is the largest possible number of moves we can make?
 
 **Example 1:**
 
+  
 **Input:** stones = \[\[0,0\],\[0,1\],\[1,0\],\[1,2\],\[2,1\],\[2,2\]\]
+  
 **Output:** 5
+  
 
 **Example 2:**
 
+  
 **Input:** stones = \[\[0,0\],\[0,2\],\[1,1\],\[2,0\],\[2,2\]\]
+  
 **Output:** 3
+  
 
 **Example 3:**
 
+  
 **Input:** stones = \[\[0,0\]\]
+  
 **Output:** 0
+  
 
 **Note:**
 

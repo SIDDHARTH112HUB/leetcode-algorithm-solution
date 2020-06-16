@@ -8,11 +8,17 @@ You are given two non-empty strings s1 and s2 (each at most 100 characters long)
 
 **Example:**
 
+  
 Input:
+  
 s1="acb", n1=4
+  
 s2="ab", n2=2
+  
 
+  
 Return:
+  
 2  
 
 

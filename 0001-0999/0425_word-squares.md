@@ -6,10 +6,15 @@ A sequence of words forms a valid word square if the _k_th row and column read t
 
 For example, the word sequence `["ball","area","lead","lady"]` forms a word square because each word reads the same both horizontally and vertically.
 
+  
 b a l l
+  
 a r e a
+  
 l e a d
+  
 l a d y
+  
 
 **Note:**  
 
@@ -20,46 +25,85 @@ l a d y
 
 **Example 1:**
 
+  
 **Input:**
+  
 \["area","lead","wall","lady","ball"\]
+  
 
+  
 **Output:**
+  
 \[
+  
   \[ "wall",
+  
     "area",
+  
     "lead",
+  
     "lady"
+  
   \],
+  
   \[ "ball",
+  
     "area",
+  
     "lead",
+  
     "lady"
+  
   \]
+  
 \]
+  
 
+  
 **Explanation:**
+  
 The output consists of two word squares. The order of output does not matter (just the order of words in each word square matters).
+  
 
 **Example 2:**
 
+  
 **Input:**
+  
 \["abat","baba","atan","atal"\]
+  
 
+  
 **Output:**
+  
 \[
+  
   \[ "baba",
+  
     "abat",
+  
     "baba",
+  
     "atan"
+  
   \],
+  
   \[ "baba",
+  
     "abat",
+  
     "baba",
+  
     "atal"
+  
   \]
+  
 \]
+  
 
+  
 **Explanation:**
+  
 The output consists of two word squares. The order of output does not matter (just the order of words in each word square matters).  
 
 

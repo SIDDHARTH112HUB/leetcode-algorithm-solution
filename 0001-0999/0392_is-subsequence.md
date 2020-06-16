@@ -12,13 +12,13 @@ Special thanks to [@pbrother](https://leetcode.com/pbrother/) for adding this pr
 
 **Example 1:**
 
-**Input:** s = "abc", t = "ahbgdc"
-**Output:** true
+**Input:** s = "abc", t = "ahbgdc"  
+**Output:** true  
 
 **Example 2:**
 
-**Input:** s = "axc", t = "ahbgdc"
-**Output:** false
+**Input:** s = "axc", t = "ahbgdc"  
+**Output:** false  
 
 **Constraints:**
 

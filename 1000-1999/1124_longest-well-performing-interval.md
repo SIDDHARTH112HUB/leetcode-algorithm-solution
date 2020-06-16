@@ -10,9 +10,10 @@ Return the length of the longest well-performing interval.
 
 **Example 1:**
 
-**Input:** hours = \[9,9,6,0,6,6,9\]
-**Output:** 3
-**Explanation:** The longest well-performing interval is \[9,9,6\].
+  
+**Input:** hours = \[9,9,6,0,6,6,9\]  
+**Output:** 3  
+**Explanation:** The longest well-performing interval is \[9,9,6\].  
 
 **Constraints:**
 

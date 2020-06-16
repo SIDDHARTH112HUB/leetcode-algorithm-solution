@@ -9,28 +9,49 @@ You can assume that no duplicate edges will appear in `edges`. Since all edges a
 
 **Example 1 :**
 
+  
 **Input:** `n = 4`, `edges = [[1, 0], [1, 2], [1, 3]]`
+  
 
+  
         0
+  
         |
+  
         1
+  
        / \\
+  
       2   3 
+  
 
+  
 **Output:** `[1]`
+  
 
 **Example 2 :**
 
+  
 **Input:** `n = 6`, `edges = [[0, 3], [1, 3], [2, 3], [4, 3], [5, 4]]`
+  
 
+  
      0  1  2
+  
       \\ | /
+  
         3
+  
         |
+  
         4
+  
         |
+  
         5 
+  
 
+  
 **Output:** `[3, 4]`
 
 **Note**:

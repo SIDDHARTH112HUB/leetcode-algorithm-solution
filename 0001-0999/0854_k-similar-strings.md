@@ -6,22 +6,33 @@ Given two anagrams `A` and `B`, return the smallest `K` for which `A` and `B` a
 
 **Example 1:**
 
+  
 **Input:** A = "ab", B = "ba"
+  
 **Output:** 1
+  
 
 **Example 2:**
 
+  
 **Input:** A = "abc", B = "bca"
+  
 **Output:** 2
+  
 
 **Example 3:**
 
+  
 **Input:** A = "abac", B = "baca"
+  
 **Output:** 2
+  
 
 **Example 4:**
 
+  
 **Input:** A = "aabc", B = "abca"
+  
 **Output:** 2
 
 **Note:**

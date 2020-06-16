@@ -23,16 +23,27 @@ Note that duplicates may exist in the Skiplist, your code needs to handle this s
 
 **Example:**
 
+  
 Skiplist skiplist = new Skiplist();
+  
 
+  
 skiplist.add(1);
+  
 skiplist.add(2);
+  
 skiplist.add(3);
+  
 skiplist.search(0);   // return false.
+  
 skiplist.add(4);
+  
 skiplist.search(1);   // return true.
+  
 skiplist.erase(0);    // return false, 0 is not in skiplist.
+  
 skiplist.erase(1);    // return true.
+  
 skiplist.search(1);   // return false, 1 has already been erased.
 
 **Constraints:**

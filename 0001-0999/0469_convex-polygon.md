@@ -10,18 +10,29 @@ Given a list of points that form a polygon when joined sequentially, find if thi
 
 **Example 1:**
 
+  
 \[\[0,0\],\[0,1\],\[1,1\],\[1,0\]\]
+  
 
+  
 Answer: True
+  
 
+  
 Explanation:![](https://assets.leetcode.com/uploads/2018/10/13/polygon_convex.png)
+  
 
 **Example 2:**
 
+  
 \[\[0,0\],\[0,10\],\[10,10\],\[10,0\],\[5,5\]\]
+  
 
+  
 Answer: False
+  
 
+  
 Explanation:![](https://assets.leetcode.com/uploads/2018/10/13/polygon_not_convex.png)  
 
 

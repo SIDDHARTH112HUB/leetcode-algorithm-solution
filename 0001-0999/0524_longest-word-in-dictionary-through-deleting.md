@@ -4,19 +4,31 @@ Given a string and a string dictionary, find the longest string in the dictionar
 
 **Example 1:**  
 
+  
 **Input:**
+  
 s = "abpcplea", d = \["ale","apple","monkey","plea"\]
+  
 
+  
 **Output:** 
+  
 "apple"
+  
 
 **Example 2:**  
 
+  
 **Input:**
+  
 s = "abpcplea", d = \["a","b","c"\]
+  
 
+  
 **Output:** 
+  
 "a"
+  
 
 **Note:**  
 

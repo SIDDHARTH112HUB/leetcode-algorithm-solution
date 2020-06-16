@@ -4,12 +4,17 @@ Your task is to calculate _a__b_ mod 1337 where _a_ is a positive integer and _b
 
 **Example 1:**
 
+  
 **Input:** a = 2, b = \[3\]
+  
 **Output:** 8
+  
 
 **Example 2:**
 
+  
 **Input:** a = 2, b = \[1,0\]
+  
 **Output:** 1024  
 
 

@@ -8,9 +8,10 @@ It's guaranteed that for the given test cases there is always possible to find a
 
 **Example 1:**
 
-**Input:** \[8,5,1,7,10,12\]
-**Output:** \[8,5,10,1,7,null,12\]
-![](https://assets.leetcode.com/uploads/2019/03/06/1266.png) 
+  
+**Input:** \[8,5,1,7,10,12\]  
+**Output:** \[8,5,10,1,7,null,12\]  
+![](https://assets.leetcode.com/uploads/2019/03/06/1266.png)  
 
 **Constraints:**
 

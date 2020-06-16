@@ -10,15 +10,17 @@ Return the minimum number of steps needed to move the knight to the square `[x,
 
 **Example 1:**
 
-**Input:** x = 2, y = 1
-**Output:** 1
-**Explanation:** \[0, 0\] → \[2, 1\]
+  
+**Input:** x = 2, y = 1  
+**Output:** 1  
+**Explanation:** \[0, 0\] → \[2, 1\]  
 
 **Example 2:**
 
-**Input:** x = 5, y = 5
-**Output:** 4
-**Explanation:** \[0, 0\] → \[2, 1\] → \[4, 2\] → \[3, 4\] → \[5, 5\]
+  
+**Input:** x = 5, y = 5  
+**Output:** 4  
+**Explanation:** \[0, 0\] → \[2, 1\] → \[4, 2\] → \[3, 4\] → \[5, 5\]  
 
 **Constraints:**
 

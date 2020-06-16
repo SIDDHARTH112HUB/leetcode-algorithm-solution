@@ -10,14 +10,21 @@ Given a **non-empty** string containing an out-of-order English representation o
 
 **Example 1:**  
 
+  
 Input: "owoztneoer"
+  
 
+  
 Output: "012"
+  
 
 **Example 2:**  
 
+  
 Input: "fviefuro"
+  
 
+  
 Output: "45"  
 
 

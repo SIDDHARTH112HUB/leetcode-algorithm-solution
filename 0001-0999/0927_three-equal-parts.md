@@ -15,12 +15,17 @@ Note that the entire part is used when considering what binary value it represen
 
 **Example 1:**
 
+  
 **Input:** \[1,0,1,0,1\]
+  
 **Output:** \[0,3\]
+  
 
 **Example 2:**
 
+  
 **Input:** \[1,1,0,1,1\]
+  
 **Output:** \[-1,-1\]
 
 **Note:**

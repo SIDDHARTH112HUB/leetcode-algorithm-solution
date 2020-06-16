@@ -6,31 +6,45 @@ Count the number of **distinct** islands. An island is considered to be the same
 
 **Example 1:**  
 
+  
 11000
+  
 11000
+  
 00011
+  
 00011
+  
 
 Given the above grid map, return `1`.
 
 **Example 2:**  
 
 11011
+  
 10000
+  
 00001
+  
 11011
 
 Given the above grid map, return `3`.  
   
 Notice that:
 
+  
 11
+  
 1
+  
 
 and
 
+  
  1
+  
 11
+  
 
 are considered different island shapes, because we do not consider reflection / rotation.
 

@@ -17,9 +17,10 @@ As shown in the example url above, the hostname is `example.org`. For simplicity
 
 The `HtmlParser` interface is defined as such: 
 
-interface HtmlParser {
-  // Return a list of all urls from a webpage of given _url_.
-  public List<String> getUrls(String url);
+  
+interface HtmlParser {  
+  // Return a list of all urls from a webpage of given _url_.  
+  public List<String> getUrls(String url);  
 }
 
 Below are two examples explaining the functionality of the problem, for custom testing purposes you'll have three variables `urls`, `edges` and `startUrl`. Notice that you will only have access to `startUrl` in your code, while `urls` and `edges` are not directly accessible to you in code.
@@ -28,36 +29,38 @@ Below are two examples explaining the functionality of the problem, for custom 
 
 ![](https://assets.leetcode.com/uploads/2019/10/23/sample_2_1497.png)
 
-**Input:** urls = \[
-  "http://news.yahoo.com",
-  "http://news.yahoo.com/news",
-  "http://news.yahoo.com/news/topics/",
-  "http://news.google.com",
-  "http://news.yahoo.com/us"
-\]
-edges = \[\[2,0\],\[2,1\],\[3,2\],\[3,1\],\[0,4\]\]
-startUrl = "http://news.yahoo.com/news/topics/"
-**Output:** \[
-  "http://news.yahoo.com",
-  "http://news.yahoo.com/news",
-  "http://news.yahoo.com/news/topics/",
-  "http://news.yahoo.com/us"
-\]
+  
+**Input:** urls = \[  
+  "http://news.yahoo.com",  
+  "http://news.yahoo.com/news",  
+  "http://news.yahoo.com/news/topics/",  
+  "http://news.google.com",  
+  "http://news.yahoo.com/us"  
+\]  
+edges = \[\[2,0\],\[2,1\],\[3,2\],\[3,1\],\[0,4\]\]  
+startUrl = "http://news.yahoo.com/news/topics/"  
+**Output:** \[  
+  "http://news.yahoo.com",  
+  "http://news.yahoo.com/news",  
+  "http://news.yahoo.com/news/topics/",  
+  "http://news.yahoo.com/us"  
+\]  
 
 **Example 2:**
 
 **![](https://assets.leetcode.com/uploads/2019/10/23/sample_3_1497.png)**
 
-**Input:** 
-urls = \[
-  "http://news.yahoo.com",
-  "http://news.yahoo.com/news",
-  "http://news.yahoo.com/news/topics/",
-  "http://news.google.com"
-\]
-edges = \[\[0,2\],\[2,1\],\[3,2\],\[3,1\],\[3,0\]\]
-startUrl = "http://news.google.com"
-**Output:** \["http://news.google.com"\]
+  
+**Input:**   
+urls = \[  
+  "http://news.yahoo.com",  
+  "http://news.yahoo.com/news",  
+  "http://news.yahoo.com/news/topics/",  
+  "http://news.google.com"  
+\]  
+edges = \[\[0,2\],\[2,1\],\[3,2\],\[3,1\],\[3,0\]\]  
+startUrl = "http://news.google.com"  
+**Output:** \["http://news.google.com"\]  
 **Explanation:** The startUrl links to all other pages that do not share the same hostname.
 
 **Constraints:**

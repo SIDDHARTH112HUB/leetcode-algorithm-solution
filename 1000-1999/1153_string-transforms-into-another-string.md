@@ -8,15 +8,17 @@ Return `true` if and only if you can transform `str1` into `str2`.
 
 **Example 1:**
 
-**Input:** str1 = "aabcc", str2 = "ccdee"
-**Output:** true
-**Explanation:** Convert 'c' to 'e' then 'b' to 'd' then 'a' to 'c'. Note that the order of conversions matter.
+  
+**Input:** str1 = "aabcc", str2 = "ccdee"  
+**Output:** true  
+**Explanation:** Convert 'c' to 'e' then 'b' to 'd' then 'a' to 'c'. Note that the order of conversions matter.  
 
 **Example 2:**
 
-**Input:** str1 = "leetcode", str2 = "codeleet"
-**Output:** false
-**Explanation:** There is no way to transform str1 to str2.
+  
+**Input:** str1 = "leetcode", str2 = "codeleet"  
+**Output:** false  
+**Explanation:** There is no way to transform str1 to str2.  
 
 **Note:**
 

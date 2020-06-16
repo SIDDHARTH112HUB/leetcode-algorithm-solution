@@ -8,20 +8,31 @@ It is guaranteed that there will be an answer.
 
 **Example 1:**
 
+  
 **Input:** nums = \[1,2,5,9\], threshold = 6
+  
 **Output:** 5
+  
 **Explanation:** We can get a sum to 17 (1+2+5+9) if the divisor is 1. 
+  
 If the divisor is 4 we can get a sum to 7 (1+1+2+3) and if the divisor is 5 the sum will be 5 (1+1+1+2). 
+  
 
 **Example 2:**
 
+  
 **Input:** nums = \[2,3,5,7,11\], threshold = 11
+  
 **Output:** 3
+  
 
 **Example 3:**
 
+  
 **Input:** nums = \[19\], threshold = 5
+  
 **Output:** 4
+  
 
 **Constraints:**
 

@@ -8,16 +8,27 @@ Calling `next()` will return the next smallest number in the BST.
 
 **![](https://assets.leetcode.com/uploads/2018/12/25/bst-tree.png)**
 
+  
 BSTIterator iterator = new BSTIterator(root);
+  
 iterator.next();    // return 3
+  
 iterator.next();    // return 7
+  
 iterator.hasNext(); // return true
+  
 iterator.next();    // return 9
+  
 iterator.hasNext(); // return true
+  
 iterator.next();    // return 15
+  
 iterator.hasNext(); // return true
+  
 iterator.next();    // return 20
+  
 iterator.hasNext(); // return false
+  
 
 **Note:**
 

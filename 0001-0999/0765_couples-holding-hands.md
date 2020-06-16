@@ -8,15 +8,23 @@ The couples' initial seating is given by `row[i]` being the value of the person 
 
 **Example 1:**  
 
+  
 **Input:** row = \[0, 2, 1, 3\]
+  
 **Output:** 1
+  
 **Explanation:** We only need to swap the second (row\[1\]) and third (row\[2\]) person.
+  
 
 **Example 2:**  
 
+  
 **Input:** row = \[3, 2, 0, 1\]
+  
 **Output:** 0
+  
 **Explanation:** All couples are already seated side by side.
+  
 
 **Note:**
 

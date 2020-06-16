@@ -15,26 +15,45 @@ Given two words (_beginWord_ and _endWord_), and a dictionary's word list, find 
 
 **Example 1:**
 
+  
 **Input:**
+  
 beginWord = "hit",
+  
 endWord = "cog",
+  
 wordList = \["hot","dot","dog","lot","log","cog"\]
+  
 
+  
 **Output:**
+  
 \[
+  
   \["hit","hot","dot","dog","cog"\],
+  
   \["hit","hot","lot","log","cog"\]
+  
 \]
+  
 
 **Example 2:**
 
+  
 **Input:**
+  
 beginWord = "hit"
+  
 endWord = "cog"
+  
 wordList = \["hot","dot","dog","lot","log"\]
+  
 
+  
 **Output:** \[\]
+  
 
+  
 **Explanation:** The endWord "cog" is not in wordList, therefore no possible transformation.  
 
 

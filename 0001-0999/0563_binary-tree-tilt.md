@@ -8,16 +8,27 @@ The tilt of the **whole tree** is defined as the sum of all nodes' tilt.
 
 **Example:**  
 
+  
 **Input:** 
+  
          1
+  
        /   \\
+  
       2     3
+  
 **Output:** 1
+  
 **Explanation:** 
+  
 Tilt of node 2 : 0
+  
 Tilt of node 3 : 0
+  
 Tilt of node 1 : |2-3| = 1
+  
 Tilt of binary tree : 0 + 0 + 1 = 1
+  
 
 **Note:**
 

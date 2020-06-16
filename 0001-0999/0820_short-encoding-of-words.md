@@ -10,9 +10,13 @@ What is the length of the shortest reference string S possible that encodes the 
 
 **Example:**
 
+  
 **Input:** words = `["time", "me", "bell"]`
+  
 **Output:** 10
+  
 **Explanation:** S = `"time#bell#" and indexes = [0, 2, 5`\].
+  
 
 **Note:**
 

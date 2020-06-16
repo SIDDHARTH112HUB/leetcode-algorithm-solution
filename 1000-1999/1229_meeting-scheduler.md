@@ -10,13 +10,15 @@ It is guaranteed that no two availability slots of the same person intersect wit
 
 **Example 1:**
 
-**Input:** slots1 = \[\[10,50\],\[60,120\],\[140,210\]\], slots2 = \[\[0,15\],\[60,70\]\], duration = 8
-**Output:** \[60,68\]
+  
+**Input:** slots1 = \[\[10,50\],\[60,120\],\[140,210\]\], slots2 = \[\[0,15\],\[60,70\]\], duration = 8  
+**Output:** \[60,68\]  
 
 **Example 2:**
 
-**Input:** slots1 = \[\[10,50\],\[60,120\],\[140,210\]\], slots2 = \[\[0,15\],\[60,70\]\], duration = 12
-**Output:** \[\]
+  
+**Input:** slots1 = \[\[10,50\],\[60,120\],\[140,210\]\], slots2 = \[\[0,15\],\[60,70\]\], duration = 12  
+**Output:** \[\]  
 
 **Constraints:**
 

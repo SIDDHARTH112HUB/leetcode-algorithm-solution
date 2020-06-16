@@ -8,18 +8,18 @@ Return the smallest number of `0`s that must be flipped.  (It is guaranteed tha
 
 **Example 1:**
 
-**Input:** A = \[\[0,1\],\[1,0\]\]
-**Output:** 1
+**Input:** A = \[\[0,1\],\[1,0\]\]  
+**Output:** 1  
 
 **Example 2:**
 
-**Input:** A = \[\[0,1,0\],\[0,0,0\],\[0,0,1\]\]
-**Output:** 2
+**Input:** A = \[\[0,1,0\],\[0,0,0\],\[0,0,1\]\]  
+**Output:** 2  
 
 **Example 3:**
 
-**Input:** A = \[\[1,1,1,1,1\],\[1,0,0,0,1\],\[1,0,1,0,1\],\[1,0,0,0,1\],\[1,1,1,1,1\]\]
-**Output:** 1
+**Input:** A = \[\[1,1,1,1,1\],\[1,0,0,0,1\],\[1,0,1,0,1\],\[1,0,0,0,1\],\[1,1,1,1,1\]\]  
+**Output:** 1  
 
 **Constraints:**
 

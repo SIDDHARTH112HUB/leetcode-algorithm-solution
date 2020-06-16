@@ -10,18 +10,27 @@ Given a string containing only three types of characters: '(', ')' and '\*', wri
 
 **Example 1:**  
 
+  
 **Input:** "()"
+  
 **Output:** True
+  
 
 **Example 2:**  
 
+  
 **Input:** "(\*)"
+  
 **Output:** True
+  
 
 **Example 3:**  
 
+  
 **Input:** "(\*))"
+  
 **Output:** True
+  
 
 **Note:**  
 

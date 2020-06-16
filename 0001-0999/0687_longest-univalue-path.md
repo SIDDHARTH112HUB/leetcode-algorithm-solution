@@ -8,11 +8,17 @@ The length of path between two nodes is represented by the number of edges betwe
 
 **Input:**
 
+  
               5
+  
              / \\
+  
             4   5
+  
            / \\   \\
+  
           1   1   5
+  
 
 **Output:** 2
 
@@ -20,11 +26,17 @@ The length of path between two nodes is represented by the number of edges betwe
 
 **Input:**
 
+  
               1
+  
              / \\
+  
             4   5
+  
            / \\   \\
+  
           4   4   5
+  
 
 **Output:** 2
 

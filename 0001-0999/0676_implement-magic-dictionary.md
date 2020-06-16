@@ -8,11 +8,17 @@ For the method `search`, you'll be given a word, and judge whether if you modify
 
 **Example 1:**  
 
+  
 Input: buildDict(\["hello", "leetcode"\]), Output: Null
+  
 Input: search("hello"), Output: False
+  
 Input: search("hhllo"), Output: True
+  
 Input: search("hell"), Output: False
+  
 Input: search("leetcoded"), Output: False
+  
 
 **Note:**  
 

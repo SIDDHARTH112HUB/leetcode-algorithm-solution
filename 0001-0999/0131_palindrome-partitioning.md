@@ -6,11 +6,17 @@ Return all possible palindrome partitioning of _s_.
 
 **Example:**
 
+  
 **Input:** "aab"
+  
 **Output:**
+  
 \[
+  
   \["aa","b"\],
+  
   \["a","a","b"\]
+  
 \]  
 
 

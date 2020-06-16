@@ -9,15 +9,23 @@ Given a string consists of lower English letters only, your job is to count the 
 
 **Example 1:**  
 
+  
 **Input:** "aaabbb"
+  
 **Output:** 2
+  
 **Explanation:** Print "aaa" first and then print "bbb".
+  
 
 **Example 2:**  
 
+  
 **Input:** "aba"
+  
 **Output:** 2
+  
 **Explanation:** Print "aaa" first and then print "b" from the second place of the string, which will cover the existing character 'a'.
+  
 
 **Hint**: Length of the given string will not exceed 100.  
 

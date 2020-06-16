@@ -8,8 +8,11 @@ A naive algorithm of _O_(_n_2) is trivial. You MUST do better than that.
 
 **Example:**
 
+  
 **Input:** _nums_ = `[-2,5,-1]`, _lower_ = `-2`, _upper_ = `2`,
+  
 **Output:** 3 
+  
 **Explanation:** The three ranges are : `[0,0]`, `[2,2]`, `[0,2]` and their respective sums are: `-2, -1, 2`.  
 
 

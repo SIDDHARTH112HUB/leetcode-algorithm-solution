@@ -7,7 +7,9 @@ Return the number of pairs `(i, j)` for which `0 <= i < j < dominoes.length`, an
 **Example 1:**
 
 **Input:** dominoes = \[\[1,2\],\[2,1\],\[3,4\],\[5,6\]\]
+  
 **Output:** 1
+  
 
 **Constraints:**
 

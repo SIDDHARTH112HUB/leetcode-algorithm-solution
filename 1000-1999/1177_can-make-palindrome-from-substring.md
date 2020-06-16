@@ -12,14 +12,15 @@ Note that: Each letter is counted **individually** for replacement so if for ex
 
 **Example :**
 
-**Input:** s = "abcda", queries = \[\[3,3,0\],\[1,2,0\],\[0,3,1\],\[0,3,2\],\[0,4,1\]\]
-**Output:** \[true,false,false,true,true\]
-**Explanation:**
-queries\[0\] : substring = "d", is palidrome.
-queries\[1\] : substring = "bc", is not palidrome.
-queries\[2\] : substring = "abcd", is not palidrome after replacing only 1 character.
-queries\[3\] : substring = "abcd", could be changed to "abba" which is palidrome. Also this can be changed to "baab" first rearrange it "bacd" then replace "cd" with "ab".
-queries\[4\] : substring = "abcda", could be changed to "abcba" which is palidrome.
+  
+**Input:** s = "abcda", queries = \[\[3,3,0\],\[1,2,0\],\[0,3,1\],\[0,3,2\],\[0,4,1\]\]  
+**Output:** \[true,false,false,true,true\]  
+**Explanation:**  
+queries\[0\] : substring = "d", is palidrome.  
+queries\[1\] : substring = "bc", is not palidrome.  
+queries\[2\] : substring = "abcd", is not palidrome after replacing only 1 character.  
+queries\[3\] : substring = "abcd", could be changed to "abba" which is palidrome. Also this can be changed to "baab" first rearrange it "bacd" then replace "cd" with "ab".  
+queries\[4\] : substring = "abcda", could be changed to "abcba" which is palidrome.  
 
 **Constraints:**
 

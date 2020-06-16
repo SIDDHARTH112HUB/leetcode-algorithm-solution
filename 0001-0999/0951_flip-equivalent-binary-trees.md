@@ -8,10 +8,15 @@ Write a function that determines whether two binary trees are _flip equivalent_
 
 **Example 1:**
 
+  
 **Input:** root1 = \[1,2,3,4,5,6,null,null,null,7,8\], root2 = \[1,3,2,null,6,4,5,null,null,null,null,8,7\]
+  
 **Output:** true
+  
 **Explanation:** We flipped at nodes with values 1, 3, and 5.
+  
 ![Flipped Trees Diagram](https://assets.leetcode.com/uploads/2018/11/29/tree_ex.png)
+  
 
 **Note:**
 

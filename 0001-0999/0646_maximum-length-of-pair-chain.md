@@ -8,9 +8,13 @@ Given a set of pairs, find the length longest chain which can be formed. You nee
 
 **Example 1:**  
 
+  
 **Input:** \[\[1,2\], \[2,3\], \[3,4\]\]
+  
 **Output:** 2
+  
 **Explanation:** The longest chain is \[1,2\] -> \[3,4\]
+  
 
 **Note:**  
 

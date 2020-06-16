@@ -10,22 +10,31 @@ _(As a reminder, any shorter prefix of a string is lexicographically smaller: fo
 
 **![](https://assets.leetcode.com/uploads/2019/01/30/tree1.png)**
 
+  
 **Input:** \[0,1,2,3,4,3,4\]
+  
 **Output:** "dba"
+  
 
 **Example 2:**
 
 **![](https://assets.leetcode.com/uploads/2019/01/30/tree2.png)**
 
+  
 **Input:** \[25,1,3,1,3,0,2\]
+  
 **Output:** "adz"
+  
 
 **Example 3:**
 
 **![](https://assets.leetcode.com/uploads/2019/02/01/tree3.png)**
 
+  
 **Input:** \[2,2,1,null,1,0,null,0\]
+  
 **Output:** "abc"
+  
 
 **Note:**
 

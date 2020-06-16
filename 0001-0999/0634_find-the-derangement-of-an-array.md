@@ -8,9 +8,13 @@ Also, since the answer may be very large, you should return the output mod 109 +
 
 **Example 1:**  
 
+  
 **Input:** 3
+  
 **Output:** 2
+  
 **Explanation:** The original array is \[1,2,3\]. The two derangements are \[2,3,1\] and \[3,1,2\].
+  
 
 **Note:**  
 `n` is in the range of \[1, 106\].  

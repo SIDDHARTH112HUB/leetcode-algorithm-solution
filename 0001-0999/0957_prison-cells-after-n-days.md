@@ -15,22 +15,39 @@ Given the initial state of the prison, return the state of the prison after `N` 
 
 **Example 1:**
 
+  
 **Input:** cells = \[0,1,0,1,1,0,0,1\], N = 7
+  
 **Output:** \[0,0,1,1,0,0,0,0\]
+  
 **Explanation:** The following table summarizes the state of the prison on each day:
+  
 Day 0: \[0, 1, 0, 1, 1, 0, 0, 1\]
+  
 Day 1: \[0, 1, 1, 0, 0, 0, 0, 0\]
+  
 Day 2: \[0, 0, 0, 0, 1, 1, 1, 0\]
+  
 Day 3: \[0, 1, 1, 0, 0, 1, 0, 0\]
+  
 Day 4: \[0, 0, 0, 0, 0, 1, 0, 0\]
+  
 Day 5: \[0, 1, 1, 1, 0, 1, 0, 0\]
+  
 Day 6: \[0, 0, 1, 0, 1, 1, 0, 0\]
+  
 Day 7: \[0, 0, 1, 1, 0, 0, 0, 0\]
+  
+
+  
 
 **Example 2:**
 
+  
 **Input:** cells = \[1,0,0,1,0,0,1,0\], N = 1000000000
+  
 **Output:** \[0,0,1,1,1,1,1,0\]
+  
 
 **Note:**
 

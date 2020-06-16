@@ -6,18 +6,21 @@ Return the largest string `X` such that `X` divides str1 and `X` divides str2.
 
 **Example 1:**
 
-**Input:** str1 = "ABCABC", str2 = "ABC"
-**Output:** "ABC"
+  
+**Input:** str1 = "ABCABC", str2 = "ABC"  
+**Output:** "ABC"  
 
 **Example 2:**
 
-**Input:** str1 = "ABABAB", str2 = "ABAB"
-**Output:** "AB"
+  
+**Input:** str1 = "ABABAB", str2 = "ABAB"  
+**Output:** "AB"  
 
 **Example 3:**
 
-**Input:** str1 = "LEET", str2 = "CODE"
-**Output:** ""
+  
+**Input:** str1 = "LEET", str2 = "CODE"  
+**Output:** ""  
 
 **Note:**
 

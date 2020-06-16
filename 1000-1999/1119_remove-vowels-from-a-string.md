@@ -4,13 +4,19 @@ Given a string `S`, remove the vowels `'a'`, `'e'`, `'i'`, `'o'`, and `'u'` from
 
 **Example 1:**
 
+  
 **Input:** "leetcodeisacommunityforcoders"
+  
 **Output:** "ltcdscmmntyfrcdrs"
+  
 
 **Example 2:**
 
+  
 **Input:** "aeiou"
+  
 **Output:** ""
+  
 
 **Note:**
 

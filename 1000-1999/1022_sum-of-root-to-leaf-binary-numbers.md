@@ -10,9 +10,13 @@ Return the sum of these numbers.
 
 ![](https://assets.leetcode.com/uploads/2019/04/04/sum-of-root-to-leaf-binary-numbers.png)
 
+  
 **Input:** \[1,0,1,0,1,0,1\]
+  
 **Output:** 22
+  
 **Explanation:** (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
+  
 
 **Note:**
 

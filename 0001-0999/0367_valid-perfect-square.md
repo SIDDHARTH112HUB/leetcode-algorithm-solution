@@ -6,13 +6,13 @@ Given a **positive** integer _num_, write a function which returns True if _num_
 
 **Example 1:**
 
-**Input:** num = 16
-**Output:** true
+**Input:** num = 16  
+**Output:** true  
 
 **Example 2:**
 
-**Input:** num = 14
-**Output:** false
+**Input:** num = 14  
+**Output:** false  
 
 **Constraints:**
 

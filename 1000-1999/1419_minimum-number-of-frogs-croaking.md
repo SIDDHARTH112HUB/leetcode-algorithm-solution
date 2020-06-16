@@ -6,28 +6,32 @@ A valid "croak" means a frog is printing 5 letters ‘c’, ’r’, ’o’, �
 
 **Example 1:**
 
-**Input:** croakOfFrogs = "croakcroak"
-**Output:** 1 
-**Explanation:** One frog yelling "croak**"** twice.
+  
+**Input:** croakOfFrogs = "croakcroak"  
+**Output:** 1   
+**Explanation:** One frog yelling "croak**"** twice.  
 
 **Example 2:**
 
-**Input:** croakOfFrogs = "crcoakroak"
-**Output:** 2 
-**Explanation:** The minimum number of frogs is two. 
-The first frog could yell "**cr**c**oak**roak".
-The second frog could yell later "cr**c**oak**roak**".
+  
+**Input:** croakOfFrogs = "crcoakroak"  
+**Output:** 2   
+**Explanation:** The minimum number of frogs is two.   
+The first frog could yell "**cr**c**oak**roak".  
+The second frog could yell later "cr**c**oak**roak**".  
 
 **Example 3:**
 
-**Input:** croakOfFrogs = "croakcrook"
-**Output:** -1
-**Explanation:** The given string is an invalid combination of "croak**"** from different frogs.
+  
+**Input:** croakOfFrogs = "croakcrook"  
+**Output:** -1  
+**Explanation:** The given string is an invalid combination of "croak**"** from different frogs.  
 
 **Example 4:**
 
-**Input:** croakOfFrogs = "croakcroa"
-**Output:** -1
+  
+**Input:** croakOfFrogs = "croakcroa"  
+**Output:** -1  
 
 **Constraints:**
 

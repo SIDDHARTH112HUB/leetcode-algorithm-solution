@@ -8,7 +8,9 @@ Here, we will use the integers 0, 1, and 2 to represent the color red, white, an
 
 **Example:**
 
+  
 **Input:** \[2,0,2,1,1,0\]
+  
 **Output:** \[0,0,1,1,2,2\]
 
 **Follow up:**

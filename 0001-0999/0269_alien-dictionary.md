@@ -4,39 +4,42 @@ There is a new alien language which uses the latin alphabet. However, the order 
 
 **Example 1:**
 
-**Input:**
-\[
-  "wrt",
-  "wrf",
-  "er",
-  "ett",
-  "rftt"
-\]
-
-**Output:** `"wertf"`
+  
+**Input:**  
+\[  
+  "wrt",  
+  "wrf",  
+  "er",  
+  "ett",  
+  "rftt"  
+\]  
+  
+**Output:** `"wertf"`  
 
 **Example 2:**
 
-**Input:**
-\[
-  "z",
-  "x"
-\]
-
-**Output:** `"zx"`
+  
+**Input:**  
+\[  
+  "z",  
+  "x"  
+\]  
+  
+**Output:** `"zx"`  
 
 **Example 3:**
 
-**Input:**
-\[
-  "z",
-  "x",
-  "z"
-\] 
-
-**Output:** `""` 
-
-**Explanation:** The order is invalid, so return `""`.
+  
+**Input:**  
+\[  
+  "z",  
+  "x",  
+  "z"  
+\]   
+  
+**Output:** `""`   
+  
+**Explanation:** The order is invalid, so return `""`.  
 
 **Note:**
 

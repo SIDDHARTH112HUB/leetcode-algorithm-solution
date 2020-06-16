@@ -4,12 +4,16 @@ A sequence of numbers is called arithmetic if it consists of at least three elem
 
 For example, these are arithmetic sequences:
 
+  
 1, 3, 5, 7, 9
+  
 7, 7, 7, 7
+  
 3, -1, -5, -9
 
 The following sequence is not arithmetic.
 
+  
 1, 1, 2, 5, 7
 
  
@@ -26,18 +30,31 @@ The input contains N integers. Every integer is in the range of -231 and 231\-1 
 
 **Example:**
 
+  
 **Input:** \[2, 4, 6, 8, 10\]
+  
 
+  
 **Output:** 7
+  
 
+  
 **Explanation:**
+  
 All arithmetic subsequence slices are:
+  
 \[2,4,6\]
+  
 \[4,6,8\]
+  
 \[6,8,10\]
+  
 \[2,4,6,8\]
+  
 \[4,6,8,10\]
+  
 \[2,4,6,8,10\]
+  
 \[2,6,10\]  
 
 

@@ -10,16 +10,27 @@ Return the node with the largest depth such that it contains all the deepest nod
 
 **Example 1:**
 
+  
 **Input:** \[3,5,1,6,2,0,8,null,null,7,4\]
+  
 **Output:** \[2,7,4\]
+  
 **Explanation:** 
+  
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/01/sketch1.png)
+  
 
+  
 We return the node with value 2, colored in yellow in the diagram.
+  
 The nodes colored in blue are the deepest nodes of the tree.
+  
 The input "\[3, 5, 1, 6, 2, 0, 8, null, null, 7, 4\]" is a serialization of the given tree.
+  
 The output "\[2, 7, 4\]" is a serialization of the subtree rooted at the node with value 2.
+  
 Both the input and output have TreeNode type.
+  
 
 **Note:**
 

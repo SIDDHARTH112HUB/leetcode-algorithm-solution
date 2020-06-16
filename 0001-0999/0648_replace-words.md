@@ -8,8 +8,9 @@ You need to output the sentence after the replacement.
 
 **Example 1:**
 
-**Input:** dict = \["cat","bat","rat"\], sentence = "the cattle was rattled by the battery"
-**Output:** "the cat was rat by the bat"
+  
+**Input:** dict = \["cat","bat","rat"\], sentence = "the cattle was rattled by the battery"  
+**Output:** "the cat was rat by the bat"  
 
 **Constraints:**
 

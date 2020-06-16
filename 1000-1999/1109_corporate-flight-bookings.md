@@ -8,8 +8,11 @@ Return an array `answer` of length `n`, representing the number of seats booked 
 
 **Example 1:**
 
+  
 **Input:** bookings = \[\[1,2,10\],\[2,3,20\],\[2,5,25\]\], n = 5
+  
 **Output:** \[10,55,45,25,25\]
+  
 
 **Constraints:**
 

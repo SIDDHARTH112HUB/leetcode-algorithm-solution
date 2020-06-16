@@ -6,19 +6,31 @@ You need to help them find out their **common interest** with the **least list i
 
 **Example 1:**  
 
+  
 **Input:**
+  
 \["Shogun", "Tapioca Express", "Burger King", "KFC"\]
+  
 \["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"\]
+  
 **Output:** \["Shogun"\]
+  
 **Explanation:** The only restaurant they both like is "Shogun".
+  
 
 **Example 2:**  
 
+  
 **Input:**
+  
 \["Shogun", "Tapioca Express", "Burger King", "KFC"\]
+  
 \["KFC", "Shogun", "Burger King"\]
+  
 **Output:** \["Shogun"\]
+  
 **Explanation:** The restaurant they both like and have the least index sum is "Shogun" with index sum 1 (0+1).
+  
 
 **Note:**  
 

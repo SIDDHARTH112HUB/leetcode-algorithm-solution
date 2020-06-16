@@ -13,13 +13,21 @@ A Quad-Tree is a tree data structure in which each internal node has exactly fou
 *   `val`: True if the node represents a grid of 1's or False if the node represents a grid of 0's. 
 *   `isLeaf`: True if the node is leaf node on the tree or False if the node has the four children.
 
+  
 class Node {
+  
     public boolean val;
+  
     public boolean isLeaf;
+  
     public Node topLeft;
+  
     public Node topRight;
+  
     public Node bottomLeft;
+  
     public Node bottomRight;
+  
 }
 
 We can construct a Quad-Tree from a two-dimensional area using the following steps:
@@ -44,39 +52,44 @@ If the value of `isLeaf` or `val` is True we represent it as **1** in the list 
 
 ![](https://assets.leetcode.com/uploads/2020/02/11/qt1.png) ![](https://assets.leetcode.com/uploads/2020/02/11/qt2.png)
 
-**Input:** quadTree1 = \[\[0,1\],\[1,1\],\[1,1\],\[1,0\],\[1,0\]\]
-, quadTree2 = \[\[0,1\],\[1,1\],\[0,1\],\[1,1\],\[1,0\],null,null,null,null,\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]
-**Output:** \[\[0,0\],\[1,1\],\[1,1\],\[1,1\],\[1,0\]\]
-**Explanation:** quadTree1 and quadTree2 are shown above. You can see the binary matrix which is represented by each Quad-Tree.
-If we apply logical bitwise OR on the two binary matrices we get the binary matrix below which is represented by the result Quad-Tree.
-Notice that the binary matrices shown are only for illustration, you don't have to construct the binary matrix to get the result tree.
-![](https://assets.leetcode.com/uploads/2020/02/11/qtr.png)
+  
+**Input:** quadTree1 = \[\[0,1\],\[1,1\],\[1,1\],\[1,0\],\[1,0\]\]  
+, quadTree2 = \[\[0,1\],\[1,1\],\[0,1\],\[1,1\],\[1,0\],null,null,null,null,\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]  
+**Output:** \[\[0,0\],\[1,1\],\[1,1\],\[1,1\],\[1,0\]\]  
+**Explanation:** quadTree1 and quadTree2 are shown above. You can see the binary matrix which is represented by each Quad-Tree.  
+If we apply logical bitwise OR on the two binary matrices we get the binary matrix below which is represented by the result Quad-Tree.  
+Notice that the binary matrices shown are only for illustration, you don't have to construct the binary matrix to get the result tree.  
+![](https://assets.leetcode.com/uploads/2020/02/11/qtr.png)  
 
 **Example 2:**
 
-**Input:** quadTree1 = \[\[1,0\]\]
-, quadTree2 = \[\[1,0\]\]
-**Output:** \[\[1,0\]\]
-**Explanation:** Each tree represents a binary matrix of size 1\*1. Each matrix contains only zero.
-The resulting matrix is of size 1\*1 with also zero.
+  
+**Input:** quadTree1 = \[\[1,0\]\]  
+, quadTree2 = \[\[1,0\]\]  
+**Output:** \[\[1,0\]\]  
+**Explanation:** Each tree represents a binary matrix of size 1\*1. Each matrix contains only zero.  
+The resulting matrix is of size 1\*1 with also zero.  
 
 **Example 3:**
 
-**Input:** quadTree1 = \[\[0,0\],\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]
-, quadTree2 = \[\[0,0\],\[1,1\],\[1,1\],\[1,0\],\[1,1\]\]
-**Output:** \[\[1,1\]\]
+  
+**Input:** quadTree1 = \[\[0,0\],\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]  
+, quadTree2 = \[\[0,0\],\[1,1\],\[1,1\],\[1,0\],\[1,1\]\]  
+**Output:** \[\[1,1\]\]  
 
 **Example 4:**
 
-**Input:** quadTree1 = \[\[0,0\],\[1,1\],\[1,0\],\[1,1\],\[1,1\]\]
-, quadTree2 = \[\[0,0\],\[1,1\],\[0,1\],\[1,1\],\[1,1\],null,null,null,null,\[1,1\],\[1,0\],\[1,0\],\[1,1\]\]
-**Output:** \[\[0,0\],\[1,1\],\[0,1\],\[1,1\],\[1,1\],null,null,null,null,\[1,1\],\[1,0\],\[1,0\],\[1,1\]\]
+  
+**Input:** quadTree1 = \[\[0,0\],\[1,1\],\[1,0\],\[1,1\],\[1,1\]\]  
+, quadTree2 = \[\[0,0\],\[1,1\],\[0,1\],\[1,1\],\[1,1\],null,null,null,null,\[1,1\],\[1,0\],\[1,0\],\[1,1\]\]  
+**Output:** \[\[0,0\],\[1,1\],\[0,1\],\[1,1\],\[1,1\],null,null,null,null,\[1,1\],\[1,0\],\[1,0\],\[1,1\]\]  
 
 **Example 5:**
 
-**Input:** quadTree1 = \[\[0,1\],\[1,0\],\[0,1\],\[1,1\],\[1,0\],null,null,null,null,\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]
-, quadTree2 = \[\[0,1\],\[0,1\],\[1,0\],\[1,1\],\[1,0\],\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]
-**Output:** \[\[0,0\],\[0,1\],\[0,1\],\[1,1\],\[1,0\],\[1,0\],\[1,0\],\[1,1\],\[1,1\],\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]
+  
+**Input:** quadTree1 = \[\[0,1\],\[1,0\],\[0,1\],\[1,1\],\[1,0\],null,null,null,null,\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]  
+, quadTree2 = \[\[0,1\],\[0,1\],\[1,0\],\[1,1\],\[1,0\],\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]  
+**Output:** \[\[0,0\],\[0,1\],\[0,1\],\[1,1\],\[1,0\],\[1,0\],\[1,0\],\[1,1\],\[1,1\],\[1,0\],\[1,0\],\[1,1\],\[1,1\]\]  
 
 **Constraints:**
 

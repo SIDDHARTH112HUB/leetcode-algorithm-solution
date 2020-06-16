@@ -21,12 +21,16 @@ Return a sequence of moves that makes our answer equal to `target` in the minim
 **Example 1:**
 
 **Input:** target = "leet"
+  
 **Output:** "DDR!UURRR!!DDD!"
+  
 
 **Example 2:**
 
 **Input:** target = "code"
+  
 **Output:** "RR!DDRR!UUL!R!"
+  
 
 **Constraints:**
 

@@ -6,12 +6,17 @@ Given a list of three points in the plane, return whether these points are a bo
 
 **Example 1:**
 
+  
 **Input:** \[\[1,1\],\[2,3\],\[3,2\]\]
+  
 **Output:** true
+  
 
 **Example 2:**
 
+  
 **Input:** \[\[1,1\],\[2,2\],\[3,3\]\]
+  
 **Output:** false
 
 **Note:**

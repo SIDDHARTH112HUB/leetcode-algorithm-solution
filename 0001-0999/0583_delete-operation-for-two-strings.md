@@ -4,9 +4,13 @@ Given two words _word1_ and _word2_, find the minimum number of steps required t
 
 **Example 1:**  
 
+  
 **Input:** "sea", "eat"
+  
 **Output:** 2
+  
 **Explanation:** You need one step to make "sea" to "ea" and another step to make "eat" to "ea".
+  
 
 **Note:**  
 

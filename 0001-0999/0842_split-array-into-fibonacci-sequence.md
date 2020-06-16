@@ -14,31 +14,49 @@ Return any Fibonacci-like sequence split from `S`, or return `[]` if it cannot b
 
 **Example 1:**
 
+  
 **Input:** "123456579"
+  
 **Output:** \[123,456,579\]
+  
 
 **Example 2:**
 
+  
 **Input:** "11235813"
+  
 **Output:** \[1,1,2,3,5,8,13\]
+  
 
 **Example 3:**
 
+  
 **Input:** "112358130"
+  
 **Output:** \[\]
+  
 **Explanation:** The task is impossible.
+  
 
 **Example 4:**
 
+  
 **Input:** "0123"
+  
 **Output:** \[\]
+  
 **Explanation:** Leading zeroes are not allowed, so "01", "2", "3" is not valid.
+  
 
 **Example 5:**
 
+  
 **Input:** "1101111"
+  
 **Output:** \[110, 1, 111\]
+  
 **Explanation:** The output \[11, 0, 11, 11\] would also be accepted.
+  
 
 **Note:**
 

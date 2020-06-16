@@ -12,23 +12,37 @@ When the game ends, what is the minimum and maximum number of moves that you cou
 
 **Example 1:**
 
+  
 **Input:** \[7,4,9\]
+  
 **Output:** \[1,2\]
+  
 **Explanation:** 
+  
 We can move 4 -> 8 for one move to finish the game.
+  
 Or, we can move 9 -> 5, 4 -> 6 for two moves to finish the game.
+  
 
 **Example 2:**
 
+  
 **Input:** \[6,5,4,3,10\]
+  
 **Output:** \[2,3\]
+  
 We can move 3 -> 8 then 10 -> 7 to finish the game.
+  
 Or, we can move 3 -> 7, 4 -> 8, 5 -> 9 to finish the game.
+  
 Notice we cannot move 10 -> 2 to finish the game, because that would be an illegal move.
+  
 
 **Example 3:**
 
+  
 **Input:** \[100,101,104,102,103\]
+  
 **Output:** \[0,0\]
 
 **Note:**

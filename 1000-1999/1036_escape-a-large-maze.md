@@ -8,17 +8,27 @@ Return `true` if and only if it is possible to reach the target square through a
 
 **Example 1:**
 
+  
 **Input:** blocked = \[\[0,1\],\[1,0\]\], source = \[0,0\], target = \[0,2\]
+  
 **Output:** false
+  
 **Explanation:** 
+  
 The target square is inaccessible starting from the source square, because we can't walk outside the grid.
+  
 
 **Example 2:**
 
+  
 **Input:** blocked = \[\], source = \[0,0\], target = \[999999,999999\]
+  
 **Output:** true
+  
 **Explanation:** 
+  
 Because there are no blocked cells, it's possible to reach the target square.
+  
 
 **Note:**
 

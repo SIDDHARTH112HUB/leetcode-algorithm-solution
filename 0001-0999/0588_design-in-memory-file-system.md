@@ -12,15 +12,25 @@ Design an in-memory file system to simulate the following functions:
 
 **Example:**
 
+  
 **Input:** 
+  
 \["FileSystem","ls","mkdir","addContentToFile","ls","readContentFromFile"\]
+  
 \[\[\],\["/"\],\["/a/b/c"\],\["/a/b/c/d","hello"\],\["/"\],\["/a/b/c/d"\]\]
+  
 
+  
 **Output:**
+  
 \[null,\[\],null,null,\["a"\],"hello"\]
+  
 
+  
 **Explanation:**
+  
 ![filesystem](https://assets.leetcode.com/uploads/2018/10/12/filesystem.png)
+  
 
 **Note:**
 

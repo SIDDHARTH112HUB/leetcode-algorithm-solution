@@ -10,18 +10,27 @@ Note that in the example **inputs** (not outputs) below, arrays such as `[2,1,5
 
 **Example 1:**
 
+  
 **Input:** \[2,1,5\]
+  
 **Output:** \[5,5,0\]
+  
 
 **Example 2:**
 
+  
 **Input:** \[2,7,4,3,5\]
+  
 **Output:** \[7,0,5,5,0\]
+  
 
 **Example 3:**
 
+  
 **Input:** \[1,7,5,1,9,2,5,1\]
+  
 **Output:** \[7,9,9,9,0,5,0,0\]
+  
 
 **Note:**
 

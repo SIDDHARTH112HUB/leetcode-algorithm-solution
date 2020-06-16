@@ -8,37 +8,57 @@ We can rotate digits by 180 degrees to form new digits. When 0, 1, 6, 8, 9 are r
 
 ![](https://assets.leetcode.com/uploads/2019/03/23/1268_1.png)
 
+  
 **Input:** 6
+  
 **Output:** true
+  
 **Explanation:** 
+  
 We get `9` after rotating `6`, `9` is a valid number and `9!=6`.
+  
 
 **Example 2:**
 
 ![](https://assets.leetcode.com/uploads/2019/03/23/1268_2.png)
 
+  
 **Input:** 89
+  
 **Output:** true
+  
 **Explanation:** 
+  
 We get `68` after rotating `89`, `86` is a valid number and `86!=89`.
+  
 
 **Example 3:**
 
 ![](https://assets.leetcode.com/uploads/2019/03/26/1268_3.png)
 
+  
 **Input:** 11
+  
 **Output:** false
+  
 **Explanation:** 
+  
 We get `11` after rotating `11`, `11` is a valid number but the value remains the same, thus `11` is not a confusing number.
+  
 
 **Example 4:**
 
 ![](https://assets.leetcode.com/uploads/2019/03/23/1268_4.png)
 
+  
 **Input:** 25
+  
 **Output:** false
+  
 **Explanation:** 
+  
 We get an invalid number after rotating `25`.
+  
 
 **Note:**
 

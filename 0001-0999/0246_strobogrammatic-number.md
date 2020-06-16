@@ -6,17 +6,24 @@ Write a function to determine if a number is strobogrammatic. The number is repr
 
 **Example 1:**
 
+  
 **Input:**  "69"
+  
 **Output:** true
+  
 
 **Example 2:**
 
+  
 **Input:**  "88"
+  
 **Output:** true
 
 **Example 3:**
 
+  
 **Input:**  "962"
+  
 **Output:** false  
 
 

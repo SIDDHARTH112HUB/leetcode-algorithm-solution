@@ -6,20 +6,31 @@ Determine if there is a loop (or a cycle) in `nums`. A cycle must start and end 
 
 **Example 1:**
 
+  
 **Input:** \[2,-1,1,2,2\]
+  
 **Output:** true
+  
 **Explanation:** There is a cycle, from index 0 -> 2 -> 3 -> 0. The cycle's length is 3.
+  
 
 **Example 2:**
 
+  
 **Input:** \[-1,2\]
+  
 **Output:** false
+  
 **Explanation:** The movement from index 1 -> 1 -> 1 ... is not a cycle, because the cycle's length is 1. By definition the cycle's length must be greater than 1.
+  
 
 **Example 3:**
 
+  
 **Input:** \[-2,1,-1,-2,-2\]
+  
 **Output:** false
+  
 **Explanation:** The movement from index 1 -> 2 -> 1 -> ... is not a cycle, because movement from index 1 -> 2 is a forward movement, but movement from index 2 -> 1 is a backward movement. All movements in a cycle must follow a single direction.
 
 **Note:**

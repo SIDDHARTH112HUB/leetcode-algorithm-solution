@@ -10,11 +10,17 @@ As the answer may be very large, **return the answer modulo 10^9 + 7**.
 
 **Example 1:**
 
+  
 **Input:** \[2,1,3\]
+  
 **Output:** 6
+  
 **Explanation:** Subsequences are \[1\], \[2\], \[3\], \[2,1\], \[2,3\], \[1,3\], \[2,1,3\].
+  
 The corresponding widths are 0, 0, 0, 1, 1, 2, 2.
+  
 The sum of these widths is 6.
+  
 
 **Note:**
 

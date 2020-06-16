@@ -8,30 +8,35 @@ Return a list containing _all the integers_ from _both trees_ sorted in **ascend
 
 ![](https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png)
 
-**Input:** root1 = \[2,1,4\], root2 = \[1,0,3\]
-**Output:** \[0,1,1,2,3,4\]
+  
+**Input:** root1 = \[2,1,4\], root2 = \[1,0,3\]  
+**Output:** \[0,1,1,2,3,4\]  
 
 **Example 2:**
 
-**Input:** root1 = \[0,-10,10\], root2 = \[5,1,7,0,2\]
-**Output:** \[-10,0,0,1,2,5,7,10\]
+  
+**Input:** root1 = \[0,-10,10\], root2 = \[5,1,7,0,2\]  
+**Output:** \[-10,0,0,1,2,5,7,10\]  
 
 **Example 3:**
 
-**Input:** root1 = \[\], root2 = \[5,1,7,0,2\]
-**Output:** \[0,1,2,5,7\]
+  
+**Input:** root1 = \[\], root2 = \[5,1,7,0,2\]  
+**Output:** \[0,1,2,5,7\]  
 
 **Example 4:**
 
-**Input:** root1 = \[0,-10,10\], root2 = \[\]
-**Output:** \[-10,0,10\]
+  
+**Input:** root1 = \[0,-10,10\], root2 = \[\]  
+**Output:** \[-10,0,10\]  
 
 **Example 5:**
 
 ![](https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png)
 
-**Input:** root1 = \[1,null,8\], root2 = \[8,1\]
-**Output:** \[1,1,8,8\]
+  
+**Input:** root1 = \[1,null,8\], root2 = \[8,1\]  
+**Output:** \[1,1,8,8\]  
 
 **Constraints:**
 

@@ -10,17 +10,18 @@ Return an array `answer`, where `answer[i]` is the number of words in the given 
 
 **Example :**
 
-**Input:** 
-words = \["aaaa","asas","able","ability","actt","actor","access"\], 
-puzzles = \["aboveyz","abrodyz","abslute","absoryz","actresz","gaswxyz"\]
-**Output:** \[1,1,3,2,4,0\]
-**Explanation:**
-1 valid word for "aboveyz" : "aaaa" 
-1 valid word for "abrodyz" : "aaaa"
-3 valid words for "abslute" : "aaaa", "asas", "able"
-2 valid words for "absoryz" : "aaaa", "asas"
-4 valid words for "actresz" : "aaaa", "asas", "actt", "access"
-There're no valid words for "gaswxyz" cause none of the words in the list contains letter 'g'.
+  
+**Input:**   
+words = \["aaaa","asas","able","ability","actt","actor","access"\],   
+puzzles = \["aboveyz","abrodyz","abslute","absoryz","actresz","gaswxyz"\]  
+**Output:** \[1,1,3,2,4,0\]  
+**Explanation:**  
+1 valid word for "aboveyz" : "aaaa"   
+1 valid word for "abrodyz" : "aaaa"  
+3 valid words for "abslute" : "aaaa", "asas", "able"  
+2 valid words for "absoryz" : "aaaa", "asas"  
+4 valid words for "actresz" : "aaaa", "asas", "actt", "access"  
+There're no valid words for "gaswxyz" cause none of the words in the list contains letter 'g'.  
 
 **Constraints:**
 

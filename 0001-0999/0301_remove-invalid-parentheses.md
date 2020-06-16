@@ -6,17 +6,25 @@ Remove the minimum number of invalid parentheses in order to make the input stri
 
 **Example 1:**
 
+  
 **Input:** "()())()"
+  
 **Output:** \["()()()", "(())()"\]
+  
 
 **Example 2:**
 
+  
 **Input:** "(a)())()"
+  
 **Output:** \["(a)()()", "(a())()"\]
+  
 
 **Example 3:**
 
+  
 **Input:** ")("
+  
 **Output:** \[""\]  
 
 

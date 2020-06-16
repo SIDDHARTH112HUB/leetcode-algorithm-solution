@@ -6,13 +6,21 @@ Find the number of boomerangs. You may assume that _n_ will be at most **500** a
 
 **Example:**
 
+  
 **Input:**
+  
 \[\[0,0\],\[1,0\],\[2,0\]\]
+  
 
+  
 **Output:**
+  
 2
+  
 
+  
 **Explanation:**
+  
 The two boomerangs are **\[\[1,0\],\[0,0\],\[2,0\]\]** and **\[\[1,0\],\[2,0\],\[0,0\]\]**  
 
 

@@ -10,14 +10,20 @@ How many binary trees can we make?  Return the answer **modulo 10 \*\* 9 + 7**.
 
 **Example 1:**
 
+  
 **Input:** `A = [2, 4]`
+  
 **Output:** 3
+  
 **Explanation:** We can make these trees: `[2], [4], [4, 2, 2]`
 
 **Example 2:**
 
+  
 **Input:** `A = [2, 4, 5, 10]`
+  
 **Output:** `7`
+  
 **Explanation:** We can make these trees: `[2], [4], [5], [10], [4, 2, 2], [10, 2, 5], [10, 5, 2]`.
 
 **Note:**

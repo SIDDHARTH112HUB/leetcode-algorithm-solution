@@ -11,18 +11,27 @@ Return the largest number of points we can have after playing any number of toke
 
 **Example 1:**
 
+  
 **Input:** tokens = \[100\], P = 50
+  
 **Output:** 0
+  
 
 **Example 2:**
 
+  
 **Input:** tokens = \[100,200\], P = 150
+  
 **Output:** 1
+  
 
 **Example 3:**
 
+  
 **Input:** tokens = \[100,200,300,400\], P = 200
+  
 **Output:** 2
+  
 
 **Note:**
 

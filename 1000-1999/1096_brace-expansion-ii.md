@@ -24,14 +24,16 @@ Given an `expression` representing a set of words under the given grammar, retur
 
 **Example 1:**
 
-**Input:** "{a,b}{c,{d,e}}"
-**Output:** \["ac","ad","ae","bc","bd","be"\]
+  
+**Input:** "{a,b}{c,{d,e}}"  
+**Output:** \["ac","ad","ae","bc","bd","be"\]  
 
 **Example 2:**
 
-**Input:** "{{a,z},a{b,c},{ab,z}}"
-**Output:** \["a","ab","ac","z"\]
-**Explanation:** Each distinct word is written only once in the final answer.
+  
+**Input:** "{{a,z},a{b,c},{ab,z}}"  
+**Output:** \["a","ab","ac","z"\]  
+**Explanation:** Each distinct word is written only once in the final answer.  
 
 **Constraints:**
 

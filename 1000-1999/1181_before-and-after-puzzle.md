@@ -12,30 +12,33 @@ You should return a list of **distinct** strings **sorted lexicographically**
 
 **Example 1:**
 
-**Input:** phrases = \["writing code","code rocks"\]
-**Output:** \["writing code rocks"\]
+  
+**Input:** phrases = \["writing code","code rocks"\]  
+**Output:** \["writing code rocks"\]  
 
 **Example 2:**
 
-**Input:** phrases = \["mission statement",
-                  "a quick bite to eat",
-                  "a chip off the old block",
-                  "chocolate bar",
-                  "mission impossible",
-                  "a man on a mission",
-                  "block party",
-                  "eat my words",
-                  "bar of soap"\]
-**Output:** \["a chip off the old block party",
-         "a man on a mission impossible",
-         "a man on a mission statement",
-         "a quick bite to eat my words",
-         "chocolate bar of soap"\]
+  
+**Input:** phrases = \["mission statement",  
+                  "a quick bite to eat",  
+                  "a chip off the old block",  
+                  "chocolate bar",  
+                  "mission impossible",  
+                  "a man on a mission",  
+                  "block party",  
+                  "eat my words",  
+                  "bar of soap"\]  
+**Output:** \["a chip off the old block party",  
+         "a man on a mission impossible",  
+         "a man on a mission statement",  
+         "a quick bite to eat my words",  
+         "chocolate bar of soap"\]  
 
 **Example 3:**
 
-**Input:** phrases = \["a","b","a"\]
-**Output:** \["a"\]
+  
+**Input:** phrases = \["a","b","a"\]  
+**Output:** \["a"\]  
 
 **Constraints:**
 

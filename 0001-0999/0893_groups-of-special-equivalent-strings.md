@@ -17,16 +17,25 @@ Return the number of groups of special-equivalent strings from `A`.
 
 **Example 1:**
 
+  
 **Input:** \["abcd","cdab","cbad","xyzz","zzxy","zzyx"\]
+  
 **Output:** 3
+  
 **Explanation:** 
+  
 One group is \["abcd", "cdab", "cbad"\], since they are all pairwise special equivalent, and none of the other strings are all pairwise special equivalent to these.
+  
 
+  
 The other two groups are \["xyzz", "zzxy"\] and \["zzyx"\].  Note that in particular, "zzxy" is not special equivalent to "zzyx".
+  
 
 **Example 2:**
 
+  
 **Input:** \["abc","acb","bac","bca","cab","cba"\]
+  
 **Output:** 3
 
 **Note:**

@@ -10,19 +10,29 @@ _Return the number of ways of cutting the pizza such that each piece contains **
 
 **![](https://assets.leetcode.com/uploads/2020/04/23/ways_to_cut_apple_1.png)**
 
+  
 **Input:** pizza = \["A..","AAA","..."\], k = 3
+  
 **Output:** 3 
+  
 **Explanation:** The figure above shows the three ways to cut the pizza. Note that pieces must contain at least one apple.
+  
 
 **Example 2:**
 
+  
 **Input:** pizza = \["A..","AA.","..."\], k = 3
+  
 **Output:** 1
+  
 
 **Example 3:**
 
+  
 **Input:** pizza = \["A..","A..","..."\], k = 1
+  
 **Output:** 1
+  
 
 **Constraints:**
 

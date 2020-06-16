@@ -6,25 +6,37 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 
 **Example 1:**
 
+  
 **Input:** head = \[3,2,0,-4\], pos = 1
+  
 **Output:** true
+  
 **Explanation:** There is a cycle in the linked list, where tail connects to the second node.
+  
 
 ![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
 
 **Example 2:**
 
+  
 **Input:** head = \[1,2\], pos = 0
+  
 **Output:** true
+  
 **Explanation:** There is a cycle in the linked list, where tail connects to the first node.
+  
 
 ![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png)
 
 **Example 3:**
 
+  
 **Input:** head = \[1\], pos = \-1
+  
 **Output:** false
+  
 **Explanation:** There is no cycle in the linked list.
+  
 
 ![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png)
 

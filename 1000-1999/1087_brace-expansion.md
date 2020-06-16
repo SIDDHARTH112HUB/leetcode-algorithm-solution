@@ -10,13 +10,19 @@ Return all words that can be formed in this manner, in lexicographical order.
 
 **Example 1:**
 
+  
 **Input:** "{a,b}c{d,e}f"
+  
 **Output:** \["acdf","acef","bcdf","bcef"\]
+  
 
 **Example 2:**
 
+  
 **Input:** "abcd"
+  
 **Output:** \["abcd"\]
+  
 
 **Note:**
 

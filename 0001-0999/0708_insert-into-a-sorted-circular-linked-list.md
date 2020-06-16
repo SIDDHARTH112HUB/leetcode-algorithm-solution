@@ -11,22 +11,26 @@ If the list is empty (i.e., given node is `null`), you should create a new singl
 ![](https://assets.leetcode.com/uploads/2019/01/19/example_1_before_65p.jpg)  
  
 
-**Input:** head = \[3,4,1\], insertVal = 2
-**Output:** \[3,4,1,2\]
-**Explanation:** In the figure above, there is a sorted circular list of three elements. You are given a reference to the node with value 3, and we need to insert 2 into the list. The new node should be inserted between node 1 and node 3. After the insertion, the list should look like this, and we should still return node 3.
-
-![](https://assets.leetcode.com/uploads/2019/01/19/example_1_after_65p.jpg)
+  
+**Input:** head = \[3,4,1\], insertVal = 2  
+**Output:** \[3,4,1,2\]  
+**Explanation:** In the figure above, there is a sorted circular list of three elements. You are given a reference to the node with value 3, and we need to insert 2 into the list. The new node should be inserted between node 1 and node 3. After the insertion, the list should look like this, and we should still return node 3.  
+  
+![](https://assets.leetcode.com/uploads/2019/01/19/example_1_after_65p.jpg)  
+  
 
 **Example 2:**
 
-**Input:** head = \[\], insertVal = 1
-**Output:** \[1\]
-**Explanation:** The list is empty (given head is `null`). We create a new single circular list and return the reference to that single node.
+  
+**Input:** head = \[\], insertVal = 1  
+**Output:** \[1\]  
+**Explanation:** The list is empty (given head is `null`). We create a new single circular list and return the reference to that single node.  
 
 **Example 3:**
 
-**Input:** head = \[1\], insertVal = 0
-**Output:** \[1,0\]
+  
+**Input:** head = \[1\], insertVal = 0  
+**Output:** \[1,0\]  
 
 **Constraints:**
 

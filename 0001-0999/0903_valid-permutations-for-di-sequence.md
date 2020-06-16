@@ -11,15 +11,25 @@ How many valid permutations are there?  Since the answer may be large, **return
 
 **Example 1:**
 
+  
 **Input:** "DID"
+  
 **Output:** 5
+  
 **Explanation:** 
+  
 The 5 valid permutations of (0, 1, 2, 3) are:
+  
 (1, 0, 3, 2)
+  
 (2, 0, 3, 1)
+  
 (2, 1, 3, 0)
+  
 (3, 0, 2, 1)
+  
 (3, 1, 2, 0)
+  
 
 **Note:**
 

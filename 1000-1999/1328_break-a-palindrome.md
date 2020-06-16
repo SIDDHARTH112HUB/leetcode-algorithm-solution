@@ -6,13 +6,19 @@ After doing so, return the final string.  If there is no way to do so, return t
 
 **Example 1:**
 
+  
 **Input:** palindrome = "abccba"
+  
 **Output:** "aaccba"
+  
 
 **Example 2:**
 
+  
 **Input:** palindrome = "a"
+  
 **Output:** ""
+  
 
 **Constraints:**
 

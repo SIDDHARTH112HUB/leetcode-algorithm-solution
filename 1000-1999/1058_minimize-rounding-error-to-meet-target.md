@@ -6,17 +6,27 @@ Return the string `"-1"` if the rounded array is impossible to sum to `target`. 
 
 **Example 1:**
 
+  
 **Input:** prices = \["0.700","2.800","4.900"\], target = 8
+  
 **Output:** "1.000"
+  
 **Explanation:** 
+  
 Use Floor, Ceil and Ceil operations to get (0.7 - 0) + (3 - 2.8) + (5 - 4.9) = 0.7 + 0.2 + 0.1 = 1.0 .
+  
 
 **Example 2:**
 
+  
 **Input:** prices = \["1.500","2.500","3.500"\], target = 10
+  
 **Output:** "-1"
+  
 **Explanation:** 
+  
 It is impossible to meet the target.
+  
 
 **Note:**
 

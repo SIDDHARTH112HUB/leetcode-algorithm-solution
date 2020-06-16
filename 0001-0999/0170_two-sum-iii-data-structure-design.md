@@ -7,14 +7,21 @@ Design and implement a TwoSum class. It should support the following operations:
 
 **Example 1:**
 
+  
 add(1); add(3); add(5);
+  
 find(4) -> true
+  
 find(7) -> false
+  
 
 **Example 2:**
 
+  
 add(3); add(1); add(2);
+  
 find(3) -> true
+  
 find(6) -> false  
 
 

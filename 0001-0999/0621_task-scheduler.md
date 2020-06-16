@@ -8,9 +8,10 @@ You need to return the **least** number of intervals the CPU will take to finish
 
 **Example:**
 
-**Input:** tasks = \["A","A","A","B","B","B"\], n = 2
-**Output:** 8
-**Explanation:** A -> B -> idle -> A -> B -> idle -> A -> B.
+  
+**Input:** tasks = \["A","A","A","B","B","B"\], n = 2  
+**Output:** 8  
+**Explanation:** A -> B -> idle -> A -> B -> idle -> A -> B.  
 
 **Constraints:**
 

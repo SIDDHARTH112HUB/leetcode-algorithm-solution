@@ -10,13 +10,19 @@ Return the lowest number of moves to acquire all keys.  If it's impossible, re
 
 **Example 1:**
 
+  
 **Input:** \["@.a.#","###.#","b.A.B"\]
+  
 **Output:** 8
+  
 
 **Example 2:**
 
+  
 **Input:** \["@..aA","..B#.","....b"\]
+  
 **Output:** 6
+  
 
 **Note:**
 

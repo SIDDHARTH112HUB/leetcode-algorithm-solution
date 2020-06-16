@@ -12,19 +12,29 @@ Return the minimum number of semesters needed to study all courses.  If there i
 
 **![](https://assets.leetcode.com/uploads/2019/04/20/1316_ex1.png)**
 
+  
 **Input:** N = 3, relations = \[\[1,3\],\[2,3\]\]
+  
 **Output:** 2
+  
 **Explanation:** 
+  
 In the first semester, courses 1 and 2 are studied. In the second semester, course 3 is studied.
+  
 
 **Example 2:**
 
 **![](https://assets.leetcode.com/uploads/2019/04/20/1316_ex2.png)**
 
+  
 **Input:** N = 3, relations = \[\[1,2\],\[2,3\],\[3,1\]\]
+  
 **Output:** \-1
+  
 **Explanation:** 
+  
 No course can be studied because they depend on each other.
+  
 
 **Note:**
 

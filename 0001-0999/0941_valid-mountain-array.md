@@ -14,17 +14,25 @@ Recall that A is a mountain array if and only if:
 
 **Example 1:**
 
+  
 **Input:** \[2,1\]
+  
 **Output:** false
+  
 
 **Example 2:**
 
+  
 **Input:** \[3,5,5\]
+  
 **Output:** false
+  
 
 **Example 3:**
 
+  
 **Input:** \[0,3,2,1\]
+  
 **Output:** true
 
 **Note:**

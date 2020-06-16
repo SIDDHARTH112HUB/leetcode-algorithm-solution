@@ -6,13 +6,21 @@ An arrow can be shot up exactly vertically from different points along the x-axi
 
 **Example:**
 
+  
 **Input:**
+  
 \[\[10,16\], \[2,8\], \[1,6\], \[7,12\]\]
+  
 
+  
 **Output:**
+  
 2
+  
 
+  
 **Explanation:**
+  
 One way is to shoot one arrow for example at x = 6 (bursting the balloons \[2,8\] and \[1,6\]) and another arrow at x = 11 (bursting the other two balloons).  
 
 

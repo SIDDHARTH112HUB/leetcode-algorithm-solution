@@ -8,55 +8,97 @@ Return the number of regions.
 
 **Example 1:**
 
+  
 **Input:** \[
+  
   " /",
+  
   "/ "
+  
 \]
+  
 **Output:** 2
+  
 **Explanation:** The 2x2 grid is as follows:
+  
 ![](https://assets.leetcode.com/uploads/2018/12/15/1.png)
+  
 
 **Example 2:**
 
+  
 **Input:** \[
+  
   " /",
+  
   "  "
+  
 \]
+  
 **Output:** 1
+  
 **Explanation:** The 2x2 grid is as follows:
+  
 ![](https://assets.leetcode.com/uploads/2018/12/15/2.png)
+  
 
 **Example 3:**
 
+  
 **Input:** \[
+  
   "\\\\/",
+  
   "/\\\\"
+  
 \]
+  
 **Output:** 4
+  
 **Explanation:** (Recall that because \\ characters are escaped, "\\\\/" refers to \\/, and "/\\\\" refers to /\\.)
+  
 The 2x2 grid is as follows:
+  
 ![](https://assets.leetcode.com/uploads/2018/12/15/3.png)
+  
 
 **Example 4:**
 
+  
 **Input:** \[
+  
   "/\\\\",
+  
   "\\\\/"
+  
 \]
+  
 **Output:** 5
+  
 **Explanation:** (Recall that because \\ characters are escaped, "/\\\\" refers to /\\, and "\\\\/" refers to \\/.)
+  
 The 2x2 grid is as follows:
+  
 ![](https://assets.leetcode.com/uploads/2018/12/15/4.png)
+  
 
 **Example 5:**
 
+  
 **Input:** \[
+  
   "//",
+  
   "/ "
+  
 \]
+  
 **Output:** 3
+  
 **Explanation:** The 2x2 grid is as follows:
+  
 ![](https://assets.leetcode.com/uploads/2018/12/15/5.png)
+  
 
 **Note:**
 

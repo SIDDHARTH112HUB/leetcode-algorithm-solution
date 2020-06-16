@@ -6,52 +6,93 @@ An "_axis-aligned plus sign of `1`s_ of order **k**" has some center `grid[x][y]
 
 **Examples of Axis-Aligned Plus Signs of Order k:**  
 
+  
 Order 1:
+  
 000
+  
 0**1**0
+  
 000
+  
 
+  
 Order 2:
+  
 00000
+  
 00**1**00
+  
 0**111**0
+  
 00**1**00
+  
 00000
+  
 
+  
 Order 3:
+  
 0000000
+  
 000**1**000
+  
 000**1**000
+  
 0**11111**0
+  
 000**1**000
+  
 000**1**000
+  
 0000000
+  
 
 **Example 1:**  
 
+  
 **Input:** N = 5, mines = \[\[4, 2\]\]
+  
 **Output:** 2
+  
 **Explanation:**
+  
 11111
+  
 11111
+  
 1**1**111
+  
 **111**11
+  
 1**1**011
+  
 In the above grid, the largest plus sign can only be order 2.  One of them is marked in bold.
+  
 
 **Example 2:**  
 
+  
 **Input:** N = 2, mines = \[\]
+  
 **Output:** 1
+  
 **Explanation:**
+  
 There is no plus sign of order 2, but there is of order 1.
+  
 
 **Example 3:**  
 
+  
 **Input:** N = 1, mines = \[\[0, 0\]\]
+  
 **Output:** 0
+  
 **Explanation:**
+  
 There is no plus sign, so return 0.
+  
 
 **Note:**  
 

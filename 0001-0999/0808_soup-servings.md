@@ -13,11 +13,19 @@ Note that we do not have the operation where all 100 ml's of soup B are used fir
 
 Return the probability that soup A will be empty first, plus half the probability that A and B become empty at the same time.
 
+  
 **Example:**
+  
 **Input:** N = 50
+  
 **Output:** 0.625
+  
 **Explanation:** 
+  
 If we choose the first two operations, A will become empty first. For the third operation, A and B will become empty at the same time. For the fourth operation, B will become empty first. So the total probability of A becoming empty first plus half the probability that A and B become empty at the same time, is 0.25 \* (1 + 1 + 0.5 + 0) = 0.625.
+  
+
+  
 
 **Notes:**
 

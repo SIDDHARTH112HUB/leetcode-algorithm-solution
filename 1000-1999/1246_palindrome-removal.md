@@ -6,14 +6,16 @@ Return the minimum number of moves needed to remove all numbers from the array.
 
 **Example 1:**
 
-**Input:** arr = \[1,2\]
-**Output:** 2
+  
+**Input:** arr = \[1,2\]  
+**Output:** 2  
 
 **Example 2:**
 
-**Input:** arr = \[1,3,4,1,5\]
-**Output:** 3
-**Explanation:** Remove \[4\] then remove \[1,3,1\] then remove \[5\].
+  
+**Input:** arr = \[1,3,4,1,5\]  
+**Output:** 3  
+**Explanation:** Remove \[4\] then remove \[1,3,1\] then remove \[5\].  
 
 **Constraints:**
 

@@ -8,13 +8,14 @@ Given the `root` of a binary tree, find the maximum average value of any subtree
 
 ![](https://assets.leetcode.com/uploads/2019/04/09/1308_example_1.png)
 
-**Input:** \[5,6,1\]
-**Output:** 6.00000
-**Explanation:** 
-For the node with value = 5 we have an average of (5 + 6 + 1) / 3 = 4.
-For the node with value = 6 we have an average of 6 / 1 = 6.
-For the node with value = 1 we have an average of 1 / 1 = 1.
-So the answer is 6 which is the maximum.
+  
+**Input:** \[5,6,1\]  
+**Output:** 6.00000  
+**Explanation: **  
+For the node with value = 5 we have an average of (5 + 6 + 1) / 3 = 4.  
+For the node with value = 6 we have an average of 6 / 1 = 6.  
+For the node with value = 1 we have an average of 1 / 1 = 1.  
+So the answer is 6 which is the maximum.  
 
 **Note:**
 

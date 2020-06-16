@@ -10,8 +10,8 @@ We are given a list `A` of strings.  Every string in `A` is an anagram of every
 
 **Example 1:**
 
-**Input:** A = \["tars","rats","arts","star"\]
-**Output:** 2
+**Input:** A = \["tars","rats","arts","star"\]  
+**Output:** 2  
 
 **Constraints:**
 
