@@ -31,9 +31,9 @@ Given a list of airline tickets represented by pairs of departure and arrival ai
 class Solution {
 public:
     map<string, multiset<string> > data;
-    vector<string> findItinerary(vector<pair<string, string>> tickets) {
+    vector<string> findItinerary(vector<vector<string>> tickets) {
         for( auto &p:tickets){
-            data[p.first].insert(p.second);
+            data[p[0]].insert(p[1]);
         }
         
         vector<string> itinerary;

@@ -28,15 +28,15 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 ```cpp
 class Solution {
 public:
-    int singleNumber(int A[], int n) {
+    int singleNumber(vector<int>& nums) {
         int bitnum[32];
         int res=0;
         memset(bitnum, 0, sizeof(bitnum));
         for(int j = 0; j<32; j++)
         {
-            for(int i = 0; i < n ; i++)
+            for(int i = 0; i < nums.size() ; i++)
             {
-                bitnum[j] += ((A[i]>>j) & 0x01);
+                bitnum[j] += ((nums[i]>>j) & 0x01);
             }
             res |= (bitnum[j]%3)<<j;
         }
