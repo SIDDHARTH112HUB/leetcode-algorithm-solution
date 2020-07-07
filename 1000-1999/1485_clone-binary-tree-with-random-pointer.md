@@ -14,8 +14,8 @@ You will be given the tree in class `Node` and you should return the cloned tree
 **Example 1:**
 
 ![](https://assets.leetcode.com/uploads/2020/06/17/clone_1.png)
-
   
+
 **Input:** root = \[\[1,null\],null,\[4,3\],\[7,0\]\]  
 **Output:** \[\[1,null\],null,\[4,3\],\[7,0\]\]  
 **Explanation:** The original binary tree is \[1,null,4,7\].  
