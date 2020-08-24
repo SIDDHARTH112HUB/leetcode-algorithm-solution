@@ -32,21 +32,23 @@ Return the final order of the logs.
 class Solution {
 public:
     vector<string> reorderLogFiles(vector<string>& logs) {
-        vector<string> letter_logs, digit_logs;
-        for( auto &str:logs){
-            if( str.back() >= '0' && str.back() <='9' )
-                digit_logs.push_back(str);
-            else
-                letter_logs.push_back(str);
+        vector<string> digit, letter;
+        for(auto &log : logs) {
+            int idx = log.find(' ') + 1;
+            if(log[idx] <= '9') {
+                digit.push_back(log);
+            }
+            else{
+                letter.push_back(log);
+            }
         }
-        sort(letter_logs.begin(), letter_logs.end(), [](string &a, string &b){
-            int i = 0, j = 0;
-            while(a[i++] !=' ');
-            while(b[j++] !=' ');
-            return a.substr(i) < b.substr(j);
+        sort(letter.begin(), letter.end(), [](auto &a, auto &b) {
+            auto x = a.substr(a.find(" ") + 1); auto y = b.substr(b.find(" ") + 1 );
+            if(x == y) return a < b;
+            return x < y;
         });
-        letter_logs.insert(letter_logs.end(), digit_logs.begin(), digit_logs.end());
-        return letter_logs;
+        for(auto &d : digit) letter.push_back(d);
+        return letter;
     }
 };
 ```
