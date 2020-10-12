@@ -20,60 +20,19 @@ Your algorithm should run in O(_n_) complexity.
 ```cpp
 class Solution {
 public:
-    int longestConsecutive(vector<int> &num) {
-        unordered_set<int> s(num.begin(), num.end());
-        int ans = 0;
-        for(int low : s ){
-            if( s.find(low-1) == s.end()){
-                int hight = low+1;
-                while( s.find(hight) != s.end() ){
-                    hight++;
-                }
-                ans = max(ans, hight - low);
-            }
+    int longestConsecutive(vector<int>& nums) {
+        int res = 0;
+        unordered_set<int> s(nums.begin(), nums.end());
+        for (int val : nums) {
+            if (!s.count(val)) continue;
+            s.erase(val);
+            int pre = val - 1, next = val + 1;
+            while (s.count(pre)) s.erase(pre--);
+            while (s.count(next)) s.erase(next++);
+            res = max(res, next - pre - 1);
         }
-        return ans;
+        return res;
     }
-    /*
-    int longestConsecutive(vector<int> &num) {
-        map<int, int> hm;
-        for(int i = 0; i < num.size(); i++)
-        {
-            hm[num[i]] = i;
-        }
-        int seq_num = 0,max=0;
-        for(int i = 0; i < num.size(); i++)
-        {
-            int v = num[i];
-            int vs = v;
-            seq_num = 0;
-            do
-            {
-                map<int, int>::iterator iter = hm.find(v);
-                if( iter == hm.end())
-                    break;
-                
-                hm.erase(iter);
-                
-                ++seq_num;
-                ++v;
-            }while(true);
-            --vs;
-            do
-            {
-                map<int, int>::iterator iter = hm.find(vs);
-                if( iter == hm.end())
-                    break;
-                hm.erase(iter);
-                ++seq_num;
-                --vs;
-            }while(true);
-            
-            if( seq_num > max )
-                max=seq_num;
-        }
-        return max;
-    }*/
 };
 ```
       

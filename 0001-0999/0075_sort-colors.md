@@ -27,14 +27,15 @@ Here, we will use the integers 0, 1, and 2 to represent the color red, white, an
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        if( nums.size() == 0 ) return;
-        int cnt[3] = {0,0,0};
-        for(int &n:nums)
-            ++cnt[n];
-        int idx = 0;
-        for( int i = 0; i<3;i++){
-            while(cnt[i]-->0)
-                nums[idx++] = i;
+        int left = 0, right = (int)nums.size() - 1, cur = 0;
+        while (cur <= right) {
+            if (nums[cur] == 0) {
+                swap(nums[cur++], nums[left++]);
+            } else if (nums[cur] == 2) {
+                swap(nums[cur], nums[right--]);
+            } else {
+                ++cur;
+            }
         }
     }
 };

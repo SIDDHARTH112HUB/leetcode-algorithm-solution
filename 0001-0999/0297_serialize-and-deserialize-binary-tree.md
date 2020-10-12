@@ -49,44 +49,36 @@ public:
 
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        string str;
-        dfs(root, str);
-        return str;
+        if(!root) return "#,";
+        string ans = to_string(root->val) + ",";
+        ans += serialize(root->left);
+        ans += serialize(root->right);
+        return ans;
     }
 
-    void dfs(TreeNode* root, string &str) {
-        if(!root) {
-            str += "#,";
-            return;
-        }
-        str += to_string(root->val) + ",";
-        dfs(root->left, str);
-        dfs(root->right, str);
-    }
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
         int idx = 0;
-        return dfs2(data, idx);
+        return dfs(data, idx);
     }
-    TreeNode* dfs2(string &str, int &idx) {
-        if(idx >= str.size() || str[idx] == '#'){
-            idx += 2;
-            return NULL;
-        }
-        int n = 0;
+    TreeNode* dfs(string &data, int &idx) {
+        if(idx >= data.size()) return NULL;
+        int num = 0;
         int sign = 1;
-        if(str[idx]== '-'){
-            sign = -1;
+        while(idx < data.size()) {
+            int c = data[idx];
+            if(c == ',') {idx += 1; break;}
+            if(c == '#') {idx += 2; return NULL; }
+            if(c == '-') 
+                sign = -1;
+            else 
+                num = 10 * num + c - '0'; 
             ++idx;
         }
-        while(str[idx] !=','){
-            n = n * 10 + str[idx++] - '0';
-        }
-        ++idx;
-        TreeNode* node = new TreeNode(n*sign);
-        node->left = dfs2(str, idx);
-        node->right = dfs2(str, idx);
-        return node;
+        auto root = new TreeNode(num * sign);
+        root->left = dfs(data, idx);
+        root->right = dfs(data, idx);
+        return root;
     }
 };
 

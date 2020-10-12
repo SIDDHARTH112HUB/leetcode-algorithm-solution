@@ -48,22 +48,20 @@ Formally, return the largest `V` for which `V = (A[i] + A[i+1] + ... + A[i+L-1
 class Solution {
 public:
     int maxSumTwoNoOverlap(vector<int>& A, int L, int M) {
-        for(int i = 1; i < A.size(); ++i) {
-            A[i] += A[i-1];
+        if (A.size() < L + M) {
+            return 0;
         }
-        int ans = 0;
-        for(int i = L - 1; i < A.size(); ++i) {
-            int res = 0;
-            int a = A[i] - (i - L >= 0 ?A[i - L] : 0);
-            for(int j = M - 1; j < A.size() && j <= i - L; ++j) {
-                res = max(res, a + A[j] - (j - M >= 0 ? A[j - M] : 0));
-            }
-            for(int j = i + M; j < A.size() &&  j > i; ++j) {
-                res = max(res, a + A[j] - A[j - M]);
-            }
-            ans = max(ans, res);
+        vector<int> pre_sum = A;
+        for (int i = 1; i < A.size(); ++i) {
+            pre_sum[i] += pre_sum[i - 1];
         }
-        return ans;
+        int res = pre_sum[L + M - 1], max_L = pre_sum[L - 1], max_M = pre_sum[M - 1];
+        for (int i = L + M; i < A.size(); ++i) {
+            max_L = max(max_L, pre_sum[i - M] - pre_sum[i - L - M]);
+            max_M = max(max_M, pre_sum[i - L] - pre_sum[i - L - M]);
+            res = max(res, max(max_L + pre_sum[i] - pre_sum[i - M], max_M + pre_sum[i] - pre_sum[i - L]));
+        }
+        return res;
     }
 };
 ```

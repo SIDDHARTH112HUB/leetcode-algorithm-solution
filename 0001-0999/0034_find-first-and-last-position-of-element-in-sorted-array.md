@@ -28,49 +28,18 @@ If the target is not found in the array, return `[-1, -1]`.
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        int size = nums.size();
-        vector<int> ans;
-        int left = 0;
-        int right = size-1;
-        int mid = 0;
-        while( left <= right ){
-            mid = (left+right)/2;
-            if( nums[mid] > target ){
-                right = mid-1;
-            }else if(nums[mid] < target){
-                left = mid+1;
-            }else{
-                if( mid == 0 )
-                    break;
-                if( nums[mid-1] < nums[mid])
-                    break;
-                right = mid-1;
-            }
+        int start = firstGreaterEqual(nums, target);
+        if (start == nums.size() || nums[start] != target) return {-1, -1};
+        return {start, firstGreaterEqual(nums, target + 1) - 1};
+    }
+    int firstGreaterEqual(vector<int>& nums, int target) {
+        int left = 0, right = nums.size();
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] < target) left = mid + 1;
+            else right = mid;
         }
-        if( left > right )
-            mid = -1;
-        ans.push_back(mid);
-        left = 0;
-        right = size - 1;
-        mid = 0;
-        while( left <= right ){
-            mid = (left+right)/2;
-            if( nums[mid] > target ){
-                right = mid-1;
-            }else if(nums[mid] < target){
-                left = mid+1;
-            }else{
-                if( mid == (size-1))
-                    break;
-                if( nums[mid+1] > nums[mid])
-                    break;
-                left = mid+1;
-            }
-        }
-        if( left > right )
-            mid = -1;
-        ans.push_back(mid);
-        return ans;
+        return right;
     }
 };
 ```
